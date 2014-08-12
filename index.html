@@ -1,0 +1,25 @@
+---
+layout: page
+title: Jehosafet
+tagline:
+js: elsewhere
+css: elsewhere-styles
+---
+{% include JB/setup %}
+
+<ul id="els-filter">
+    <li class="current">ALL</li>
+    {% for categ in site.data.elsewhere.categs %}
+    <li>{{ categ }}</li>
+    {% endfor %}
+</ul>
+
+<div id="els-items">
+{% for item in site.data.elsewhere.items %}
+  <div id="icon-{{ forloop.index }}" class="icon-set els-{{ item.categ }}">
+    <a href="{{ item.url }}"></a>
+    <img src="/assets/images/elsewhere-icons/{{ item.key }}.png" class="icon-img"/>
+    <span class="icon-description">{{ item.name }}</span>
+  </div>
+{% endfor %}
+</div>
