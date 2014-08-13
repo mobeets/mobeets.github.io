@@ -7,8 +7,6 @@ tags: []
 ---
 {% include JB/setup %}
 
-## __Save the Big Bite for Last:__
-
 ## _A survey of food enjoyment optimisation strategies in obligation-free environments_
 
 _(An unwritten book)_

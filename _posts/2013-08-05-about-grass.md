@@ -5,7 +5,6 @@ description: ""
 category: written
 tags: []
 css: about-grass
-js: about-grass
 ---
 {% include JB/setup %}
 

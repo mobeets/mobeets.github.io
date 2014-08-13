@@ -5,7 +5,6 @@ description: ""
 category: written
 tags: []
 css: a-good-talking
-js: a-good-talking
 ---
 {% include JB/setup %}
 

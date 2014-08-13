@@ -21,7 +21,7 @@ html, body {
 body {
   background-color: #D48F77;
   /*background-color: #77BCD4;*/
-  font-family: 'Georgia', serif;
+  font-family: 'Droid Serif', serif;
   *font-size: small;
   text-align: center;
 }
@@ -167,7 +167,12 @@ ul.posts {
     margin-top: 2em;
     overflow: hidden;
   }
-
+    .site .footer a {
+      text-decoration: none;
+    }
+    .site .footer a:hover {
+      color: black;
+    }
     .site .footer .contact {
       float: left;
       margin-right: 3em;

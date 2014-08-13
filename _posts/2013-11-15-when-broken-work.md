@@ -1,22 +1,11 @@
 ---
 layout: post
-title: "Things that still work when broken"
+title: "A list of objects that, when broken, still function."
 description: ""
 category: listed
 tags: []
 ---
 {% include JB/setup %}
-
----
-layout: post
-title: "When broken still function"
-description: ""
-category: lists
-tags: []
----
-{% include JB/setup %}
-
-## _A list of objects that, when broken, still function._
 
 _(via Mitch Hedberg's joke about broken escalators: "Sorry, escalator temporarily stairs.")_
 

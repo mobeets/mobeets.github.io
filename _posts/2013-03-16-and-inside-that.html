@@ -13,6 +13,6 @@ tags: []
 This zine was completed on March 16, 2013, and can be found on paper at <a href="http://blog.stickyinstitute.com/" target="_source">Sticky Institute</a> in Melbourne, Australia or at <a href="https://www.facebook.com/FarewellBooks" target="_source">Farewell Books</a> in Austin, TX.
 <br><br>
 <hr><br>
-% for i in range(25):
-    <img src="/assets/images/and-inside-that/and-inside-that-${i}.png" style="position: relative; border: 1px solid black; width: 80%;">
-% endfor
+{% for i in (0..24) %}
+    <img src="/assets/images/and-inside-that/and-inside-that-{{ i }}.png" style="position: relative; border: 1px solid black; width: 80%;">
+{% endfor %}
