@@ -16,10 +16,20 @@ css: elsewhere-styles
 
 <div id="els-items">
 {% for item in site.data.elsewhere.items %}
+{% if site.data.elsewhere.hiddens contains item.key %}
+{% else %}
   <div id="icon-{{ forloop.index }}" class="icon-set els-{{ item.categ }}">
+    {% if item.url contains 'http://' or item.url contains 'https://' %}
     <a href="{{ item.url }}"></a>
+    {% elsif item.url contains '.' %}
+    {% capture full_url %}/{{ item.categ }}/{{{item.key}}{% endcapture %}
+    <a href="{{ full_url }}"></a>
+    {% else %}
+    <a href="{{ item.url }}"></a>
+    {% endif %}
     <img src="/assets/images/elsewhere-icons/{{ item.key }}.png" class="icon-img"/>
     <span class="icon-description">{{ item.name }}</span>
   </div>
+{% endif %}
 {% endfor %}
 </div>

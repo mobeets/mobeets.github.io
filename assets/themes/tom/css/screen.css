@@ -50,9 +50,6 @@ a:visited {
   color: #666;
 }
 
-.title, .title-preview {
-  font-family: 'Playfair Display', serif;
-}
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
 }
@@ -77,14 +74,21 @@ h1 a:hover {
   /*border-bottom: 1px solid #666;*/
   margin-bottom: 45px;
 }
-.title, .title-preview, .meta {
-  text-align: center;
-}
 .meta {
   text-transform: uppercase;
+  text-align: center;
+  visibility: hidden;
+  margin-top: 10px;
+  /*display: none;*/
+}
+.title:hover + .meta {
+  visibility: visible;
+  text-align: center;
 }
 .title, .title-preview {
-  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  text-decoration: underline;
   font-size: 180%;
 }
 .title-preview a, .title-preview a:visited {

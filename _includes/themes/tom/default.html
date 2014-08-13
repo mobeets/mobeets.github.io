@@ -19,7 +19,7 @@
         <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
 
     <link rel="shortcut icon" href="/favicon.ico">
-    {% if page && page.css %}
+    {% if page and page.css %}
     <link rel='stylesheet' type='text/css' href='/assets/css/{{ page.css }}.css' />
     {% endif %}
 </head>
@@ -38,12 +38,11 @@
     </div>
     <div class="footer">
       <!-- <hr> -->
-      <span class="jehosafet">by <a href="http://www.jehosafet.com" target="_blank">Jehosafet</a></span>
-      This website is hosted on <a href="https://github.com/{{ site.author.github }}/{{ site.author.github }}.github.io" target="_blank">GitHub</a>.
+      <span class="jehosafet">by <a href="https://github.com/{{ site.author.github }}" target="_blank">Jehosafet</a></span>
     </div>
   </div>
   {% include JB/analytics %}
-  {% if page && page.js %}
+  {% if page and page.js and page.js != "" and page.js != null and page.js != blank %}
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
     <script src="/assets/js/{{ page.js }}.js"></script>
   {% endif %}
