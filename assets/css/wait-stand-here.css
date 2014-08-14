@@ -1,15 +1,8 @@
-#wrapper {
+#comic {
     font-family: 'Inconsolata';
-    font-size: 16px;
-    width: 830px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 80px;
-    overflow: hidden;
+    font-size: 90%;
 }
 .page {
-    width: 600px;
     border: 2px solid black;
     overflow: hidden;
     position: relative;

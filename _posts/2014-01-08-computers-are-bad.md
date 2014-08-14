@@ -7,4 +7,4 @@ tags: []
 ---
 {% include JB/setup %}
 
-<img src="/assets/images/computers-are-bad.png"/>
+<img src="/assets/images/computers-are-bad.png" class="center" style="max-width: 100%;"/>

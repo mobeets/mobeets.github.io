@@ -1,0 +1,49 @@
+#interview {
+    font-family: "Times New Roman",Georgia,Serif;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+#interview_name {
+    font-size: 170%;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#drawing {
+    width: 300px;
+}
+#nut_graph {
+    font-style: italic;
+    padding-bottom: 0px;
+}
+
+#section_name {
+    font-size: 125%;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+#statement {
+    padding-bottom: 15px;
+}
+
+#locations {
+    padding-bottom: 7px;
+}
+#locations td {
+    text-align: left;
+    padding: 7px;
+}
+
+#end_graph {
+    font-style: italic;
+    padding-bottom: 20px;
+}
+table a {
+    color: black;
+}
+table {
+    border-spacing: 10px;
+}

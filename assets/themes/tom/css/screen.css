@@ -27,7 +27,14 @@ body {
 }
 
 a:visited {
+  /*color: black;*/
   color: inherit;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .avatar {
@@ -199,10 +206,13 @@ ul.posts {
 /*****************************************************************************/
 
 #post a {
-  /*border-bottom: dotted 1px black;*/
+  border-bottom: dotted 1px black;
   text-decoration: none;
 }
-
+#post a:hover {
+  text-decoration: underline;
+  border-bottom: none;
+}
   /* standard */
 
   #post pre {

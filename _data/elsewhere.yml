@@ -247,7 +247,7 @@
         date: "2012-10-31"
         categ: "written"
         key: "speak-neuron"
-        url: ".html"
+        url: "http://speak-neuron.github.io"
         name: "Speak Neuron"
       - 
         date: "2013-11-30"
@@ -291,6 +291,12 @@
         key: "australian-monologue"
         url: ".txt"
         name: "Australian phone monologue"
+      - 
+        date: "2014-03-14"
+        categ: "listed"
+        key: "list-misc-2013"
+        url: ".html"
+        name: "2013: Seen, Tried or Tasted"
 
     hiddens:
         - "unfulfilled-1"
