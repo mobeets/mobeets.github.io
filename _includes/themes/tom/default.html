@@ -11,6 +11,7 @@
 
     <!-- Homepage CSS -->
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="/assets/css/menu-styles.css" type="text/css" media="screen, projection" />
 
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic|EB+Garamond|Noto+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,400,700' rel='stylesheet' type='text/css'>
@@ -25,12 +26,22 @@
 </head>
 <body>
   <div class="site">
-<!--     <div class="avatar">
-      <img src="/assets/images/avatar-top.png"/>
-    </div> -->
+    <div id="contacts">
+    {% for item in site.data.elsewhere.contacts %}
+        <div id="contact-icon-{{ forloop.index }}" class="contact-icon-set">
+            <a href="{{ item.url }}"><img src="/assets/images/contact-icons/{{ item.name }}.png" class="contact-icon-img"/></a>
+        </div>
+    {% endfor %}
+    </div>
+    <div id="escapepad">
+      <span id="escapepad-label">Escape pad </span>
+      <span id="escapepad-open">&#10568;</span>
+      <span id="escapepad-close">&#8614;</span>
+    </div>
     <div class="menu">
       <h1><a href="{{ HOME_PATH }}">{{ site.title }}</a></h1>
     </div>
+
     <div class="content">
 
     {{ content }}
@@ -41,9 +52,12 @@
     </div>
   </div>
   {% include JB/analytics %}
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+  <script src="/assets/js/jquery-ui.min.js"></script>
   {% if page and page.js and page.js != "" and page.js != null and page.js != blank %}
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
     <script src="/assets/js/{{ page.js }}.js"></script>
   {% endif %}
+  <script src="/assets/js/menu.js"></script>
 </body>
 </html>

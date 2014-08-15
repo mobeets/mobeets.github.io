@@ -1,4 +1,24 @@
 ---
+    contacts:
+        -
+            name: "blogger"
+            url: "http://blog.jehosafet.com/"
+        -
+            name: "tumblr"
+            url: "http://mobeets.tumblr.com/"
+        -
+            name: "medium"
+            url: "https://medium.com/@mobeetsforyou"
+        -
+            name: "snarkmarket"
+            url: "http://snarkmarket.com/author/jay"
+        -
+            name: "twitter"
+            url: "https://twitter.com/jehosafet"
+        -
+            name: "github"
+            url: "https://github.com/mobeets"
+
     categs:
         - "coded"
         - "written"

@@ -37,17 +37,21 @@
 
 #els-items {
     padding-top: 20px;
+    overflow: hidden;
+    padding-left: 5px;
 }
 .icon-set {
     float: left;
     font-size: 85%;
     position: relative;
     height: 170px;
-    width: 120px;
+    width: 18%;
+    /*width: 120px;*/
     /*padding-top: 15px;*/
     padding-bottom: 55px;
     padding-left: 20px;
     padding-right: 20px;
+    overflow: hidden;
 }
 .icon-set a {
     position: absolute;
