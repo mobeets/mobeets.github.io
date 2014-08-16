@@ -1,112 +1,69 @@
-#wrapper { 
-    width: 1000px;
+.site { 
+    width: 50em;
 }
 #shell {
     font-size: 14px;
 }
-h1 {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-bottom: 20px;
+#shell a:visited {
+    color: black;
 }
-
 .talking {
     background: #efefef;
     line-height: 30px;
     font-size: 110%;
     text-align: justify;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 5px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    margin-right: 300px;
-    width: 600px;
     float: left;
 }
 
-.talking a {
-    color: black;
-    /*text-decoration: none;*/
-    /*border-bottom: 1px dotted;*/
-}
-
 .layer {
-    position: absolute;
     top: 0px;
     left: 0px;
 }
 .im-base {
     z-index: 0;
-    /*border: 1px solid black;*/
 }
 .im-overlay {
+    width: 100%;
+    margin-bottom: 40px;
+    position: absolute;
     z-index: 1;
-    /*display: none;*/
 }
 
 #first {
     float: left;
     position: relative;
     overflow: hidden;
-    margin-top: 0px;
+    /*margin-top: 20px;*/
     margin-bottom: 20px;
-    
-    width: 550px;
-    height: 585px;
+    width: 75%;
 }
 #first img {
-    width: 550px;
-    height: 575px;
+    margin-top: 40px;
+    width: 100%;
 }
 .first-graph-title {
     top: 15px;
-    left: 60px;
-    text-decoration: underline;
-    /*font-weight: bold;*/
+    left: 120px;
     font-size: 120%;
+    text-decoration: underline;
 }
 
 .axis {
-    /*color: gray;*/
     font-size: 90%;
     text-align: right;
 }
-.y-axis {
-    line-height: 3.45em;
-    top: 32px;
-    left: 10px;
-}
-.x-axis {
-    line-height: 3.62em;
-    top: 277px;
-    left: 280px;
-    transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg); /* IE 9 */
-    -webkit-transform: rotate(-90deg); /* Safari and Chrome */
-}
-.x-axis-label {
-    top: 565px;
-    left: 280px;
-}
-.y-axis-label {
-    top: 330px;
-    left: -50px;
-    transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg); /* IE 9 */
-    -webkit-transform: rotate(-90deg); /* Safari and Chrome */
-}
 
 #controls {
-    font-size: 80%;
+    width: 20%;
+    font-size: 65%;
     position: relative;
     overflow: hidden;
-    /*background-color: #c1bcbc;*/
     background-color: #efefef;
     border: 1px solid black;
     margin-top: 46px;
-    /*margin-bottom: 50px;*/
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
@@ -123,11 +80,8 @@ h1 {
     position: relative;
     overflow: hidden;
     background-color: white;
-    /*background-color: #efefef;*/
     border: 1px solid black;
-    /*margin-bottom: 50px;*/
-    /*margin-right: 200px;*/
-    margin-top: 100px;
+    /*margin-top: 100px;*/
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
@@ -149,27 +103,12 @@ h1 {
     overflow: hidden;
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 670px;
-    height: 450px;
 }
 #second img {
-    width: 90%;
-    height: auto;
+    width: 95%;
 }
 
-.x-axis-label-2 {
-    top: 400px;
-    left: 260px;
-}
-.y-axis-label-2 {
-    top: 170px;
-    left: 0px;
-    transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg); /* IE 9 */
-    -webkit-transform: rotate(-90deg); /* Safari and Chrome */
-}
 .second-graph-title {
-    width: 500px;
     position: relative;
     float: left;
     clear: both;
@@ -177,7 +116,6 @@ h1 {
     left: 60px;
     font-size: 120%;
     text-decoration: underline;
-    /*font-weight: bold;*/
 }
 
 
@@ -187,25 +125,12 @@ h1 {
     overflow: hidden;
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 670px;
-    height: 380px;
 }
 #third > img {
-    left: 30px;
+    width: 95%;
 }
-.x-axis-label-3 {
-    top: 350px;
-    left: 265px;
-}
-.y-axis-label-3 {
-    top: 170px;
-    left: -80px;
-    transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg); /* IE 9 */
-    -webkit-transform: rotate(-90deg); /* Safari and Chrome */
-}
+
 .third-graph-title {
-    width: 500px;
     position: relative;
     float: left;
     clear: both;
@@ -213,7 +138,6 @@ h1 {
     left: 85px;
     font-size: 120%;
     text-decoration: underline;
-    /*font-weight: bold;*/
 }
 
 .counter {
@@ -221,5 +145,4 @@ h1 {
 }
 .endnotes p {
     font-style: italic;
-    /*background-color: darkgray;*/
 }

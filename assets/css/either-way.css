@@ -1,17 +1,14 @@
-
-#wrapper {
+.site {
+    width: 55em;
+}
+#frames {
     font-family: 'Inconsolata';
-    font-size: 16px;
+    font-size: 78%;
     line-height: 100%;
-    width: 1150px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 80px;
-    overflow: hidden;
+}
+.page-no {
 }
 .page {
-    width: 900px;
     border: 1px solid black;
     overflow: hidden;
     position: relative;

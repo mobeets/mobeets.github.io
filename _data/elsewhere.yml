@@ -159,7 +159,7 @@
         date: "2014-03-29"
         categ: "drawn"
         key: "either-way"
-        url: "/either-way"
+        url: ".html"
         name: "Either way, he thinks"
       - 
         date: "2014-01-08"
@@ -255,7 +255,7 @@
         date: "2014-01-07"
         categ: "written"
         key: "nfl-kickoffs"
-        url: "/nfl-kickoffs"
+        url: ".html"
         name: "NFL Kickoffs"
       - 
         date: "2013-01-12"
