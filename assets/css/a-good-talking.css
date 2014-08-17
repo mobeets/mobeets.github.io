@@ -30,6 +30,7 @@
     display: inline-block;
     font-style: italic;
     font-size: 80%;
+    margin-top: 15px;
 }
 
 #subtitle {
@@ -41,7 +42,7 @@
     font-style: italic;
     font-weight: bold;
     float: left;
-    margin-top: 8px;
+    margin-top: 15px;
 }
 
 #outer-article {
@@ -54,6 +55,14 @@
     margin-top: 12px;
     margin-right: 27px;
 }
+.subj {
+    font-weight: bold;
+}
+.line {
+    float: left;
+    clear: left;
+    margin-top: 10px;
+}
 #mel {
 }
 #caption {
@@ -63,11 +72,12 @@
     width: 300px;
 }
 blockquote {
+    display: block;
     margin-left: 0px;
     font-style: italic;
-    font-weight: bold;
 }
-#interview {
+.interview {
+    overflow: hidden;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 70px;

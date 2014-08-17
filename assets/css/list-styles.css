@@ -18,7 +18,9 @@
     border-bottom: 1px dashed #ccc;
     background: #999;
 }
-
+.cur #item-icons {
+    margin-left: 15px;
+}
 .cur .item {
     position: relative;
     float: left;

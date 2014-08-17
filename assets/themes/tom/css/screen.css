@@ -69,7 +69,8 @@ h1 {
   text-transform: uppercase;
   font-size: 250%;
   text-align: center;
-  margin-bottom: 0.7em;
+  margin-top: 2px;
+  margin-bottom: 15px;
   color: #a00;
 }
 h1 a, h1 a:visited {
@@ -80,7 +81,8 @@ h1 a:hover {
 }
 .menu {
   clear: both;
-  margin-bottom: 45px;
+  overflow: hidden;
+  margin-bottom: 10px;
 }
 .meta {
   text-transform: uppercase;
@@ -147,7 +149,7 @@ ul.posts {
 .site {
   background-color: white;
   text-align: justify;
-  width: 45em;
+  width: 47em;
   line-height: 1.5em;
   margin: 0 auto;
   padding-top: 1%;
@@ -264,3 +266,16 @@ ul.posts {
   #related h2 {
     margin-bottom: 1em;
   }
+
+#stars {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    z-index: -10;
+    background: black;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
