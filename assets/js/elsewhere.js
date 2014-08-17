@@ -1,4 +1,4 @@
-$(function() {
+function init() {
 
     $('.icon-set a').hover(
         function(event){
@@ -31,4 +31,6 @@ $(function() {
         return false;
     });
 
-});
+}
+
+$(document).ready(init);

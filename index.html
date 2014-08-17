@@ -27,6 +27,7 @@ css: elsewhere-styles
     {% else %}
     <a href="{{ item.url }}"></a>
     {% endif %}
+    <span class="icon-date">{{ item.date }}</span>
     <img src="/assets/images/elsewhere-icons/{{ item.key }}.png" class="icon-img"/>
     <span class="icon-description">{{ item.name }}</span>
   </div>
