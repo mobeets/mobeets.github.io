@@ -10,8 +10,8 @@ function init() {
             $(event.target).siblings('.icon-description').removeClass('icon-desc-select');
     });
 
-    $('#els-filter li').click(function() {
-        $('#els-filter li.current').removeClass('current');
+    $('.els-filter li').click(function() {
+        $('.els-filter li.current').removeClass('current');
         $(this).addClass('current');
         
         var filterVal = $(this).text().toLowerCase().replace(' ','-'); // only works for one space, I think
