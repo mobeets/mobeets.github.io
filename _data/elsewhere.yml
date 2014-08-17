@@ -40,7 +40,7 @@
             date: "2014-07-27"
             key: "intriguing-things"
             name: "Archive of 5 Intriguing Things"
-            url: "http://a.jehosafet.com/intriguing-things/"
+            url: "/intriguing-things"
         -
             categ: "drawn"
             date: "2014-03-29"
@@ -166,7 +166,7 @@
             date: "2013-11-12"
             key: "blog-word-count"
             name: "Blog word counts"
-            url: "/blog_word_counts"
+            url: "http://blog-word-counts.herokuapp.com/"
         -
             categ: "made"
             date: "2013-10-30"
@@ -202,7 +202,7 @@
             date: "2013-08-21"
             key: "booklet-helper"
             name: "Booklet helper"
-            url: "/booklet_helper"
+            url: "http://pdf-page-orderer.herokuapp.com/"
         -
             categ: "coded"
             date: "2013-08-13"
@@ -238,7 +238,7 @@
             date: "2013-06-10"
             key: "morse-news"
             name: "Morse News"
-            url: "/morse_news"
+            url: "http://morse-news.herokuapp.com/"
         -
             categ: "coded"
             date: "2013-04-16"
