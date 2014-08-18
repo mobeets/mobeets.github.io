@@ -13,7 +13,6 @@ css: about-grass
 
 <span class="subtitle">1</span>
 
-<div markdown="1" class="story">
 He rode his bicycle down the street, on the prowl for raccoons. It was 5 AM in the morning.
 
 There were more raccoons in this part of town than possums or armadillos. When he found a troupe of eight raccoons he approached the front yard of the house he was nearest and laid down in the grass and made a grass angel. He was allergic to grass and this was a very stupid thing to do, but he was very excited by the eight raccoons and nothing seemed more obvious than to lie down in the grass and squirm, squirm purposefully and in a pattern.
@@ -28,9 +27,8 @@ He fell asleep sitting there, cross-legged, facing his mound of meaning, and did
 
 The end of the story consists of the boy growing up to be a fireman.
 
-</div>
 <span class="subtitle">2</span>
-<div markdown="1" class="story">
+
 Around 4 PM he went into his front yard and decided he wanted to learn to do a cartwheel. He'd never been able to do a handstand, or headstand, let alone a cartwheel, but he hadn't tried to do these things probably since he was in 7th grade or something, anyway. It was time. He stood there staring at the grass, motionless, for quite a long time. He was visualizing what a cartwheel should look like. If he didn't know what it should look like, why bother trying yet? He was there for about four minutes, staring straight at the grass, occasionally closing his eyes, opening them wide, letting out deep breaths.
 
 A man and woman, neighbors, walked by with their dog.
@@ -71,9 +69,8 @@ He realized that all the while he'd been having these thoughts he was still maki
 
 He was still staring at himself, but his eyebrows were now tense. He realized now that he was also slightly hunched over. His conversation with himself had begun stressing himself out. It was time to leave the mirror.
 
-</div>
 <span class="subtitle">3</span>
-<div markdown="1" class="story">
+
 So many bubbles. When the bubbles popped they stuck to his skin and he found himself compelled to slide towards the floor, to act as if his spine had suddenly popped along with the bubbles on his skin, to act as if he were sliding like bubble fluid onto the unfinished wood floors, darkening the gray wood, covering it with spine bubble film, falling asleep like bubble liquid, waking up with saliva trailing out of his mouth and onto the floor like bubble liquid. Horny like bubble liquid.
 
 When he did finally wake up the house was empty, both of bubbles and of people. The floor was soaking wet with bubble liquid and he still felt the attachment. The bubbles and he had shared something; it was undeniable now. He stood up and looked around. Windows closed but without blinds or curtains. Front door ajar but no neighbors living anywhere near enough to interfere. No electricity, oddly enough a violation of city coding. Who would necessitate that we use electricity? Madmen, he thought.
@@ -86,4 +83,3 @@ He was still horny. He longed to hump something. To put his dick in a sock and h
 
 Who would hold his dick in a sock? He or she would not have to do anything with the sock, or with the dick--the important thing was only that they hold it. He was not looking to finish, to orgasm, but simply to have his dick held in a sock while the purple bubble machine ran. And maybe they could sing him a song while they did it. A nursery rhyme, or anything he'd heard many times as a kid but not since then. It would be intimate, surely. Should he put an ad in Craigslist or in the paper? Should he put up posters around the nieghborhood? He'd do all three, and make an assessment. Which medium attracts the better holder? Who would hold his sock dick the best? He'd take an informal survey, at the end of the night, when his foreskin had grown raw and the sock no longer felt cool and like a cloth diaper. "Do you feel better or worse than when we first began?" That'd be the only question. The correct answer would be "Exactly the same."
 
-</div>
