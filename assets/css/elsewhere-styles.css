@@ -45,14 +45,16 @@
     float: left;
     font-size: 85%;
     position: relative;
+    /*height: 170px;*/
+    width: 110px;
     height: 170px;
-    width: 18%;
     /*width: 120px;*/
     /*padding-top: 15px;*/
     padding-bottom: 55px;
     padding-left: 20px;
     padding-right: 20px;
     overflow: hidden;
+    text-align: center;
 }
 .icon-set a {
     position: absolute;
@@ -71,23 +73,30 @@
     /*text-decoration: underline;*/
 }
 .icon-img {
-    position: absolute;
+    /*position: absolute;*/
     /*opacity: 0.6;
     filter: alpha(opacity=60); // For IE8 and earlier */
-    width: 120px;
-    height: 120px;
+    /*width: 120px;*/
+    /*height: 120px;*/
+    width: 100%;
+    height: 65%; /* .icon-set's width / height */
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
 .icon-description {
     font-family: 'Inconsolata', sans-serif;
-    position: absolute;
+    position: relative;
     font-size: 95%;
-    text-align: center;
-    top: 125px;
-    width: 120px;
-    height: 15px;
+    /*text-align: center;*/
+    /*margin:auto;*/
+    /*text-align: justify;*/
+    /*top: 70%;*/
+    /*width: 100%;*/
+    /*height: 10%;*/
+    /*top: 125px;*/
+    /*width: 110px;*/
+    /*height: 15px;*/
 }
 .icon-img-select {
     /*border: 1px solid black;*/

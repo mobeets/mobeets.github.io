@@ -1,5 +1,5 @@
 .site { 
-    width: 50em;
+    max-width: 50em;
 }
 #shell {
     font-size: 14px;
