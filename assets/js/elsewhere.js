@@ -50,3 +50,7 @@ function init() {
 }
 
 $(document).ready(init);
+
+$(document).on('touchmove', function(e){
+    e.preventDefault();
+});
