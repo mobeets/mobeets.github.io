@@ -16,8 +16,9 @@
     border-right: 1px solid black;
     margin-right: 10px;
     padding-right: 10px;
-    text-align: center;
     display: inline;
+    text-align: center;
+    line-height: 180%;
 }
 #home-filter li:last-child {
     border-right: none;
