@@ -23,31 +23,6 @@
 </head>
 <body>
   <div class="site">
-    <div id="menu-bar">
-<!--       <div id="bar-title"><a href="{{ HOME_PATH }}">{{ site.title }}</a></div>
-      <ul id="menu-filter" class="els-filter">
-          <li class="current">ALL</li>
-          {% for categ in site.data.elsewhere.categs %}
-          <li>{{ categ }}</li>
-          {% endfor %}
-      </ul> -->
-      <div id="contacts">
-      {% for item in site.data.elsewhere.contacts %}
-          <div id="contact-icon-{{ forloop.index }}" class="contact-icon-set">
-              <a href="{{ item.url }}"><img src="/assets/images/contact-icons/{{ item.name }}.png" class="contact-icon-img"/></a>
-          </div>
-      {% endfor %}
-      </div>
-      <div id="escapepad">
-        <span id="escapepad-label">Escape pad </span>
-        <span id="escapepad-open">&#10568;</span>
-        <span id="escapepad-close">&#8614;</span>
-      </div>
-    </div>
-    <div class="menu">
-      <h1><a href="{{ HOME_PATH }}">{{ site.title }}</a></h1>
-    </div>
-
     <div class="content">
 
     {{ content }}

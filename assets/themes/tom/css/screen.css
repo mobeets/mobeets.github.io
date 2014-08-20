@@ -83,40 +83,22 @@ h1 a, h1 a:visited {
 h1 a:hover {
   color: black;
 }
-
-#menu-bar {
-  display: block;
-  overflow: hidden;
-  padding-left: 10%;
-  margin-bottom: 1%;
-  text-align: center;
-  /*background-color: #77BCD4;*/
-  font-family: 'Playfair Display', serif;
-}
 #bar-title {
   float: left;
   font-weight: bold;
   text-transform: uppercase;
   margin-right: 5%;
+  margin-bottom: 2%;
+  text-align: center;
+  display: block;
+  width: 100%;
 }
 #bar-title a {
   text-decoration: none;
 }
-#menu-bar #menu-filter li {
-  display: inline;
-  font-size: 90%;
-  padding-right: 20px;
-  list-style-type: none;
-  text-transform: uppercase;
-  cursor: pointer; cursor: hand;
+#bar-title a:hover {
+  color: #a00;
 }
-
-.menu {
-  clear: both;
-  overflow: hidden;
-  margin-bottom: 10px;
-}
-
 .meta {
   text-transform: uppercase;
   text-align: center;

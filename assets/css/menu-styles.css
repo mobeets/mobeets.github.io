@@ -1,3 +1,26 @@
+.menu {
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+#menu-bar {
+  display: block;
+  overflow: hidden;
+  padding-left: 10%;
+  margin-bottom: 1%;
+  text-align: center;
+  /*background-color: #77BCD4;*/
+  font-family: 'Playfair Display', serif;
+}
+
+#menu-bar #menu-filter li {
+  display: inline;
+  font-size: 90%;
+  padding-right: 20px;
+  list-style-type: none;
+  text-transform: uppercase;
+  cursor: pointer; cursor: hand;
+}
 
 #escapepad {
     font-family: 'Inconsolata', serif;
