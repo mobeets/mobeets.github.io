@@ -64,10 +64,16 @@
     top: 0;
     left: 0;
     text-decoration: none;
+    text-align: center;
+    font-size: 400%;
     z-index: 10;
     background-color: white; /*workaround to make clickable in IE */
     opacity: 0; /*workaround to make clickable in IE */
     filter: alpha(opacity=1);
+}
+.icon-set a[href^="http://"]:not([href*="{{ site.name_url }}.com"]):after,
+.icon-set a[href^="https://"]:not([href*="{{ site.name_url }}.com"]):after {
+    content: "»";
 }
 .icon-set a:hover{
     opacity: 0.5;
