@@ -45,7 +45,7 @@ function init() {
         return false;
     });
 
-    $("body").keypress(onKeyDown);
+    // $("body").keypress(onKeyDown);
     
 }
 
