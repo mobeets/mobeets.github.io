@@ -4,30 +4,24 @@
     font-size: medium;
     line-height: 170%;
 }
-/*#wrapper {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 850px;
-    overflow: hidden;
-}*/
+
 .cur hr {
-    margin-bottom: 25px;
+    margin-bottom: 2em;
     border: 0;
     border-bottom: 1px dashed #ccc;
     background: #999;
 }
 .cur #item-icons {
-    margin-left: 15px;
+    margin-left: 0.8em; 
 }
 .cur .item {
     position: relative;
     float: left;
     margin: 0.1em;
-    padding: 0px;
-    width: 150px;
-    height: 150px;
+    padding: 0;
+    width: 9em;
+    height: 9em;
+    overflow: hidden;
 }
 .cur .cur-title {
     position: relative; 
@@ -36,14 +30,13 @@
 }
 .cur .cur-title-text {
     position: relative;
-    top: 30px;
-    margin-left: 33px;
-    font-size: 40px;
+    top: 0.8em;
+    margin-left: 0.8em;
+    font-size: 250%;
     text-align: center;
 }
-.cur img {
-    width: 150px;
-    height: 150px;
+.cur .item img {
+    width: 100%;
 }
 .cur .item:hover img {
     opacity: 0.5;
@@ -52,23 +45,23 @@
 
 .cur .info {
     position: absolute; 
-    width: 130px;
-    height: 80px;
-    top: 0px;
-    left: 0px;
-    padding-top: 65px;
-    padding-left: 10px;
+    width: 5em;
+    height: 3em;
+    top: 0;
+    left: 0;
+    padding-top: 3em;
+    padding-left: 0.9em;
     z-index: 1;
-    font-size: 20px;
+    font-size: 130%;
     text-align: center;
     visibility: hidden;
 }
 .cur .link {
     position: absolute; 
-    width:100%;
-    height:100%;
-    top: 0px;
-    left: 0px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
     z-index: 2;
 }
 .cur .item:hover .info {
@@ -77,8 +70,8 @@
 
 .cur #raw {
     float: left;
-    margin-top: 20px;
-    margin-left: 3px;
+    margin-top: 1em;
+    margin-left: 0.4em;
     clear: both;
     font-family: 'Lato', sans-serif;
 }
@@ -86,7 +79,8 @@
     margin-right: 0.1em;
 }
 .cur .number {
-    padding-top: 30px;
-    font-size: 40px;
+    padding-top: 0.5em;
+    margin-left: -1.6em;
+    font-size: 250%;
     font-weight: bold;
 }
