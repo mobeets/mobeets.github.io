@@ -3,8 +3,7 @@
     overflow: hidden;
 }
 #title-frame img {
-    /*float: left;*/
-    width: 400px;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -14,7 +13,6 @@
     display: block;
 }
 #frames {
-    width: 520px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -27,8 +25,6 @@
     border-bottom: 1px solid black;
 }
 #frames img {
+    width: 45%;
     float: left;
-    margin: 20px;
-    width: 220px;
-    height: 220px;
 }

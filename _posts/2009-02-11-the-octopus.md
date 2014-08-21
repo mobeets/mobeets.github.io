@@ -7,4 +7,4 @@ tags: []
 ---
 {% include JB/setup %}
 
-<img src="/assets/images/the-octopus.jpg"/>
+<img src="/assets/images/the-octopus.jpg" style="width: 100%;"/>

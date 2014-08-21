@@ -7,4 +7,4 @@ tags: []
 ---
 {% include JB/setup %}
 
-<img src="/assets/images/australian-party.jpg" class="center">
+<img src="/assets/images/australian-party.jpg" style="width: 100%;">
