@@ -1,16 +1,11 @@
-// function onKeyDown(event) {
-//     console.log(event.key);
-//     console.log(event.keyCode);
-//     if(event.keyCode == 115 || event.key == 's') {
-//         $('#stars').toggle();
-//     }
-//     if(event.keyCode == 99 || event.key == 'c') { // "c"
-//         window.location.href = "/colophon.html";
-//     }
-//     if(event.keyCode == 104 || event.key == 'h') { // "h"
-//         window.location.href = "/";
-//     }
-// }
+function onKeyDown(event) {
+    if(event.which == 83) { // 's' 83
+        $('#stars').toggle();
+    }
+    else if(event.which == 67) { // 'c' 67
+        window.location.href = "/colophon.html";
+    }
+}
 
 function init() {
 
@@ -45,12 +40,8 @@ function init() {
         return false;
     });
 
-    // $("body").keypress(onKeyDown);
+    $(document).keydown(onKeyDown);
     
 }
 
 $(document).ready(init);
-
-// $(document).on('touchmove', function(e){
-//     e.preventDefault();
-// });
