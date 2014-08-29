@@ -41,15 +41,6 @@ img.center {
   margin-right: auto;
 }
 
-.avatar {
-  text-align: center;
-  margin-bottom: 1.4em;
-}
-.avatar img {
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
-}
 .about {
   text-align: center;
   display: block;
