@@ -1,5 +1,8 @@
 <div id="bar-title"><a href="{{ HOME_PATH }}">{{ site.title }}</a></div>
 
+{% if page.latex %}
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+{% endif %}
 <div id="post">
   <div class="title">{{ page.title }}</div>
   <div class="meta">
