@@ -37,6 +37,12 @@
     items:
         -
             categ: "coded"
+            date: "2014-11-09"
+            key: "kibitzer-bot"
+            name: "@KibitzerBot"
+            url: ".html"
+        -
+            categ: "coded"
             date: "2014-07-27"
             key: "intriguing-things"
             name: "Archive of 5 Intriguing Things"
