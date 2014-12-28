@@ -19,7 +19,7 @@ html, body {
 }
 
 body {
-  background-color: #D48F77;
+  /*background-color: #D48F77;*/
   /*background-color: #77BCD4;*/
   font-family: 'Droid Serif', serif;
   *font-size: small;
@@ -277,3 +277,44 @@ ul.posts {
   #related h2 {
     margin-bottom: 1em;
   }
+
+.btn-menu {
+  /*margin-top: 1em;*/
+  /*margin-bottom: 1em;*/
+  display: inline-block;
+}
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 5px 10px 5px 10px;
+  border-bottom: none;
+  text-decoration: none;
+  width: 3em;
+  text-align: center;
+  margin-right: 0.3em;
+  float: left;
+}
+.btn:hover {
+  cursor: pointer; cursor: hand;
+  border-bottom: none;
+  text-decoration: none;
+  opacity: 1; /*workaround to make clickable in IE */
+  filter: alpha(opacity=100);
+}
+.btn-list {
+  background: #3cb0fd;
+}
+.btn-year {
+  background: #e494ff;
+}
+.btn-active {
+  opacity: 1; /*workaround to make clickable in IE */
+  filter: alpha(opacity=100);
+}
+.btn-inactive {
+  opacity: 0.4; /*workaround to make clickable in IE */
+  filter: alpha(opacity=40);
+}

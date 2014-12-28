@@ -1,0 +1,677 @@
+2007:
+    new_releases:
+        -
+            pos: 1
+            artist: "Radiohead"
+            album: "In Rainbows"
+            year: 2007
+
+        -
+            pos: 2
+            artist: "Dr. Dog"
+            album: "We All Belong"
+            year: 2007
+
+        -
+            pos: 3
+            artist: "Caribou"
+            album: "Andorra"
+            year: 2007
+
+        -
+            pos: 4
+            artist: "Peter Bjorn and John"
+            album: "Writer’s Block"
+            year: 2007
+
+        -
+            pos: 5
+            artist: "Spoon"
+            album: "Ga Ga Ga Ga Ga"
+            year: 2007
+
+        -
+            pos: 6
+            artist: "Arcade Fire"
+            album: "Neon Bible"
+            year: 2007
+
+        -
+            pos: 7
+            artist: "Modest Mouse"
+            album: "We Were Dead Before the Ship Even Sank"
+            year: 2007
+
+        -
+            pos: 8
+            artist: "Andrew Bird"
+            album: "Armchair Apocrypha"
+            year: 2007
+
+        -
+            pos: 9
+            artist: "M.I.A."
+            album: "Kala"
+            year: 2007
+
+        -
+            pos: 10
+            artist: "Menomena"
+            album: "Friend and Foe"
+            year: 2007
+
+2008:
+    new_releases:
+        -
+            pos: 1
+            artist: "Bon Iver"
+            album: "For Emma, Forever Ago"
+            year: 2008
+
+        -
+            pos: 2
+            artist: "Fleet Foxes"
+            album: "Fleet Foxes"
+            year: 2008
+
+        -
+            pos: 3
+            artist: "Hot Chip"
+            album: "Made in the Dark"
+            year: 2008
+
+        -
+            pos: 4
+            artist: "Kaki King"
+            album: "Dreaming of Revenge"
+            year: 2008
+
+        -
+            pos: 5
+            artist: "Deerhoof"
+            album: "Offend Maggie"
+            year: 2008
+
+        -
+            pos: 6
+            artist: "Plants and Animals"
+            album: "Parc Avenue"
+            year: 2008
+
+        -
+            pos: 7
+            artist: "Dr. Dog"
+            album: "Passed Away Vol. 1"
+            year: 2008
+
+        -
+            pos: 8
+            artist: "Q-Tip"
+            album: "The Renaissance"
+            year: 2008
+
+        -
+            pos: 9
+            artist: "Dr. Dog"
+            album: "Fate"
+            year: 2008
+
+        -
+            pos: 10
+            artist: "Maps & Atlases"
+            album: "You and Me and the Mountain"
+            year: 2008
+
+2009:
+    new_releases:
+        -
+            pos: 1
+            artist: "Animal Collective"
+            album: "Merriweather Post Pavilion"
+            year: 2009
+
+        -
+            pos: 2
+            artist: "Tortoise"
+            album: "Beacons of Ancestorship"
+            year: 2009
+
+        -
+            pos: 3
+            artist: "Mos Def"
+            album: "The Ecstatic"
+            year: 2009
+
+        -
+            pos: 4
+            artist: "Grizzly Bear"
+            album: "Veckatimest"
+            year: 2009
+
+        -
+            pos: 5
+            artist: "Flaming Lips"
+            album: "Embryonic"
+            year: 2009
+
+        -
+            pos: 6
+            artist: "St. Vincent"
+            album: "Actor"
+            year: 2009
+
+        -
+            pos: 7
+            artist: "White Denim"
+            album: "Fits"
+            year: 2009
+
+        -
+            pos: 8
+            artist: "Circulatory System"
+            album: "Signal Morning"
+            year: 2009
+
+        -
+            pos: 9
+            artist: "Cass McCombs"
+            album: "Catacombs"
+            year: 2009
+
+        -
+            pos: 10
+            artist: "Atlas Sound"
+            album: "Logos"
+            year: 2009
+
+2010:
+    new_releases:
+        -
+            pos: 1
+            artist: "White Denim"
+            album: "Last Day of Summer"
+            year: 2010
+
+        -
+            pos: 2
+            artist: "Flying Lotus"
+            album: "Cosmogramma"
+            year: 2010
+
+        -
+            pos: 3
+            artist: "Dr. Dog"
+            album: "Shame, Shame"
+            year: 2010
+
+        -
+            pos: 4
+            artist: "Beach House"
+            album: "Teen Dream"
+            year: 2010
+
+        -
+            pos: 5
+            artist: "Janelle Monae"
+            album: "The Archandroid"
+            year: 2010
+
+        -
+            pos: 6
+            artist: "Deerhunter"
+            album: "Halcyon Digest"
+            year: 2010
+
+        -
+            pos: 7
+            artist: "Liars"
+            album: "Sisterworld"
+            year: 2010
+
+        -
+            pos: 8
+            artist: "Kanye West"
+            album: "My Beautiful Dark Twisted Fantasy"
+            year: 2010
+
+        -
+            pos: 9
+            artist: "Joanna Newsom"
+            album: "Have One on Me"
+            year: 2010
+
+        -
+            pos: 10
+            artist: "Caribou"
+            album: "Swim"
+            year: 2010
+
+2011:
+    new_releases:
+        -
+            pos: 1
+            artist: "St. Vincent"
+            album: "Strange Mercy"
+            year: 2011
+
+        -
+            pos: 2
+            artist: "Stephen Malkmus and the Jicks"
+            album: "Mirror Traffic"
+            year: 2011
+
+        -
+            pos: 3
+            artist: "White Denim"
+            album: "D"
+            year: 2011
+
+        -
+            pos: 4
+            artist: "Atlas Sound"
+            album: "Parallax"
+            year: 2011
+
+        -
+            pos: 5
+            artist: "Jason Murphy"
+            album: "[posts on goal oriented music]"
+            year: 2011
+
+        -
+            pos: 6
+            artist: "Panda Bear"
+            album: "Tomboy"
+            year: 2011
+
+        -
+            pos: 7
+            artist: "Deerhoof"
+            album: "Deerhoof vs. Evil"
+            year: 2011
+
+        -
+            pos: 8
+            artist: "Tyler, The Creator"
+            album: "Goblin"
+            year: 2011
+
+        -
+            pos: 9
+            artist: "The Weeknd"
+            album: "House of Balloons"
+            year: 2011
+
+        -
+            pos: 10
+            artist: "The Roots"
+            album: "undun"
+            year: 2011
+
+2012:
+    old_releases:
+        -
+            pos: 1
+            artist: "Beat Happening"
+            album: "Beat Happening"
+            year: 1985
+
+        -
+            pos: 2
+            artist: "Count Bass D"
+            album: "Dwight Spitz"
+            year: 2002
+
+        -
+            pos: 3
+            artist: "Fat History Month"
+            album: "Fucking Despair"
+            year: 2011
+
+        -
+            pos: 4
+            artist: "Elvis Costello"
+            album: "Armed Forces"
+            year: 1979
+
+        -
+            pos: 5
+            artist: "Real Estate"
+            album: "Days"
+            year: 2011
+
+        -
+            pos: 6
+            artist: "The Slits"
+            album: "Cut"
+            year: 1979
+
+        -
+            pos: 7
+            artist: "Ahmad Jamal"
+            album: "Live at the Pershing: But Not For Me"
+            year: 1958
+
+        -
+            pos: 8
+            artist: "Chicago Underground Quartet"
+            album: "Chicago Underground Quartet"
+            year: 2001
+
+        -
+            pos: 9
+            artist: "Dirty Three"
+            album: "Horse Stories"
+            year: 1996
+
+        -
+            pos: 10
+            artist: "Lost Animal"
+            album: "Ex Tropical"
+            year: 2011
+
+    new_releases:
+        -
+            pos: 1
+            artist: "Ariel Pink"
+            album: "Mature Themes"
+            year: 2012
+
+        -
+            pos: 2
+            artist: "Tame Impala"
+            album: "Lonerism"
+            year: 2012
+
+        -
+            pos: 3
+            artist: "David Byrne and St. Vincent"
+            album: "Love This Giant"
+            year: 2012
+
+        -
+            pos: 4
+            album: "Rework: Philip Glass Remixed"
+            year: 2012
+
+        -
+            pos: 5
+            artist: "Deerhoof"
+            album: "Breakup Song"
+            year: 2012
+
+        -
+            pos: 6
+            artist: "Liars"
+            album: "WIXIW"
+            year: 2012
+
+        -
+            pos: 7
+            artist: "Charles Mingus"
+            album: "The Jazz Workshop Concerts, 1964-65 [Minneapolis May 1965 concert]"
+            year: 2012
+
+        -
+            pos: 8
+            artist: "Sharon van Etten"
+            album: "Tramp"
+            year: 2012
+
+        -
+            pos: 9
+            artist: "JJ DOOM"
+            album: "Key to the Kuffs"
+            year: 2012
+
+        -
+            pos: 10
+            artist: "Grizzly Bear"
+            album: "Shields"
+            year: 2012
+
+2013:
+    new_releases:
+        -
+            pos: 1
+            artist: "Kurt Vile"
+            album: "Wakin on a Pretty Daze"
+            year: 2013
+
+        -
+            pos: 2
+            artist: "Cate Le Bon"
+            album: "Mug Museum"
+            year: 2013
+
+        -
+            pos: 3
+            artist: "Julian Lynch"
+            album: "Lines"
+            year: 2013
+
+        -
+            pos: 4
+            artist: "Thee Oh Sees"
+            album: "Floating Coffin"
+            year: 2013
+
+        -
+            pos: 5
+            artist: "Kanye West"
+            album: "Yeezus"
+            year: 2013
+
+        -
+            pos: 6
+            artist: "The Flaming Lips"
+            album: "The Terror"
+            year: 2013
+
+        -
+            pos: 7
+            artist: "Chance The Rapper"
+            album: "Acid Rap"
+            year: 2013
+
+        -
+            pos: 8
+            artist: "Deerhunter"
+            album: "Monomania"
+            year: 2013
+
+        -
+            pos: 9
+            artist: "Youth Lagoon"
+            album: "Wondrous Bughouse"
+            year: 2013
+
+        -
+            pos: 10
+            artist: "Baptism of Uzi"
+            album: "Stray Currents [EP]"
+            year: 2013
+
+    old_releases:
+        -
+            pos: 1
+            artist: "Kendrick Lamar"
+            album: "good kid, m.A.A.d. city"
+            year: 2012
+
+        -
+            pos: 2
+            artist: "Goodie Mob"
+            album: "Soul Food"
+            year: 1995
+
+        -
+            pos: 3
+            artist: "The Teeth"
+            album: "Carry the Wood [EP]"
+            year: 2005
+
+        -
+            pos: 4
+            artist: "The Blues Collection Vol. 43: Blind Willie McTell"
+            album: "Statesboro Blues"
+            year: 1995
+
+        -
+            pos: 5
+            artist: "The Kinks"
+            album: "Face to Face"
+            year: 1966
+
+        -
+            pos: 6
+            artist: "Thelonius Monk"
+            album: "Brilliant Corners"
+            year: 1956
+
+        -
+            pos: 7
+            artist: "Shakey Graves"
+            album: "Roll the Bones"
+            year: 2011
+
+        -
+            pos: 8
+            artist: "Ty Segall"
+            album: "Twins"
+            year: 2012
+
+        -
+            pos: 9
+            artist: "The Blues Collection Vol. 5: Bo Diddley"
+            album: "Jungle Music"
+            year: 1993
+
+        -
+            pos: 10
+            artist: "Deep Time"
+            album: "Deep Time"
+            year: 2012
+
+2014:
+    new_releases:
+        -
+            pos: 1
+            artist: "Caribou"
+            album: "Our Love"
+            year: 2014
+
+        -
+            pos: 2
+            artist: "Bad History Month"
+            album: "Bad History Month"
+            year: 2014
+
+        -
+            pos: 3
+            artist: "Freddie Gibbs & Madlib"
+            album: "Pinata"
+            year: 2014
+
+        -
+            pos: 4
+            artist: "St. Vincent"
+            album: "St. Vincent"
+            year: 2014
+
+        -
+            pos: 5
+            artist: "Deerhoof"
+            album: "La Isla Bonita"
+            year: 2014
+
+        -
+            pos: 6
+            artist: "Purples"
+            album: "Nancy"
+            year: 2014
+
+        -
+            pos: 7
+            artist: "PRhyme"
+            album: "PRhyme"
+            year: 2014
+
+        -
+            pos: 8
+            artist: "Real Estate"
+            album: "Atlas"
+            year: 2014
+
+        -
+            pos: 9
+            artist: "Mac DeMarco"
+            album: "Salad Days"
+            year: 2014
+
+        -
+            pos: 10
+            artist: "The War on Drugs"
+            album: "Slave Ambient"
+            year: 2014
+
+    old_releases:
+        -
+            pos: 1
+            artist: "Homebody Sandman"
+            album: "First of a Living Breed"
+            year: 2012
+
+        -
+            pos: 2
+            artist: "Broadcast"
+            album: "Tender Buttons"
+            year: 2005
+
+        -
+            pos: 3
+            artist: "Willie Nelson"
+            album: "Phases and Stages"
+            year: 1974
+
+        -
+            pos: 4
+            artist: "J Dilla"
+            album: "Donuts"
+            year: 2006
+
+        -
+            pos: 5
+            artist: "Fleetwood Mac"
+            album: "Tusk"
+            year: 1979
+
+        -
+            pos: 6
+            artist: "Alice Coltrane"
+            album: "Journey in Satchidananda"
+            year: 1970
+
+        -
+            pos: 7
+            artist: "Kendrick Lamar"
+            album: "Section.80"
+            year: 2011
+
+        -
+            pos: 8
+            artist: "Philip Glass and Ravi Shankar"
+            album: "Passages"
+            year: 1990
+
+        -
+            pos: 9
+            artist: "St Helens"
+            album: "Heavy Profession"
+            year: 2009
+
+        -
+            pos: 10
+            artist: "The Beach Boys"
+            album: "Smiley Smile / Wild Honey"
+            year: 1967

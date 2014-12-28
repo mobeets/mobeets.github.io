@@ -1,0 +1,61 @@
+---
+layout: default
+title: Lists
+css: lists
+js: lists
+---
+{% include JB/setup %}
+
+<div id="bar-title"><a href="{{ HOME_PATH }}">{{ site.title }}</a></div>
+
+<div id="list">
+    <div class="info"></div>
+    <div class="title">{{ page.title }}</div>
+    <div class="btn-menu">
+        <div class="btn btn-list" data-list="reads">Books</div>
+        <div class="btn btn-list" data-list="listens">Music</div>
+    </div>
+    <div class="btn-menu">
+        <div class="btn btn-year" data-year="2007">2007</div>
+        <div class="btn btn-year" data-year="2008">2008</div>
+        <div class="btn btn-year" data-year="2009">2009</div>
+        <div class="btn btn-year" data-year="2010">2010</div>
+        <div class="btn btn-year" data-year="2011">2011</div>
+        <div class="btn btn-year" data-year="2012">2012</div>
+        <div class="btn btn-year" data-year="2013">2013</div>
+        <div class="btn btn-year" data-year="2014">2014</div>
+    </div>
+    {% for year in site.data.reads %}
+        {% assign yr = year[0] %}
+        <div id="reads-{{yr}}" class="reads list-group">
+            <h2>Favorite Reads in {{yr}}</h2>
+        </div>
+    {% endfor %}
+    {% for year in site.data.albums %}
+        {% assign yr = year[0] %}
+        <div id="listens-{{yr}}" class="listens list-group">
+            <h2>Favorite Listens in {{yr}}</h2>
+            <div class="new-albums">                
+                {% if site.data.albums[yr].new_releases.size > 0 %}
+                    <h3>New releases</h3>
+                    <ol>
+                    {% for item in site.data.albums[yr].new_releases %}
+                        <li>{{ item.artist }} - <i>{{ item.album }}</i></li>
+                    {% endfor %}
+                    </ol>
+                {% endif %}
+            </div>
+            <div class="old-albums">
+                {% if site.data.albums[yr].old_releases.size > 0 %}
+                    <h3>Old releases</h3>
+                    <ol>
+                    {% for item in site.data.albums[yr].old_releases %}
+                        <li>{{ item.artist }} - <i>{{ item.album }}</i> ({{ item.year }})</li>
+                    {% endfor %}
+                    </ol>
+                {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+
+</div>
