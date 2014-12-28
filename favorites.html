@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Lists
-css: lists
-js: lists
+title: Favorites
+css: favorites
+js: favorites
 ---
 {% include JB/setup %}
 
@@ -11,10 +11,11 @@ js: lists
 <div id="list">
     <div class="info"></div>
     <div class="title">{{ page.title }}</div>
+    <br>
     <div class="btn-menu">
         <div class="btn btn-list" data-list="reads">Books</div>
         <div class="btn btn-list" data-list="listens">Music</div>
-    </div>
+    </div><br>
     <div class="btn-menu">
         <div class="btn btn-year" data-year="2007">2007</div>
         <div class="btn btn-year" data-year="2008">2008</div>
@@ -28,13 +29,13 @@ js: lists
     {% for year in site.data.reads %}
         {% assign yr = year[0] %}
         <div id="reads-{{yr}}" class="reads list-group">
-            <h2>Favorite Reads in {{yr}}</h2>
+            <h2>{{yr}} Reads</h2>
         </div>
     {% endfor %}
     {% for year in site.data.albums %}
         {% assign yr = year[0] %}
         <div id="listens-{{yr}}" class="listens list-group">
-            <h2>Favorite Listens in {{yr}}</h2>
+            <h2>{{yr}} Listens</h2>
             <div class="new-albums">                
                 {% if site.data.albums[yr].new_releases.size > 0 %}
                     <h3>New releases</h3>

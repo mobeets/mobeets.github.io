@@ -1,7 +1,19 @@
+var years = new Array();
+years['reads'] = [2012, 2013, 2014];
+years['listens'] = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014];
 var year = 2007;
 var list = 'listens';
 
+function update_buttons(list) {
+    yrs = years[list];
+    $('.btn-year').hide();
+    for (var i = 0; i < yrs.length; i++) {
+        $('.btn-year[data-year="' + yrs[i] + '"]').show();
+    }
+}
+
 function update(list, year) {
+    update_buttons(list);
     $('.btn-list').removeClass('btn-active');
     $('.btn-list').addClass('btn-inactive');
     $('.btn-list[data-list="' + list + '"]').removeClass('btn-inactive');
