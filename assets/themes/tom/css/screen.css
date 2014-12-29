@@ -304,12 +304,6 @@ ul.posts {
   opacity: 1; /*workaround to make clickable in IE */
   filter: alpha(opacity=100);
 }
-.btn-list {
-  background: #3cb0fd;
-}
-.btn-year {
-  background: #e494ff;
-}
 .btn-active {
   opacity: 1; /*workaround to make clickable in IE */
   filter: alpha(opacity=100);

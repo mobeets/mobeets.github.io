@@ -26,7 +26,10 @@ js: favorites
         <div class="btn btn-year" data-year="2012">2012</div>
         <div class="btn btn-year" data-year="2013">2013</div>
         <div class="btn btn-year" data-year="2014">2014</div>
-    </div>
+    </div><br>
+    <div class="btn-menu">
+        <div class="btn btn-img" data-toggle="">Toggle images</div>
+    </div><br>
     {% for year in site.data.albums %}
         {% assign yr = year[0] %}
         <div id="music-{{yr}}" class="music all list-group">
@@ -36,7 +39,10 @@ js: favorites
                     <h3>New releases</h3>
                     <ol>
                     {% for item in site.data.albums[yr].new_releases %}
+                        {% capture itemname %}{% if item.artist %}{{ item.artist }} - {% endif %}{{ item.album }}{% endcapture %}
+                        {% capture itemurl %}{{itemname | replace:'.','_' | replace:'/','_'}}{% endcapture %}
                         <li>{% if item.artist %}{{ item.artist }} - {% endif %}<i>{{ item.album }}</i>{% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
+                        <img src="https://raw.githubusercontent.com/mobeets/cover-art/master/{{ yr }}/{{ itemurl }}.jpeg"></img>
                     {% endfor %}
                     </ol>
                 {% endif %}
@@ -46,7 +52,10 @@ js: favorites
                     <h3>Old releases</h3>
                     <ol>
                     {% for item in site.data.albums[yr].old_releases %}
+                        {% capture itemname %}{% if item.artist %}{{ item.artist }} - {% endif %}{{ item.album }}{% endcapture %}
+                        {% capture itemurl %}{{itemname | replace:'.','_' | replace:'/','_'}}{% endcapture %}
                         <li>{% if item.artist %}{{ item.artist }} - {% endif %}<i>{{ item.album }}</i> ({{ item.year }}){% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
+                        <img src="https://raw.githubusercontent.com/mobeets/cover-art/master/{{ yr }}/{{ itemurl }}.jpeg"></img>
                     {% endfor %}
                     </ol>
                 {% endif %}

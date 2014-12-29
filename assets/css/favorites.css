@@ -1,6 +1,26 @@
 .list-menu {
     padding-bottom: 1em;
 }
+input {
+    padding-right: 1em;
+}
 ol {
     padding-left: 2em;
+}
+ol img {
+    width: 15em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+.btn-list {
+    background: #3cb0fd;
+}
+.btn-year {
+    background: #e494ff;
+}
+.btn-img {
+    width: 3.8em;
+    line-height: 1.0em;
+    font-size: 0.8em;
+    background: #cdcdcd;
 }
