@@ -619,21 +619,21 @@
     old_releases:
         -
             pos: 1
-            artist: "Homebody Sandman"
+            artist: "Homeboy Sandman"
             album: "First of a Living Breed"
             year: 2012
 
         -
             pos: 2
-            artist: "Broadcast"
-            album: "Tender Buttons"
-            year: 2005
-
-        -
-            pos: 3
             artist: "Willie Nelson"
             album: "Phases and Stages"
             year: 1974
+
+        -
+            pos: 3
+            artist: "Broadcast"
+            album: "Tender Buttons"
+            year: 2005
 
         -
             pos: 4
