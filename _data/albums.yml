@@ -275,8 +275,9 @@
         -
             pos: 5
             artist: "Jason Murphy"
-            album: "[posts on goal oriented music]"
+            album: "goal oriented music"
             year: 2011
+            url: " http://goalorientedmusic.bandcamp.com/releases"
 
         -
             pos: 6
@@ -354,21 +355,21 @@
 
         -
             pos: 8
+            artist: "Charles Mingus"
+            album: "The Jazz Workshop Concerts, 1964-65"
+            year: 1965
+
+        -
+            pos: 9
             artist: "Chicago Underground Quartet"
             album: "Chicago Underground Quartet"
             year: 2001
 
         -
-            pos: 9
+            pos: 10
             artist: "Dirty Three"
             album: "Horse Stories"
             year: 1996
-
-        -
-            pos: 10
-            artist: "Lost Animal"
-            album: "Ex Tropical"
-            year: 2011
 
     new_releases:
         -
@@ -408,26 +409,26 @@
 
         -
             pos: 7
-            artist: "Charles Mingus"
-            album: "The Jazz Workshop Concerts, 1964-65 [Minneapolis May 1965 concert]"
-            year: 2012
-
-        -
-            pos: 8
             artist: "Sharon van Etten"
             album: "Tramp"
             year: 2012
 
         -
-            pos: 9
+            pos: 8
             artist: "JJ DOOM"
             album: "Key to the Kuffs"
             year: 2012
 
         -
-            pos: 10
+            pos: 9
             artist: "Grizzly Bear"
             album: "Shields"
+            year: 2012
+
+        -
+            pos: 10
+            artist: "Hot Chip"
+            album: "In Our Heads"
             year: 2012
 
 2013:
@@ -570,7 +571,7 @@
         -
             pos: 3
             artist: "Freddie Gibbs & Madlib"
-            album: "Pinata"
+            album: "Piñata"
             year: 2014
 
         -
@@ -675,3 +676,4 @@
             artist: "The Beach Boys"
             album: "Smiley Smile / Wild Honey"
             year: 1967
+

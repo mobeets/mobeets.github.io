@@ -1,8 +1,28 @@
+Array.prototype.exists = function (x) {
+    for (var i = 0; i < this.length; i++) {
+        if (this[i] == x) return true;
+    }
+    return false;
+}
+
 var years = new Array();
-years['reads'] = [2012, 2013, 2014];
-years['listens'] = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014];
-var year = 2007;
-var list = 'listens';
+years['books'] = [2012, 2013, 2014];
+years['music'] = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014];
+years['all'] = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014];
+var year = 2014;
+var list = 'all';
+
+function set_default() {
+    var lochash = location.hash.substr(1);
+    var setyear = lochash.substr(lochash.indexOf('year='))
+                  .split('&')[0]
+                  .split('=')[1];
+    var setlist = lochash.substr(lochash.indexOf('list='))
+                  .split('&')[0]
+                  .split('=')[1];
+    if (setlist && setlist in years) { list = setlist; }
+    if (setyear && years[list].exists(setyear)) { year = setyear; }
+}
 
 function update_buttons(list) {
     yrs = years[list];
@@ -23,7 +43,18 @@ function update(list, year) {
     $('.btn-year[data-year="' + year + '"]').addClass('btn-active');
     $('.btn-year[data-year="' + year + '"]').removeClass('btn-inactive');
     $('.list-group').hide();
-    $('#' + list + '-' + year).show()
+    if (list === 'all') {
+        $("div[id$=" + year + "]").show();
+    }
+    else {
+        $('#' + list + '-' + year).show();
+    }
+
+    if (!years[list].exists(year))
+    {
+        year = years[list][Math.floor(Math.random() * years[list].length)];
+        update(list, year);
+    }
 }
 
 function update_year() {
@@ -39,7 +70,8 @@ function update_list() {
 function init() {
     $('.btn-list').click(update_list);
     $('.btn-year').click(update_year);
-    update('listens', 2007);
+    set_default();
+    update(list, year);
 }
 
 $(document).ready(init);

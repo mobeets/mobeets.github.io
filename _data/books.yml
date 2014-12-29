@@ -1,0 +1,230 @@
+2011:
+    NOT_QUITE_BOOKS:
+        -
+            pos: 1
+            artist: "Joe Sacco"
+            album: "Palestine"
+            year: 1992
+
+        -
+            pos: 2
+            artist: "Moore and Gibbons"
+            album: "Watchmen [graphic novel]"
+            year: 1987
+
+    BOOKS:
+        -
+            pos: 1
+            artist: "Ayn Rand"
+            album: "The Fountainhead"
+            year: 1943
+
+        -
+            pos: 2
+            artist: "Bertran Russell"
+            album: "Introduction to Mathematical Philosophy"
+            year: 1919
+
+        -
+            pos: 3
+            artist: "Sherwood Anderson"
+            album: "Winesburg, Ohio"
+            year: 1919
+
+        -
+            pos: 4
+            artist: "Nicholas Carr"
+            album: "The Shallows"
+            year: 2010
+
+        -
+            pos: 5
+            artist: "Howard Schultz"
+            album: "Pour Your Heart Into It"
+            year: 1997
+
+2012:
+    NOT_QUITE_BOOKS:
+        -
+            pos: 1
+            artist: "Raymond Carver"
+            album: "Ultramarine [poetry]"
+            year: 1987
+
+        -
+            pos: 2
+            artist: "Edward Gorey"
+            album: "Amphigorey [illustrated short stories]"
+            year: 1980
+
+        -
+            pos: 3
+            artist: "Jennifer Egan"
+            album: "Black Box [serial Twitter story]"
+            year: 2012
+
+    BOOKS:
+        -
+            pos: 1
+            artist: "Ben Lerner"
+            album: "Leaving the Atocha Station"
+            year: 2011
+
+        -
+            pos: 2
+            artist: "Sherwood Anderson"
+            album: "Poor White"
+            year: 1920
+
+        -
+            pos: 3
+            artist: "Douglas Adams"
+            album: "The Restaurant at the End of the Universe"
+            year: 1980
+
+2013:
+    NOT_QUITE_BOOKS:
+        -
+            pos: 1
+            artist: "Michael DeForge"
+            album: "Ant Comic [comic]"
+            year: 2013
+
+        -
+            pos: 2
+            artist: "Tom Gauld"
+            album: "Goliath [graphic novel]"
+            year: 2012
+
+        -
+            pos: 3
+            artist: "Chester Brown"
+            album: "Paying For It [graphic novel]"
+            year: 2011
+
+        -
+            pos: 4
+            artist: "R.D. Laing"
+            album: "Knots [poems]"
+            year: 1970
+
+        -
+            pos: 5
+            artist: "Mr. Ray"
+            album: "Grave Thoughts [graphic novel]"
+            year: 2013
+
+        -
+            pos: 6
+            artist: "Petit"
+            album: "Topo the World [graphic novel]"
+            year: 2006
+
+    BOOKS:
+        -
+            pos: 1
+            artist: "Robert McKee"
+            album: "Story"
+            year: 1997
+
+        -
+            pos: 2
+            artist: "John Hull"
+            album: "Touching the Rock"
+            year: 1991
+
+        -
+            pos: 3
+            artist: "George Joseph"
+            album: "The Crest of the Peacock"
+            year: 1991
+
+        -
+            pos: 4
+            artist: "Octavia Butler"
+            album: "Kindred"
+            year: 1979
+
+        -
+            pos: 5
+            artist: "Kenneth Gergen"
+            album: "The Saturated Self"
+            year: 1991
+
+        -
+            pos: 6
+            artist: "Hermann Hesse"
+            album: "Steppenwolf"
+            year: 1927
+
+        -
+            pos: 7
+            artist: "Robin Sloan"
+            album: "Mr. Penumbra's 24-Hour Bookstore"
+            year: 2013
+
+2014:
+    NOT_QUITE_BOOKS:
+        -
+            pos: 1
+            artist: "Cam Davidson and others"
+            album: "Probabilistic Programming and Bayesian Methods for Hackers"
+            year: 2013
+            url: " https://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/"
+
+        -
+            pos: 2
+            artist: "Michael Neilsen"
+            album: "Neural Networks and Deep Learning"
+            year: 2014
+            url: " http://neuralnetworksanddeeplearning.com/chap3.html"
+
+        -
+            pos: 3
+            artist: "Bill Daniel"
+            album: "Mostly True [train zine]"
+            year: 2008
+
+        -
+            pos: 4
+            artist: "Vandenbroucke"
+            album: "White Cube [comic]"
+            year: 2014
+
+        -
+            pos: 5
+            artist: "Yukio Mishima"
+            album: "Patriotism [short story]"
+            year: 1961
+
+    BOOKS:
+        -
+            pos: 1
+            artist: "Anne Carson"
+            album: "The Autobiography of Red"
+            year: 1998
+
+        -
+            pos: 2
+            artist: "Adolfo Bioy Casares"
+            album: "The Invention of Morel"
+            year: 1940
+
+        -
+            pos: 3
+            artist: "Milan Kundera"
+            album: "The Unbearable Lightness of Being"
+            year: 1984
+
+        -
+            pos: 4
+            artist: "Oliver Sacks"
+            album: "The Man Who Mistook His Wife For A Hat"
+            year: 1985
+
+        -
+            pos: 5
+            artist: "Daniel Dennett"
+            album: "Consciousness Explained"
+            year: 1991
+
