@@ -59,17 +59,25 @@ function update(list, year) {
 
 function update_year() {
     year = $(this).data('year');
+    window.location.href = "/favorites.html#year=" + year + "&list=" + list;
     update(list, year);
 }
 
 function update_list() {
     list = $(this).data('list');
+    window.location.href = "/favorites.html#year=" + year + "&list=" + list;
     update(list, year);
+}
+
+function toggle_images() {
+    $('.list-img').toggle();
+    console.log('here');
 }
 
 function init() {
     $('.btn-list').click(update_list);
     $('.btn-year').click(update_year);
+    $('.btn-img').click(toggle_images);
     set_default();
     update(list, year);
 }

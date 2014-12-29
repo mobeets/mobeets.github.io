@@ -42,7 +42,7 @@ js: favorites
                         {% capture itemname %}{% if item.artist %}{{ item.artist }} - {% endif %}{{ item.album }}{% endcapture %}
                         {% capture itemurl %}{{itemname | replace:'.','_' | replace:'/','_' | replace:':','_'}}{% endcapture %}
                         <li>{% if item.artist %}{{ item.artist }} - {% endif %}<i>{{ item.album }}</i>{% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
-                        <img src="https://raw.githubusercontent.com/mobeets/cover-art/master/{{ yr }}/{{ itemurl }}.jpeg"></img>
+                        <img class="list-img" src="https://raw.githubusercontent.com/mobeets/cover-art/master/{{ yr }}/{{ itemurl }}.jpeg"></img>
                     {% endfor %}
                     </ol>
                 {% endif %}
@@ -55,7 +55,7 @@ js: favorites
                         {% capture itemname %}{% if item.artist %}{{ item.artist }} - {% endif %}{{ item.album }}{% endcapture %}
                         {% capture itemurl %}{{itemname | replace:'.','_' | replace:'/','_' | replace:':','_'}}{% endcapture %}
                         <li>{% if item.artist %}{{ item.artist }} - {% endif %}<i>{{ item.album }}</i> ({{ item.year }}){% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
-                        <img src="https://raw.githubusercontent.com/mobeets/cover-art/master/{{ yr }}/{{ itemurl }}.jpeg"></img>
+                        <img class="list-img" src="https://raw.githubusercontent.com/mobeets/cover-art/master/{{ yr }}/{{ itemurl }}.jpeg"></img>
                     {% endfor %}
                     </ol>
                 {% endif %}

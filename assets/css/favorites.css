@@ -22,5 +22,11 @@ ol img {
     width: 3.8em;
     line-height: 1.0em;
     font-size: 0.8em;
-    background: #cdcdcd;
+    background: white;
+    border: 1px dotted #cdcdcd;
+    color: black;
+}
+.btn-img:hover {
+    border: 1px dotted #cdcdcd;
+    background: #fffff0;
 }
