@@ -71,6 +71,13 @@ function update_list() {
 
 function toggle_images() {
     $('.list-img').toggle();
+    if($('.list-img').is(':visible')) {
+        console.log('1');
+        $('.btn-img').html('Hide images');
+    } else {
+        console.log('2');
+        $('.btn-img').html('Show images');
+    }
     console.log('here');
 }
 
@@ -78,6 +85,7 @@ function init() {
     $('.btn-list').click(update_list);
     $('.btn-year').click(update_year);
     $('.btn-img').click(toggle_images);
+    $('.list-img').toggle(); // images hidden by default
     set_default();
     update(list, year);
 }

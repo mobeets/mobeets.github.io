@@ -27,6 +27,5 @@ ol img {
     color: black;
 }
 .btn-img:hover {
-    border: 1px dotted #cdcdcd;
-    background: #fffff0;
+    border: 1px solid #cdcdcd;
 }
