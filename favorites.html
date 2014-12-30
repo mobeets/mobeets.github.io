@@ -1,21 +1,20 @@
 ---
-layout: default
+layout: post
 title: Favorites
+category: listed
 css: favorites
-js: favorites
+js: favorites-lists
+js2: favorites
 ---
 {% include JB/setup %}
 
-<div id="bar-title"><a href="{{ HOME_PATH }}">{{ site.title }}</a></div>
-
 <div id="list">
-    <div class="info"></div>
-    <div class="title">{{ page.title }}</div>
     <br>
     <div class="btn-menu">
         <div class="btn btn-list" data-list="all">All</div>
         <div class="btn btn-list" data-list="books">Books</div>
         <div class="btn btn-list" data-list="music">Music</div>
+        <div class="btn btn-list" data-list="misc">Others</div>
     </div><br>
     <div class="btn-menu">
         <div class="btn btn-year" data-year="2007">2007</div>

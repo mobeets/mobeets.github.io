@@ -1,0 +1,96 @@
+.btn-menu {
+    padding-left: 0.9em;
+}
+.btn-year {
+    background: #e494ff;
+}
+.btn-list {
+    background: #3cb0fd;
+}
+
+#inner { 
+    font-family: 'Roboto Condensed', sans-serif;
+    background: white;
+    font-size: medium;
+    line-height: 170%;
+}
+
+.cur hr {
+    margin-bottom: 2em;
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+.cur .item-icons {
+    margin-left: 0.8em; 
+}
+.cur .item {
+    position: relative;
+    float: left;
+    margin: 0.1em;
+    padding: 0;
+    width: 9em;
+    height: 9em;
+    overflow: hidden;
+}
+.cur .cur-title {
+    position: relative; 
+    background: black;
+    color: white;
+}
+.cur .cur-title-text {
+    position: relative;
+    top: 0.8em;
+    margin-left: 0.8em;
+    font-size: 250%;
+    text-align: center;
+}
+.cur .item img {
+    width: 100%;
+}
+.cur .item:hover img {
+    opacity: 0.5;
+    filter:alpha(opacity=50);
+}
+
+.cur .info {
+    position: absolute; 
+    width: 5em;
+    height: 3em;
+    top: 0;
+    left: 0;
+    padding-top: 3em;
+    padding-left: 0.9em;
+    z-index: 1;
+    font-size: 130%;
+    text-align: center;
+    visibility: hidden;
+}
+.cur .link {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.cur .item:hover .info {
+    visibility: visible;
+}
+
+.cur .raw {
+    /*float: left;*/
+    margin-top: 1em;
+    margin-left: 0.4em;
+    clear: both;
+    font-family: 'Lato', sans-serif;
+}
+.cur .raw-list i {
+    margin-right: 0.1em;
+}
+.cur .number {
+    padding-top: 0.5em;
+    margin-left: -1.6em;
+    font-size: 250%;
+    font-weight: bold;
+}

@@ -1,0 +1,44 @@
+---
+layout: post
+title: Seen, Tried, or Tasted
+category: listed
+css: seen-tried-tasted
+js: favorites-lists
+js2: seen-tried-tasted
+---
+{% include JB/setup %}
+
+<div class="btn-menu">
+    <div class="btn btn-year" data-year="2013">2013</div>
+    <div class="btn btn-year" data-year="2014">2014</div>
+</div>
+<div id="inner" class="cur">
+    {% for year in site.data.misc %}
+    {% assign yr = year[0] %}
+    <div id="misc-{{ yr }}" class="item-icons list-group">
+        <div class="item cur-title">
+            <span class="cur-title-text">{{ yr }}</span>
+            <span class="info">Seen, Tried, or Tasted</span>
+        </div>
+        {% for item in site.data.misc[yr] %}
+        <div class="item">
+            <img src="/assets/images/list-misc-{{ yr }}/{{ item.pos }}.png"/>
+            <span class="info number">{{ item.pos }}</span>
+            <a href="#{{ item.pos }}"><span class="link"></span></a>
+            <span class="info">{{ item.name }}</span>
+        </div>
+        {% endfor %}
+    </div>
+    <div id="raw-misc-{{ yr }}" class="raw list-group">
+        <div class="raw-list">
+            {% for item in site.data.misc[yr] %}
+            {% capture itemtype %}{% if item.url == empty %}{{ item.type }}{% else %}<a href="{{ item.url }}">{{ item.type }}</a>{% endif %}{% endcapture %}
+            <hr>
+            <a name="{{ item.pos }}"></a>
+            {{ item.pos }}. <b>{{ item.name }}</b> [{{ itemtype }}]<br>
+            {{ item.description }}
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
