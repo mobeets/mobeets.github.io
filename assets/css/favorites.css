@@ -7,10 +7,15 @@ input {
 ol {
     padding-left: 2em;
 }
-ol img {
-    width: 15em;
+.list-img {
     padding-top: 1em;
     padding-bottom: 2em;
+}
+.album-img {
+    width: 15em;
+}
+.book-img {
+    width: 10em;
 }
 .btn-list {
     background: #3cb0fd;

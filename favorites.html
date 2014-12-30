@@ -43,7 +43,7 @@ js: favorites
                         {% capture itemname %}{% if item.artist %}{{ item.artist }} - {% endif %}{{ item.album }}{% endcapture %}
                         {% capture itemurl %}{{itemname | replace:'.','_' | replace:'/','_' | replace:':','_'}}{% endcapture %}
                         <li>{% if item.artist %}{{ item.artist }} - {% endif %}<i>{{ item.album }}</i>{% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
-                        <img class="list-img" src="{{ baseurl }}/{{ yr }}/{{ itemurl }}.jpeg"></img>
+                        <img class="list-img album-img" src="{{ baseurl }}/{{ yr }}/{{ itemurl }}.jpeg"></img>
                     {% endfor %}
                     </ol>
                 {% endif %}
@@ -56,7 +56,7 @@ js: favorites
                         {% capture itemname %}{% if item.artist %}{{ item.artist }} - {% endif %}{{ item.album }}{% endcapture %}
                         {% capture itemurl %}{{itemname | replace:'.','_' | replace:'/','_' | replace:':','_'}}{% endcapture %}
                         <li>{% if item.artist %}{{ item.artist }} - {% endif %}<i>{{ item.album }}</i> ({{ item.year }}){% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
-                        <img class="list-img" src="{{ baseurl }}/{{ yr }}/{{ itemurl }}.jpeg"></img>
+                        <img class="list-img album-img" src="{{ baseurl }}/{{ yr }}/{{ itemurl }}.jpeg"></img>
                     {% endfor %}
                     </ol>
                 {% endif %}
@@ -72,7 +72,10 @@ js: favorites
                     <h3>More like books</h3>
                     <ol>
                     {% for item in site.data.books[yr].BOOKS %}
+                        {% capture itemname %}{% if item.artist %}{{ item.artist }} - {% endif %}{{ item.album }}{% endcapture %}
+                        {% capture itemurl %}{{itemname | replace:':','_' | split:" [" | first }}{% endcapture %}
                         <li>{% if item.artist %}{{ item.artist }} - {% endif %}<i>{{ item.album }}</i> ({{ item.year }}){% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
+                        <img class="list-img book-img" src="{{ baseurl }}/books/{{ itemurl }}.jpeg"></img>
                     {% endfor %}
                     </ol>
                 {% endif %}
@@ -82,7 +85,10 @@ js: favorites
                     <h3>Less like books</h3>
                     <ol>
                     {% for item in site.data.books[yr].NOT_QUITE_BOOKS %}
+                        {% capture itemname %}{% if item.artist %}{{ item.artist }} - {% endif %}{{ item.album }}{% endcapture %}
+                        {% capture itemurl %}{{itemname | replace:':','_' | split:" [" | first }}{% endcapture %}
                         <li>{% if item.artist %}{{ item.artist }} - {% endif %}<i>{{ item.album }}</i> ({{ item.year }}){% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
+                        <img class="list-img book-img" src="{{ baseurl }}/books/{{ itemurl }}.jpeg"></img>
                     {% endfor %}
                     </ol>
                 {% endif %}

@@ -21,7 +21,7 @@
 
         -
             pos: 2
-            artist: "Bertran Russell"
+            artist: "Bertrand Russell"
             album: "Introduction to Mathematical Philosophy"
             year: 1919
 
@@ -87,7 +87,7 @@
         -
             pos: 1
             artist: "Michael DeForge"
-            album: "Ant Comic [comic]"
+            album: "Ant Colony [comic]"
             year: 2013
 
         -
@@ -110,13 +110,13 @@
 
         -
             pos: 5
-            artist: "Mr. Ray"
-            album: "Grave Thoughts [graphic novel]"
+            artist: "Marc Pearson"
+            album: "Mr. Ray's Grave Thoughts [graphic novel]"
             year: 2013
 
         -
             pos: 6
-            artist: "Petit"
+            artist: "Jean-Pierre Petit"
             album: "Topo the World [graphic novel]"
             year: 2006
 
