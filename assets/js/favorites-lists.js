@@ -48,7 +48,7 @@ function update(list, year) {
         $("div[id$=" + year + "]").show();
     }
     else {
-        $("div[id$=" + list + '-' + year).show();
+        $("div[id$=" + list + '-' + year + ']').show();
     }
 
     if (!years[list].exists(year))
