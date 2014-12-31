@@ -180,10 +180,10 @@
         name: "Jupyter Notebooks"
         description: |
             <p>
-                One of the most obnoxious things about plotting data using programming languages like Python or Matlab is how messy things get once you start plotting things. Jupyter notebooks, from the iPython Notebook team, bring some much-needed interactivity and cleanliness to programming. It's a way to make programming in Python (and other languages) prettier and more comprehensive. It's a way to display narrative (Markdown), equations (latex), figures, and code all in one place.
+                One of the most obnoxious things about using Python or Matlab is how messy things get once you start plotting things. Jupyter notebooks, like the IPython Notebook, let you display and edit narrative (Markdown), equations (latex), figures, and code all in one place.
             </p>
             <p>
-                Now GitHub-hosted blogs (see #10) can use iPython Notebook files as blog posts. Even cooler, the NBViewer website makes these notebooks even more amazing by auto-building any Notebook files found in GitHub repositories. You can use this feature to write programming books (see: <a href="http://nbviewer.ipython.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Prologue/Prologue.ipynb">this</a> one).
+                The NBViewer website can render any Notebook files found in GitHub repositories. You can use this feature to write programming books (see: <a href="http://nbviewer.ipython.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Prologue/Prologue.ipynb">this</a> one). And with a few <a href="https://github.com/mobeets/jekyll-ipython-markdown">modifications</a>, you can even blog in iPython Notebook files.
             </p>
         type: "programming environment"
         url: "http://nbviewer.ipython.org/"
@@ -192,7 +192,10 @@
         pos: 2
         name: "Keepon"
         description: |
-            https://www.youtube.com/watch?v=3g-yrjh58ms            
+            <br><iframe width="420" height="315" src="//www.youtube.com/embed/3g-yrjh58ms" frameborder="0" allowfullscreen></iframe>
+            <p>
+                Keepon's dance moves are inspirational. His creators' original aim was to see if they could get children to interact with him. I don't know if seeing him dance makes me want to dance <i>with</i> him, but it does make me want to dance very soon. If some day I have a room in my house filled with things like the dancing Keepon robot, I would be very happy.
+            </p>
         type: "dancing robot"
         url: ""
         img: "keepon.png"
@@ -200,7 +203,12 @@
         pos: 3
         name: "Sky Guide"
         description: |
-            
+            </p>
+                The Sky Guide app is like something out of a sci-fi movie&mdash;it's the astronomer's equivalent to a flying car, maybe. With the Sky Guide app, you hold the phone pointed towards the sky and look through it sort of like you would a telescope. Matching up the stars on its screen with the stars you see in the sky, you get a labelled map of stars, planets, constellations, and orbiting satellites.
+            </p>
+            <p>
+            After only a few times using it, I started recognizing planets without needing the app. It's one of the rare times when technology seems to be bringing you closer to what's right in front of you rather than taking you farther away.
+            </p>
         type: "app"
         url: "http://fifthstarlabs.com/"
         img: "sky-guide.png"
@@ -208,7 +216,12 @@
         pos: 4
         name: "Trello"
         description: |
-            
+            <p>
+                I really like digital to-do lists. Their only problem is that, though they are pseudo-permanent and searchable, they tend to be unnecessarily bloated and ugly. And they don't let you export your own data.
+            </p>
+            <p>
+                However, Trello is not like this, meaning it is quite likely the greatest digital to-do list ever. Not only does it allow lists of lists, and lists of lists and lists, and checkboxes, and json exporting, but it also lets you make to-do lists with other people, and you can insert images and videos and comments and emojis, and...<a href="http://daringfireball.net/projects/markdown/">Markdown</a>. It's also got a decent mobile app. I like it.
+            </p>
         type: "app"
         url: "https://trello.com/"
         img: "trello.png"
@@ -216,15 +229,22 @@
         pos: 5
         name: "Better web debugging"
         description: |
-            
-        type: "web dev"
+            <p>
+                If you've started noticing that browsing the web from your phone is getting better and better with time, this is probably a big reason why.
+            </p>
+            <p>
+                To be specific, what I'm talking about is the world behind the little phone icon when you right-click and choose "Inspect Element" in a web browser like Chrome, Firefox, or Safari. This is probably the greatest thing to ever happen to web development. Just a year ago or so, if you were a hobbyist web developer and you wanted to preview how your website appeared on a phone, this required <i>actually loading the webpage on your phone.</i> And all phones make the same website look different&mdash;thus the world of awful mobile webpages. But no longer! Now the only thing standing between us and a better mobile web experience is laziness. (See: this very website.)
+            </p>
+        type: "web development"
         url: ""
         img: "mobile-web-dev.png"
     -
         pos: 6
         name: "Python's Pandas"
         description: |
-            
+            <p>
+                The Pandas module brings R's concept of a data frame to Python. Using Pandas is the quickest and easiest way to handle most data files in Python. And you can make pretty plots with it as well! It joins the ranks of numpy, scipy, and matplotlib as one of the mandatory Python modules needed for data analysis.
+            </p>
         type: "Python module"
         url: "http://pandas.pydata.org/index.html"
         img: "pandas.png"
@@ -232,7 +252,9 @@
         pos: 7
         name: "Sourdough bread"
         description: |
-            
+            <p>
+                Making a sourdough culture is pretty exciting, and surprisingly easy. You just add flour and water to a cup every so often, and a few days later you've got millions of living, breathing pets who can live in your fridge for nearly a month with only occasional feeding. And whenever you want, just follow along with this goofy guy's no-knead recipe, and turn millions of your new friends into a delicious sourdough loaf.
+            </p>
         type: "recipe"
         url: "http://www.breadtopia.com/sourdough-no-knead-method/"
         img: "sourdough.png"
@@ -240,7 +262,10 @@
         pos: 8
         name: "David Lynch's Interview Project"
         description: |
-            
+            <br><iframe width="560" height="315" src="//www.youtube.com/embed/d2_wenvFzbk" frameborder="0" allowfullscreen></iframe>
+            <p>
+                I like interviews with so-called "normal" people, and David Lynch's Interview Project is a very digestible series devoted to this idea: Two- or three-minute interviews with the people that make up the majority of our nation but from whom you rarely hear: rural low-to-middle class Americans.
+            </p>
         type: "interview series"
         url: "http://interviewproject.davidlynch.com/www/"
         img: "interview-project.png"
@@ -248,27 +273,29 @@
         pos: 9
         name: "Holy Motors"
         description: |
-            
+            <p>
+                I know that I really like a movie when at some point it makes me stand up or fall over in my seat yelling in fear and admiration and disgust. Other movies that have induced this rare state include <i>Manderlay</i> and <i>There Will Be Blood</i>.
+            </p>
         type: "film"
         url: ""
         img: "holy-motors.png"
     -
         pos: 10
-        name: "Jekyll"
+        name: "Jekyll + GitHub Pages"
         description: |
-            healthcare.gov
-            Together with Markdown and GitHub Pages https://pages.github.com/
-            Liquid https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
-        type: "web dev"
-        url: "http://jekyllrb.com/"
+            <p>
+                <a href="http://jekyllrb.com/">Jekyll</a> is a great way to make static websites, especially when the majority of your website's content is text (e.g., when it's a blog). Jekyll is the front-end of the infamous <a href="https://www.healthcare.gov/">healthcare.gov</a>&mdash;but take note, it's the back-end that's buggy, not the Jekyll part. Jekyll is also how GitHub is able to host all its code repositories as websites (via <a href="https://pages.github.com/">GitHub Pages</a>). With Jekyll and GitHub, you can now manage your own blog, writing blog posts in plain text, Markdown, or really whatever you want.
+            </p>
+        type: "web development"
+        url: ""
         img: "jekyll.png"
     -
         pos: 11
         name: "Ramen hacks"
         description: |
-            taking broth home
-            cooking angel hair with baking soda
-            http://www.seriouseats.com/2013/09/more-ramen-hacks-instant-noodle-upgrade-wacky-ramen-week.html
+            <p>
+                Ramen is good. My strategy is, whenever I go out for ramen, to take the remaining broth home and add it to my own noodles. But instead of buying real ramen noodles, all you have to do is <a href="http://www.seriouseats.com/2014/10/baking-soda-ramen-noodle-spaghetti-hack.html">cook angel hair pasta</a> in water with a pinch of baking soda! Pseudo-ramen. The food blog <i>Serious Eats</i> has a few posts on other <a href="http://www.seriouseats.com/2013/09/more-ramen-hacks-instant-noodle-upgrade-wacky-ramen-week.html">ramen hacks</a>, if you're interested.
+            </p>
         type: "recipes"
         url: "http://www.seriouseats.com/2014/10/baking-soda-ramen-noodle-spaghetti-hack.html"
         img: "ramen.png"
@@ -276,7 +303,15 @@
         pos: 12
         name: "A party game called Psychoanalysis"
         description: |
-            from Daniel Dennett's _Consciousness Explained_
+            <p>
+                This game comes from Daniel Dennett's <i>Consciousness Explained</i>, with a few of my own modifications.
+            </p>
+            <p>
+                A dupe is chosen. The dupe is told to leave the room, and that while he is gone, someone will share a dream that they had recently so that everyone in the room except the dupe knows the full extent of the dream. When the dupe returns, he will ask everyone in the room as many yes/no questions necessary to try and learn as many details of the dream as possible.
+            </p>
+            <p>
+                In fact, however, there is no dream. The people in the room will answer all the dupe's questions randomly but consistently. The result is that the dupe will create an absurd dream narrative <i>all on his own</i>, often revealing to some extent his own fears, dreams, etc. My favorite way of ending the game is to ask the person "Do you know whose dream this was?" The (melodramatic) answer: "It's your dream. You just had it."
+            </p>
         type: "game"
         url: ""
         img: "party-game.png"
@@ -284,7 +319,10 @@
         pos: 13
         name: "Paprika"
         description: |
-            
+            <br><iframe src="//player.vimeo.com/video/101675469?color=f0a400" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <p>
+                First off, I love Snarkmarket for <a href="http://snarkmarket.com/2014/8258">introducing</a> me to people like Satoshi Kon, who directed this movie. <i>Paprika</i> was Satoshi Kon's last movie. It is beautiful and overwhelming, the sort of movie that you remember even if you don't like it. The story and imagery seem to have been a major source of inspiration for Christopher Nolan's <i>Inception</i>.
+            </p>
         type: "film"
         url: ""
         img: "paprika.png"
@@ -292,7 +330,9 @@
         pos: 14
         name: "Meatspaces"
         description: |
-            
+            <p>
+                You know that strange feeling when you find yourself reminded that there are actual people sharing the Internet with you at all times? I'm thinking of moments like when Facebook first started showing you new "likes" without you having to refresh the page. Meatspaces is a chatroom with mandatory live GIFs of your face, and it evokes this feeling in a new way: "Wow! There are real people on the Internet. And they have <i>faces</i>."
+            </p>
         type: "chat app"
         url: "https://chat.meatspac.es"
         img: "meatspaces.gif"
@@ -300,7 +340,9 @@
         pos: 15
         name: "shrub"
         description: |
-            
+            <p>
+                Shrub is a drinking vinegar. (I hadn't even known you could drink vinegar.) Adding vinegar to fruit was an old-fashioned way of preserving fruit for the off-season. Now, it's the kind of thing you keep in your fridge and add to a glass of ice and a bit of water when you need refreshment. Balsamic strawberry shrub is the best.
+            </p>
         type: "recipe"
         url: ""
         img: "shrub.png"
