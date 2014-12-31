@@ -15,6 +15,7 @@
             </p>
         type: "youTube"
         url: ""
+        img: ""
     -
         pos: 2
         name: "The Good, the Bad and the Ugly"
@@ -24,6 +25,7 @@
             </p>
         type: "film"
         url: ""
+        img: ""
     -
         pos: 3
         name: "Homeland, Season 1"
@@ -36,6 +38,7 @@
             </p>
         type: "TV"
         url: ""
+        img: ""
     -
         pos: 4
         name: "Creature Comforts USA"
@@ -46,6 +49,7 @@
             </p>
         type: "TV"
         url: ""
+        img: ""
     -
         pos: 5
         name: "My Idiot Brother"
@@ -55,6 +59,7 @@
             </p>
         type: "film"
         url: ""
+        img: ""
     -
         pos: 6
         name: "NBA Game Time"
@@ -64,6 +69,7 @@
             </p>
         type: "app"
         url: ""
+        img: ""
     -
         pos: 7
         name: "Vine"
@@ -73,6 +79,7 @@
             </p>
         type: "app"
         url: ""
+        img: ""
     -
         pos: 8
         name: "lamb curry"
@@ -85,6 +92,7 @@
             </p>
         type: "recipe"
         url: "http://www.thekitchn.com/recipe-lamb-korma-recipes-from-the-kitchn-196350"
+        img: ""
     -
         pos: 9
         name: "Mike Patton"
@@ -94,6 +102,7 @@
             </p>
         type: "youTube"
         url: "http://www.youtube.com/watch?v=qPsXRiV6yo4"
+        img: ""
     -
         pos: 10
         name: "The Conversation"
@@ -106,6 +115,7 @@
             </p>
         type: "film"
         url: ""
+        img: ""
     -
         pos: 11
         name: "Bob's Burgers, Season 1"
@@ -115,6 +125,7 @@
             </p>
         type: "TV"
         url: ""
+        img: ""
     -
         pos: 12
         name: "Dalvit's Braids"
@@ -125,6 +136,7 @@
             </p>
         type: "youTube"
         url: ""
+        img: ""
     -
         pos: 13
         name: "Tim's Kitchen Tips"
@@ -135,6 +147,7 @@
             </p>
         type: "youTube"
         url: ""
+        img: ""
     -
         pos: 14
         name: "Google Hangout"
@@ -150,6 +163,7 @@
             </p>
         type: "app"
         url: ""
+        img: ""
     -
         pos: 15
         name: "Dogfish Head 60-minute IPA"
@@ -159,109 +173,134 @@
             </p>
         type: "beer"
         url: ""
+        img: ""
 2014:
     -
         pos: 1
-        name: ""
+        name: "Jupyter Notebooks"
         description: |
-            
-        type: ""
-        url: ""
+            <p>
+                One of the most obnoxious things about plotting data using programming languages like Python or Matlab is how messy things get once you start plotting things. Jupyter notebooks, from the iPython Notebook team, bring some much-needed interactivity and cleanliness to programming. It's a way to make programming in Python (and other languages) prettier and more comprehensive. It's a way to display narrative (Markdown), equations (latex), figures, and code all in one place.
+            </p>
+            <p>
+                Now GitHub-hosted blogs (see #10) can use iPython Notebook files as blog posts. Even cooler, the NBViewer website makes these notebooks even more amazing by auto-building any Notebook files found in GitHub repositories. You can use this feature to write programming books (see: <a href="http://nbviewer.ipython.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Prologue/Prologue.ipynb">this</a> one).
+            </p>
+        type: "programming environment"
+        url: "http://nbviewer.ipython.org/"
+        img: "ipython.png"
     -
         pos: 2
-        name: ""
+        name: "Keepon"
         description: |
-            
-        type: ""
+            https://www.youtube.com/watch?v=3g-yrjh58ms            
+        type: "dancing robot"
         url: ""
+        img: "keepon.png"
     -
         pos: 3
-        name: ""
+        name: "Sky Guide"
         description: |
             
-        type: ""
-        url: ""
+        type: "app"
+        url: "http://fifthstarlabs.com/"
+        img: "sky-guide.png"
     -
         pos: 4
-        name: ""
+        name: "Trello"
         description: |
             
-        type: ""
-        url: ""
+        type: "app"
+        url: "https://trello.com/"
+        img: "trello.png"
     -
         pos: 5
-        name: ""
+        name: "Better web debugging"
         description: |
             
-        type: ""
+        type: "web dev"
         url: ""
+        img: "mobile-web-dev.png"
     -
         pos: 6
-        name: ""
+        name: "Python's Pandas"
         description: |
             
-        type: ""
-        url: ""
+        type: "Python module"
+        url: "http://pandas.pydata.org/index.html"
+        img: "pandas.png"
     -
         pos: 7
-        name: ""
+        name: "Sourdough bread"
         description: |
             
-        type: ""
-        url: ""
+        type: "recipe"
+        url: "http://www.breadtopia.com/sourdough-no-knead-method/"
+        img: "sourdough.png"
     -
         pos: 8
-        name: ""
+        name: "David Lynch's Interview Project"
         description: |
             
-        type: ""
-        url: ""
+        type: "interview series"
+        url: "http://interviewproject.davidlynch.com/www/"
+        img: "interview-project.png"
     -
         pos: 9
-        name: ""
+        name: "Holy Motors"
         description: |
             
-        type: ""
+        type: "film"
         url: ""
+        img: "holy-motors.png"
     -
         pos: 10
-        name: ""
+        name: "Jekyll"
         description: |
-            
-        type: ""
-        url: ""
+            healthcare.gov
+            Together with Markdown and GitHub Pages https://pages.github.com/
+            Liquid https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+        type: "web dev"
+        url: "http://jekyllrb.com/"
+        img: "jekyll.png"
     -
         pos: 11
-        name: ""
+        name: "Ramen hacks"
         description: |
-            
-        type: ""
-        url: ""
+            taking broth home
+            cooking angel hair with baking soda
+            http://www.seriouseats.com/2013/09/more-ramen-hacks-instant-noodle-upgrade-wacky-ramen-week.html
+        type: "recipes"
+        url: "http://www.seriouseats.com/2014/10/baking-soda-ramen-noodle-spaghetti-hack.html"
+        img: "ramen.png"
     -
         pos: 12
-        name: ""
+        name: "A party game called Psychoanalysis"
         description: |
-            
-        type: ""
+            from Daniel Dennett's _Consciousness Explained_
+        type: "game"
         url: ""
+        img: "party-game.png"
     -
         pos: 13
-        name: ""
+        name: "Paprika"
         description: |
             
-        type: ""
+        type: "film"
         url: ""
+        img: "paprika.png"
     -
         pos: 14
-        name: ""
+        name: "Meatspaces"
         description: |
             
-        type: ""
-        url: ""
+        type: "chat app"
+        url: "https://chat.meatspac.es"
+        img: "meatspaces.gif"
     -
         pos: 15
-        name: ""
+        name: "shrub"
         description: |
             
-        type: ""
+        type: "recipe"
         url: ""
+        img: "shrub.png"

@@ -22,9 +22,10 @@ js2: seen-tried-tasted
         </div>
         {% for item in site.data.misc[yr] %}
         <div class="item">
-            <img src="/assets/images/list-misc-{{ yr }}/{{ item.pos }}.png"/>
+            {% capture itemimg %}{% if item.img == empty %}{{ item.pos }}.png{% else %}{{ item.img }}{% endif %}{% endcapture %}
+            <img src="/assets/images/list-misc-{{ yr }}/{{ itemimg }}"/>
             <span class="info number">{{ item.pos }}</span>
-            <a href="#{{ item.pos }}"><span class="link"></span></a>
+            <a href="#item-{{ yr }}-{{ item.pos }}"><span class="link"></span></a>
             <span class="info">{{ item.name }}</span>
         </div>
         {% endfor %}
@@ -34,7 +35,7 @@ js2: seen-tried-tasted
             {% for item in site.data.misc[yr] %}
             {% capture itemtype %}{% if item.url == empty %}{{ item.type }}{% else %}<a href="{{ item.url }}">{{ item.type }}</a>{% endif %}{% endcapture %}
             <hr>
-            <a name="{{ item.pos }}"></a>
+            <a name="item-{{ yr }}-{{ item.pos }}"></a>
             {{ item.pos }}. <b>{{ item.name }}</b> [{{ itemtype }}]<br>
             {{ item.description }}
             {% endfor %}
