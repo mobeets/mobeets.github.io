@@ -40,7 +40,7 @@ css: elsewhere-styles
     {% if item.url contains 'http://' or item.url contains 'https://' %}
     <a href="{{ item.url }}"></a>
     {% elsif item.url contains '.' %}
-    {% capture full_url %}/{{ item.categ }}/{{{item.key}}{% endcapture %}
+    {% capture full_url %}/{{ item.categ }}/{{item.key}}{% endcapture %}
     <a href="{{ full_url }}"></a>
     {% else %}
     <a href="{{ item.url }}"></a>

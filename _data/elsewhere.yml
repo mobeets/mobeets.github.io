@@ -31,10 +31,22 @@
 # categ determines url
 
 # if url contains http:// or https://, leave it be
-# if url contains ., built the url using above info
+# if url starts with ., built the url using above info
 # otherwise leave it be
 
     items:
+        -
+            categ: "listed"
+            date: "2014-12-31"
+            key: "seen-tried-tasted"
+            name: "Seen, Tried or Tasted"
+            url: ".html"
+        -
+            categ: "listed"
+            date: "2014-12-31"
+            key: "favorites"
+            name: "Favorites"
+            url: ".html"
         -
             categ: "coded"
             date: "2014-11-09"
@@ -80,12 +92,6 @@
         -
             categ: "listed"
             date: "2014-03-14"
-            key: "list-misc-2013"
-            name: "2013: Seen, Tried or Tasted"
-            url: ".html"
-        -
-            categ: "listed"
-            date: "2014-03-14"
             key: "on-me-20140314"
             name: "On me, 14 March 2014"
             url: "https://medium.com/p/21a78487a2b3"
@@ -124,12 +130,6 @@
             date: "2014-01-07"
             key: "nfl-kickoffs"
             name: "NFL Kickoffs"
-            url: ".html"
-        -
-            categ: "listed"
-            date: "2013-12-31"
-            key: "lists-music-books"
-            name: "End of year lists"
             url: ".html"
         -
             categ: "coded"

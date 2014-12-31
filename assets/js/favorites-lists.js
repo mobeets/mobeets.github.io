@@ -61,9 +61,9 @@ function update(list, year) {
 function update_year() {
     year = $(this).data('year');
     if (list === 'misc') {
-        window.location.href = "/seen_tried_tasted.html#year=" + year;
+        window.location.href = "/listed/seen-tried-tasted/#year=" + year;
     } else {
-        window.location.href = "/favorites.html#year=" + year + "&list=" + list;
+        window.location.href = "/listed/favorites/#year=" + year + "&list=" + list;
     }
     update(list, year);
 }
@@ -71,9 +71,9 @@ function update_year() {
 function update_list() {
     list = $(this).data('list');
     if (list === 'misc') {
-        window.location.href = "/seen_tried_tasted.html#year=" + year;
+        window.location.href = "/listed/seen-tried-tasted/#year=" + year;
     } else {
-        window.location.href = "/favorites.html#year=" + year + "&list=" + list;
+        window.location.href = "/listed/favorites/#year=" + year + "&list=" + list;
     }
     update(list, year);
 }
