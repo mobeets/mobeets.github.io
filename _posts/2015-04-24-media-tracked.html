@@ -1,0 +1,58 @@
+---
+layout: post
+title: Favorites
+category: listed
+css: favorites
+css2: media-tracked
+---
+{% include JB/setup %}
+
+<div id="list">
+    <br>
+    <div class="btn-menu">
+        <div class="btn btn-list" data-list="all">All</div>
+        <div class="btn btn-list" data-list="books">Books</div>
+        <div class="btn btn-list" data-list="music">Music</div>
+        <div class="btn btn-list" data-list="misc">Others</div>
+    </div><br>
+    <div class="btn-menu">
+        <div class="btn btn-year" data-year="2014">2014</div>
+        <div class="btn btn-year" data-year="2013">2013</div>
+        <div class="btn btn-year" data-year="2012">2012</div>
+        <div class="btn btn-year" data-year="2011">2011</div>
+        <div class="btn btn-year" data-year="2010">2010</div>
+        <div class="btn btn-year" data-year="2009">2009</div>
+        <div class="btn btn-year" data-year="2008">2008</div>
+        <div class="btn btn-year" data-year="2007">2007</div>
+    </div><br>
+    <div class="btn-menu">
+        <div class="btn btn-img" data-toggle="">Show images</div>
+    </div><br>
+    <div id="books-2015" class="books all list-group">
+        <h2>2015 Reads</h2>
+        <div class="books">                
+            <h3>Books</h3>
+            <div class="items">
+            {% for item in site.data.tracked %}
+                <div class="media-item">
+                    <div class="item-head">
+                        <span class="item-title">{{ item.api_title }}</span>
+                    </div>
+                    <div class="item-info">
+                        <span class="author">{{ item.authors }}</span>
+                        <span class="year">({{ item.year }})</span>
+                        <span class="info"><a href="{{ item.url }}">(info)</a></span>
+                    </div>
+                    <div class="item-opinion">
+                        {% if item.end_dt %}
+                        <div class="date-read"><span class="item-label">read:</span> {{ item.end_dt | date: '%b %d, %Y' }}{% if item.quit %} (quit){% endif %}</div>
+                        {% else if item.start_dt %}<div class="date-read"><span class="item-label">read:</span> (in progress)</div>{% endif %}
+                        {% if item.rating %}<div class="rating"><span class="item-label">rating:</span> {{ item.rating }}</div>{% endif %}
+                        {% if item.description != empty %}<div class="comments"><span class="item-label">comments:</span> {{ item.description }}</div>{% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

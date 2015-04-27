@@ -1,0 +1,21 @@
+
+.media-item {
+    padding-bottom: 2em;
+}
+
+.item-head {
+}
+
+.item-title {
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.item-opinion {
+    font-size: 90%;
+    margin-left: 2em;
+}
+
+.item-label {
+    font-weight: bold;
+}
