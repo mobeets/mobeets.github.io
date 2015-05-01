@@ -29,3 +29,10 @@
 .item-label {
     font-weight: bold;
 }
+
+.btn-list {
+    background: #3cb0fd;
+}
+.btn-year {
+    background: #e494ff;
+}

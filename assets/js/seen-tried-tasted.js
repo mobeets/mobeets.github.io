@@ -1,3 +1,6 @@
+var years = new Array();
+years['misc'] = [2013, 2014];
+var year = 2014;
 var list = 'misc';
 
 function init() {

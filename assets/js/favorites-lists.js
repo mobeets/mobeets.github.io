@@ -5,12 +5,12 @@ Array.prototype.exists = function (x) {
     return false;
 }
 
-var years = new Array();
-years['books'] = [2012, 2013, 2014];
-years['music'] = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014];
-years['all'] = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014];
-years['misc'] = [2013, 2014];
-var year = 2014;
+// var years = new Array();
+// years['books'] = [2012, 2013, 2014];
+// years['music'] = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014];
+// years['all'] = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014];
+// years['misc'] = [2013, 2014];
+// var year = 2014;
 // var list = 'all';
 
 function set_default() {
@@ -44,7 +44,7 @@ function update(list, year) {
     $('.btn-year[data-year="' + year + '"]').addClass('btn-active');
     $('.btn-year[data-year="' + year + '"]').removeClass('btn-inactive');
     $('.list-group').hide();
-    if (list === 'all') {
+    if (list === 'all' || list === 'tracked-all') {
         $("div[id$=" + year + "]").show();
     }
     else {
@@ -58,26 +58,6 @@ function update(list, year) {
     }
 }
 
-function update_year() {
-    year = $(this).data('year');
-    if (list === 'misc') {
-        window.location.href = "/listed/seen-tried-tasted/#year=" + year;
-    } else {
-        window.location.href = "/listed/favorites/#year=" + year + "&list=" + list;
-    }
-    update(list, year);
-}
-
-function update_list() {
-    list = $(this).data('list');
-    if (list === 'misc') {
-        window.location.href = "/listed/seen-tried-tasted/#year=" + year;
-    } else {
-        window.location.href = "/listed/favorites/#year=" + year + "&list=" + list;
-    }
-    update(list, year);
-}
-
 function toggle_images() {
     $('.list-img').toggle();
     if($('.list-img').is(':visible')) {
@@ -87,5 +67,31 @@ function toggle_images() {
         console.log('2');
         $('.btn-img').html('Show images');
     }
-    console.log('here');
+}
+
+function makeUpdateUrl_1(list, year) {
+    return "/listed/seen-tried-tasted/#year=" + year;
+}
+function makeUpdateUrl_2(list, year) {
+    return "/listed/favorites/#year=" + year + "&list=" + list;
+}
+
+function update_year() {
+    year = $(this).data('year');
+    if (list === 'misc') {
+        window.location.href = makeUpdateUrl_1(list, year);
+    } else {
+        window.location.href = makeUpdateUrl_2(list, year);
+    }
+    update(list, year);
+}
+
+function update_list() {
+    list = $(this).data('list');
+    if (list === 'misc') {
+        window.location.href = makeUpdateUrl_1(list, year);
+    } else {
+        window.location.href = makeUpdateUrl_2(list, year);
+    }
+    update(list, year);
 }

@@ -1,21 +1,22 @@
 ---
 layout: post
-title: Favorites
+title: Media tracked
 category: listed
-css: favorites
-css2: media-tracked
+css: media-tracked
+js: favorites-lists
+js2: media-tracked
 ---
 {% include JB/setup %}
 
 <div id="list">
     <br>
     <div class="btn-menu">
-        <div class="btn btn-list" data-list="all">All</div>
-        <div class="btn btn-list" data-list="books">Books</div>
-        <div class="btn btn-list" data-list="music">Music</div>
-        <div class="btn btn-list" data-list="misc">Others</div>
+        <div class="btn btn-list" data-list="tracked-all">All</div>
+        <div class="btn btn-list" data-list="tracked-books">Books</div>
+        <div class="btn btn-list" data-list="tracked-movies">Movies</div>
     </div><br>
     <div class="btn-menu">
+        <div class="btn btn-year" data-year="2015">2015</div>
         <div class="btn btn-year" data-year="2014">2014</div>
         <div class="btn btn-year" data-year="2013">2013</div>
         <div class="btn btn-year" data-year="2012">2012</div>
@@ -25,18 +26,14 @@ css2: media-tracked
         <div class="btn btn-year" data-year="2008">2008</div>
         <div class="btn btn-year" data-year="2007">2007</div>
     </div><br>
-    <div class="btn-menu">
-        <div class="btn btn-img" data-toggle="">Show images</div>
-    </div><br>
 {% assign key = 'tracked_' %}
 {% for item in site.data %}
     {% if item[0] contains key %}
         {% capture name %}{{ item[0] | remove:key }}{% endcapture %}
-        <div id="movies-2015" class="movies all list-group">
-        <div class="list-books">
+        <div id="tracked-{{ name }}-2015" class="tracked-{{ name }} all list-group">
             <h2>{{ name | capitalize }}</h2>
             <div class="items">
-            {% for item in site.data.tracked_movies reversed %}
+            {% for item in item[1] reversed %}
                 <div class="media-item">
                     <div class="item-head">
                         <span class="item-title">{{ item.title }}</span> 
@@ -74,7 +71,6 @@ css2: media-tracked
                 </div>
             {% endfor %}
             </div>
-        </div>
         </div>
     {% endif %}
 {% endfor %}
