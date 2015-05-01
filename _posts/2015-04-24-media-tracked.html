@@ -28,31 +28,54 @@ css2: media-tracked
     <div class="btn-menu">
         <div class="btn btn-img" data-toggle="">Show images</div>
     </div><br>
-    <div id="books-2015" class="books all list-group">
-        <h2>2015 Reads</h2>
-        <div class="books">                
-            <h3>Books</h3>
+{% assign key = 'tracked_' %}
+{% for item in site.data %}
+    {% if item[0] contains key %}
+        {% capture name %}{{ item[0] | remove:key }}{% endcapture %}
+        <div id="movies-2015" class="movies all list-group">
+        <div class="list-books">
+            <h2>{{ name | capitalize }}</h2>
             <div class="items">
-            {% for item in site.data.tracked %}
+            {% for item in site.data.tracked_movies reversed %}
                 <div class="media-item">
                     <div class="item-head">
-                        <span class="item-title">{{ item.api_title }}</span>
+                        <span class="item-title">{{ item.title }}</span> 
+                        <span class="item-year">({{ item.year }})</span>
                     </div>
-                    <div class="item-info">
-                        <span class="author">{{ item.authors }}</span>
-                        <span class="year">({{ item.year }})</span>
+                    <!--<div class="item-info">
                         <span class="info"><a href="{{ item.url }}">(info)</a></span>
-                    </div>
+                    </div>-->
                     <div class="item-opinion">
-                        {% if item.end_dt %}
-                        <div class="date-read"><span class="item-label">read:</span> {{ item.end_dt | date: '%b %d, %Y' }}{% if item.quit %} (quit){% endif %}</div>
-                        {% else if item.start_dt %}<div class="date-read"><span class="item-label">read:</span> (in progress)</div>{% endif %}
-                        {% if item.rating %}<div class="rating"><span class="item-label">rating:</span> {{ item.rating }}</div>{% endif %}
-                        {% if item.description != empty %}<div class="comments"><span class="item-label">comments:</span> {{ item.description }}</div>{% endif %}
+                        {% if item.end_dt and item.end_dt != item.start_dt %}
+                        <div class="date-read">
+                            <span class="item-label">date:</span> {%if item.start_dt %}{{ item.start_dt | date: '%b %d, %Y' }} &ndash; {% endif %}{{ item.end_dt | date: '%b %d, %Y' }}{% if item.quit %} (quit){% endif %}
+                        </div>
+                        {% else if item.start_dt %}
+                        <div class="date-read">
+                            <span class="item-label">date:</span> {{ item.start_dt | date: '%b %d, %Y' }}
+                            {% if item.start_dt != item.end_dt %}
+                            (started)
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                        {% if item.rating %}
+                        <div class="rating">
+                            <span class="item-label">rating:</span> {{ item.rating }}
+                        </div>
+                        {% endif %}
+                        {% if item.description != empty %}
+                        <div class="comments">
+                            <span class="item-label">comments:</span> {% if item.review != empty %}
+                            [full review <a href="{{ item.review }}">here</a>]
+                            {% endif %} {{ item.description }}
+                        </div>
+                        {% endif %}
                     </div>
                 </div>
             {% endfor %}
             </div>
         </div>
-    </div>
+        </div>
+    {% endif %}
+{% endfor %}
 </div>

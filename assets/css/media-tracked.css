@@ -6,6 +6,16 @@
 .item-head {
 }
 
+.item-year {
+    font-size: 95%;
+}
+
+.item-info {
+    margin-left: 1em;
+    font-size: 95%;
+    /*color: gray;*/
+}
+
 .item-title {
     font-weight: bold;
     font-style: oblique;
