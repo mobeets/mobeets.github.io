@@ -1,7 +1,7 @@
 var years = new Array();
-years['tracked-all'] = [2015];
-years['tracked-books'] = [2015];
-years['tracked-movies'] = [2015];
+years['tracked-all'] = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015];
+years['tracked-books'] = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015];
+years['tracked-movies'] = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015];
 var year = 2015;
 var list = 'tracked-all';
 

@@ -1,179 +1,2002 @@
+'2007':
 -   action: Read
     action_key: R
-    api_source: goodreads
-    api_title: Lonesome Dove
+    author_short: Nabokov
+    description: just a guess--I bought the book 4/29/07
+    end_dt: 2007-06-01 00:00:00
+    ix: 0
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2007-05-10 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Nabokov's Lolita
+    title: Lolita
+-   action: Read
+    action_key: R
+    author_short: Pirsig
+    description: ''
+    end_dt: 2007-07-02 00:00:00
+    ix: 2
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2007-06-02 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Pirsig's Zen and the Art of Motorcycle Maintenance
+    title: Zen and the Art of Motorcycle Maintenance
+-   action: Read
+    action_key: R
+    author_short: Martel
+    description: start date is a guess
+    end_dt: 2007-12-29 00:00:00
+    ix: 4
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2007-12-23 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Martel's Life of Pi
+    title: Life of Pi
+'2009':
+-   action: Read
+    action_key: R
+    author_short: Coetzee
+    description: ''
+    end_dt: 2009-11-01 00:00:00
+    ix: 7
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2009-10-31 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Coetzee's Disgrace
+    title: Disgrace
+'2010':
+-   action: Read
+    action_key: R
+    author_short: Rousseau
+    description: ''
+    end_dt: 2010-10-09 00:00:00
+    ix: 9
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2010-09-30 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Rousseau's The Social Contract
+    title: The Social Contract
+'2011':
+-   action: Read
+    action_key: R
+    author_short: McCarthy
+    description: ''
+    end_dt: 2011-03-16 00:00:00
+    ix: 13
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-03-13 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: McCarthy's The Road
+    title: The Road
+-   action: Read
+    action_key: R
+    author_short: Hemingway
+    description: ''
+    end_dt: 2011-03-19 00:00:00
+    ix: 14
+    kind: short stories
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-03-16 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Hemingway's In Our Time
+    title: In Our Time
+-   action: Read
+    action_key: R
+    author_short: Bryant
+    description: ''
+    end_dt: 2011-04-16 00:00:00
+    ix: 17
+    kind: null
+    location: ''
+    quit: true
+    source: ''
+    start_dt: 2011-04-13 00:00:00
+    subaction: ''
+    subaction_key: Q
+    subject: Bryant's How Round is Your Circle?
+    title: How Round is Your Circle?
+-   action: Read
+    action_key: R
+    author_short: Diamond
+    description: ''
+    end_dt: 2011-05-18 00:00:00
+    ix: 19
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-05-12 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Diamond's Guns, Germs, & Steel
+    title: Guns, Germs, & Steel
+-   action: Read
+    action_key: R
+    author_short: Bernstein
+    description: ''
+    end_dt: 2011-05-19 00:00:00
+    ix: 20
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-05-17 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Bernstein's A Primer on Money, Banking, and Gold
+    title: A Primer on Money, Banking, and Gold
+-   action: Read
+    action_key: R
+    author_short: Schultz
+    description: ''
+    end_dt: 2011-06-01 00:00:00
+    ix: 23
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-05-22 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Schultz's Pour Your Heart Into It
+    title: Pour Your Heart Into It
+-   action: Read
+    action_key: R
+    author_short: Joyce
+    description: ''
+    end_dt: 2011-07-01 00:00:00
+    ix: 25
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-06-03 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Joyce's A Portrait of the Artist as a Young Man
+    title: A Portrait of the Artist as a Young Man
+-   action: Read
+    action_key: R
+    author_short: Pariser
+    description: ''
+    end_dt: 2011-07-11 00:00:00
+    ix: 27
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-07-03 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Pariser's The Filter Bubble
+    title: The Filter Bubble
+-   action: Read
+    action_key: R
+    author_short: Rand
+    description: ''
+    end_dt: 2011-08-03 00:00:00
+    ix: 29
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-07-12 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Rand's The Fountainhead
+    title: The Fountainhead
+-   action: Read
+    action_key: R
+    author_short: Sacco
+    description: ''
+    end_dt: 2011-08-09 00:00:00
+    ix: 31
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-08-06 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Sacco's Palestine
+    title: Palestine
+-   action: Read
+    action_key: R
+    author_short: Shepard
+    description: ''
+    end_dt: 2011-08-15 00:00:00
+    ix: 33
+    kind: play
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-08-15 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Shepard's True West
+    title: True West
+-   action: Read
+    action_key: R
+    author_short: O'Neill
+    description: ''
+    end_dt: 2011-08-17 00:00:00
+    ix: 34
+    kind: play
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-08-16 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: O'Neill's Long Day's Journey Into Night
+    title: Long Day's Journey Into Night
+-   action: Read
+    action_key: R
+    author_short: Shepard
+    description: ''
+    end_dt: 2011-08-16 00:00:00
+    ix: 35
+    kind: play
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-08-16 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Shepard's Buried Child
+    title: Buried Child
+-   action: Read
+    action_key: R
+    author_short: Morgan
+    description: ''
+    end_dt: 2011-08-22 00:00:00
+    ix: 37
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-08-21 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Morgan's Mutant Message Down Under
+    title: Mutant Message Down Under
+-   action: Read
+    action_key: R
+    author_short: Shaw
+    description: ''
+    end_dt: 2011-08-27 00:00:00
+    ix: 39
+    kind: play
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-08-24 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Shaw's Heartbreak House
+    title: Heartbreak House
+-   action: Read
+    action_key: R
+    author_short: null
+    description: ''
+    end_dt: 2011-08-29 00:00:00
+    ix: 41
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-08-28 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: The Vinland Sagas
+    title: The Vinland Sagas
+-   action: Read
+    action_key: R
+    author_short: Huxley
+    description: ''
+    end_dt: 2011-09-05 00:00:00
+    ix: 43
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-09-02 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Huxley's Brave New World
+    title: Brave New World
+-   action: Read
+    action_key: R
+    author_short: Moore and Gibbons
+    description: ''
+    end_dt: 2011-10-12 00:00:00
+    ix: 45
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-09-06 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Moore and Gibbons's Watchmen
+    title: Watchmen
+-   action: Read
+    action_key: R
+    author_short: Francis
+    description: ''
+    end_dt: 2011-09-09 00:00:00
+    ix: 46
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-09-08 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Francis's High Stakes
+    title: High Stakes
+-   action: Read
+    action_key: R
+    author_short: Francis
+    description: ''
+    end_dt: 2011-09-11 00:00:00
+    ix: 48
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-09-10 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Francis's Rat Race
+    title: Rat Race
+-   action: Read
+    action_key: R
+    author_short: Francis
+    description: ''
+    end_dt: 2011-09-13 00:00:00
+    ix: 50
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-09-12 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Francis's Whip Hand
+    title: Whip Hand
+-   action: Read
+    action_key: R
+    author_short: Salinger
+    description: ''
+    end_dt: 2011-09-15 00:00:00
+    ix: 52
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-09-14 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Salinger's Franny and Zooey
+    title: Franny and Zooey
+-   action: Read
+    action_key: R
+    author_short: Salinger
+    description: ''
+    end_dt: 2011-09-17 00:00:00
+    ix: 54
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-09-16 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Salinger's The Catcher in the Rye
+    title: The Catcher in the Rye
+-   action: Read
+    action_key: R
+    author_short: Anderson
+    description: ''
+    end_dt: 2011-09-20 00:00:00
+    ix: 56
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-09-18 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Anderson's Winesburg, Ohio
+    title: Winesburg, Ohio
+-   action: Read
+    action_key: R
+    author_short: Buckley and Morgan
+    description: ''
+    end_dt: 2011-10-17 00:00:00
+    ix: 58
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-10-12 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Buckley and Morgan's The Life and Adventures of William Buckley
+    title: The Life and Adventures of William Buckley
+-   action: Read
+    action_key: R
+    author_short: Tomine
+    description: ''
+    end_dt: 2011-10-17 00:00:00
+    ix: 60
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-10-17 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Tomine's 32 Stories
+    title: 32 Stories
+-   action: Read
+    action_key: R
+    author_short: Carr
+    description: ''
+    end_dt: 2011-10-21 00:00:00
+    ix: 62
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-10-18 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Carr's The Shallows
+    title: The Shallows
+-   action: Read
+    action_key: R
+    author_short: Stewart
+    description: ''
+    end_dt: 2011-10-31 00:00:00
+    ix: 64
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-10-22 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Stewart's Does God Play Dice?
+    title: Does God Play Dice?
+-   action: Read
+    action_key: R
+    author_short: Hemingway
+    description: ''
+    end_dt: 2011-11-04 00:00:00
+    ix: 66
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-11-01 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Hemingway's To Have and Have Not
+    title: To Have and Have Not
+-   action: Read
+    action_key: R
+    author_short: Hemingway
+    description: ''
+    end_dt: 2011-11-08 00:00:00
+    ix: 68
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-11-05 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: 'Hemingway''s Fiesta: The Sun Also Rises'
+    title: 'Fiesta: The Sun Also Rises'
+'2012':
+-   action: Read
+    action_key: R
+    author_short: Russell
+    description: ''
+    end_dt: 2012-08-04 00:00:00
+    ix: 11
+    kind: null
+    location: ''
+    quit: true
+    source: ''
+    start_dt: 2012-07-28 00:00:00
+    subaction: ''
+    subaction_key: Q
+    subject: Russell's Introduction to Mathematical Philosophy
+    title: Introduction to Mathematical Philosophy
+-   action: Read
+    action_key: R
+    author_short: Follett
+    description: ''
+    end_dt: 2012-01-03 00:00:00
+    ix: 70
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2011-12-14 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Follett's Eye of the Needle
+    title: Eye of the Needle
+-   action: Read
+    action_key: R
+    author_short: Adams
+    description: ''
+    end_dt: 2012-01-13 00:00:00
+    ix: 72
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-01-09 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Adams's The Hitchhiker's Guide to the Galaxy
+    title: The Hitchhiker's Guide to the Galaxy
+-   action: Read
+    action_key: R
+    author_short: Adams
+    description: ''
+    end_dt: 2012-01-19 00:00:00
+    ix: 74
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-01-17 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Adams's The Restaurant at the End of the Universe
+    title: The Restaurant at the End of the Universe
+-   action: Read
+    action_key: R
+    author_short: Lindsay
+    description: ''
+    end_dt: 2012-02-01 00:00:00
+    ix: 76
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-01-24 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Lindsay's Picnic at Hanging Rock
+    title: Picnic at Hanging Rock
+-   action: Read
+    action_key: R
+    author_short: Stein
+    description: ''
+    end_dt: 2012-02-15 00:00:00
+    ix: 78
+    kind: null
+    location: ''
+    quit: true
+    source: ''
+    start_dt: 2012-02-05 00:00:00
+    subaction: ''
+    subaction_key: Q
+    subject: Stein's The Autobiography of Alice B. Toklas
+    title: The Autobiography of Alice B. Toklas
+-   action: Read
+    action_key: R
+    author_short: Camus
+    description: ''
+    end_dt: 2012-03-30 00:00:00
+    ix: 80
+    kind: null
+    location: ''
+    quit: true
+    source: ''
+    start_dt: 2012-02-28 00:00:00
+    subaction: ''
+    subaction_key: Q
+    subject: Camus's The Plague
+    title: The Plague
+-   action: Read
+    action_key: R
+    author_short: Francis
+    description: ''
+    end_dt: 2012-04-01 00:00:00
+    ix: 82
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-03-31 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Francis's Nerve
+    title: Nerve
+-   action: Read
+    action_key: R
+    author_short: Lindsey
+    description: ''
+    end_dt: 2012-04-14 00:00:00
+    ix: 84
+    kind: null
+    location: ''
+    quit: true
+    source: ''
+    start_dt: 2012-04-09 00:00:00
+    subaction: ''
+    subaction_key: Q
+    subject: Lindsey's A Loving Scoundrel
+    title: A Loving Scoundrel
+-   action: Read
+    action_key: R
+    author_short: Francis
+    description: ''
+    end_dt: 2012-04-25 00:00:00
+    ix: 85
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-04-14 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Francis's Danger
+    title: Danger
+-   action: Read
+    action_key: R
+    author_short: Anderson
+    description: ''
+    end_dt: 2012-05-11 00:00:00
+    ix: 87
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-04-25 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Anderson's Poor White
+    title: Poor White
+-   action: Read
+    action_key: R
+    author_short: null
+    description: ''
+    end_dt: 2012-05-09 00:00:00
+    ix: 89
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-05-09 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Sam Wallman
+    title: Sam Wallman
+-   action: Read
+    action_key: R
+    author_short: Willman
+    description: ''
+    end_dt: 2012-05-28 00:00:00
+    ix: 91
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-05-13 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Willman's The Mirage Man
+    title: The Mirage Man
+-   action: Read
+    action_key: R
+    author_short: Egan
+    description: ''
+    end_dt: 2012-06-03 00:00:00
+    ix: 92
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-05-27 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Egan's Black Box
+    title: Black Box
+-   action: Read
+    action_key: R
+    author_short: Blum
+    description: ''
+    end_dt: 2012-06-27 00:00:00
+    ix: 96
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-06-12 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Blum's Tubes
+    title: Tubes
+-   action: Read
+    action_key: R
+    author_short: Butler
+    description: ''
+    end_dt: 2012-07-02 00:00:00
+    ix: 100
+    kind: null
+    location: ''
+    quit: true
+    source: ''
+    start_dt: 2012-07-01 00:00:00
+    subaction: ''
+    subaction_key: Q
+    subject: Butler's The Way of All Flesh
+    title: The Way of All Flesh
+-   action: Read
+    action_key: R
+    author_short: null
+    description: ''
+    end_dt: 2012-07-27 00:00:00
+    ix: 102
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-07-03 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Borges' Labyrinths
+    title: Borges' Labyrinths
+-   action: Read
+    action_key: R
+    author_short: Russell
+    description: ''
+    end_dt: 2012-08-21 00:00:00
+    ix: 107
+    kind: null
+    location: ''
+    quit: true
+    source: ''
+    start_dt: 2012-08-04 00:00:00
+    subaction: ''
+    subaction_key: Q
+    subject: Russell's History of Western Philosophy
+    title: History of Western Philosophy
+-   action: Read
+    action_key: R
+    author_short: Tolstoy
+    description: ''
+    end_dt: 2012-10-17 00:00:00
+    ix: 110
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-09-15 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Tolstoy's Anna Karenina
+    title: Anna Karenina
+-   action: Read
+    action_key: R
+    author_short: McSweeney
+    description: ''
+    end_dt: 2012-10-24 00:00:00
+    ix: 112
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-10-18 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: McSweeney's 41
+    title: '41'
+-   action: Read
+    action_key: R
+    author_short: Coetzee
+    description: ''
+    end_dt: 2012-10-28 00:00:00
+    ix: 114
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-10-25 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Coetzee's Diary of a Bad Year
+    title: Diary of a Bad Year
+-   action: Read
+    action_key: R
+    author_short: Lerner
+    description: ''
+    end_dt: 2012-11-06 00:00:00
+    ix: 116
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-11-06 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Lerner's Leaving the Atocha Station
+    title: Leaving the Atocha Station
+-   action: Read
+    action_key: R
+    author_short: Carver
+    description: ''
+    end_dt: 2012-11-18 00:00:00
+    ix: 117
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-11-11 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Carver's Ultramarine
+    title: Ultramarine
+-   action: Read
+    action_key: R
+    author_short: Theroux
+    description: ''
+    end_dt: 2012-11-21 00:00:00
+    ix: 118
+    kind: null
+    location: ''
+    quit: true
+    source: ''
+    start_dt: 2012-11-18 00:00:00
+    subaction: ''
+    subaction_key: Q
+    subject: Theroux's The Strange Case of Edward Gorey
+    title: The Strange Case of Edward Gorey
+-   action: Read
+    action_key: R
+    author_short: Wallace
+    description: ''
+    end_dt: 2012-12-10 00:00:00
+    ix: 121
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-11-22 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Wallace's The Pale King
+    title: The Pale King
+-   action: Read
+    action_key: R
+    author_short: Pinter
+    description: ''
+    end_dt: 2012-12-13 00:00:00
+    ix: 123
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-12-10 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: 'Pinter''s Complete Works: Two'
+    title: 'Complete Works: Two'
+-   action: Read
+    action_key: R
+    author_short: Gorey
+    description: ''
+    end_dt: 2012-12-13 00:00:00
+    ix: 124
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2012-12-13 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Gorey's Amphigorey
+    title: Amphigorey
+'2013':
+-   action: Read
+    action_key: R
+    author_short: Bukowski
+    description: ''
+    end_dt: 2013-02-07 00:00:00
+    ix: 129
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2013-02-06 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Bukowski's The Captain is out to lunch and the sailors have taken over
+        the ship
+    title: The Captain is out to lunch and the sailors have taken over the ship
+-   action: Read
+    action_key: R
+    author_short: Fitzgerald
+    description: ''
+    end_dt: 2013-02-26 00:00:00
+    ix: 131
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2013-02-10 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Fitzgerald's Tender is the Night
+    title: Tender is the Night
+-   action: Read
+    action_key: R
+    author_short: Lindsay
+    description: ''
+    end_dt: 2013-03-19 00:00:00
+    ix: 145
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2013-03-15 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Lindsay's The Magic Pudding
+    title: The Magic Pudding
+-   action: Read
+    action_key: R
+    author_short: Gauld
+    description: ''
+    end_dt: 2013-03-17 00:00:00
+    ix: 147
+    kind: graphic novel
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2013-03-17 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Gauld's Goliath
+    title: Goliath
+-   action: Read
+    action_key: R
+    author_short: Brown
+    description: ''
+    end_dt: 2013-03-17 00:00:00
+    ix: 148
+    kind: graphic novel
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2013-03-17 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Brown's Paying For It
+    title: Paying For It
+-   action: Read
+    action_key: R
+    author_short: Doxiadis
+    description: ''
+    end_dt: 2013-03-24 00:00:00
+    ix: 152
+    kind: null
+    location: ''
+    quit: true
+    source: ''
+    start_dt: 2013-03-23 00:00:00
+    subaction: ''
+    subaction_key: Q
+    subject: Doxiadis's Logicomix
+    title: Logicomix
+-   action: Read
+    action_key: R
+    author_short: Carre
+    description: ''
+    end_dt: 2013-03-24 00:00:00
+    ix: 154
+    kind: graphic novel
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2013-03-24 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Carre's Heads or Tails
+    title: Heads or Tails
+-   action: Read
+    action_key: R
+    author_short: Hull
+    description: ''
+    end_dt: 2013-04-06 00:00:00
+    ix: 155
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2013-03-25 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Hull's Touching the Rock
+    title: Touching the Rock
+-   action: Read
+    action_key: R
+    author_short: Adorno
+    description: I'm really not sure how much I'm understanding...definitely will
+        need to take it slow to get anything at all
+    end_dt: null
+    ix: 164
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2013-04-07 00:00:00
+    subaction: ''
+    subaction_key: '1'
+    subject: Adorno's Minima Moralia
+    title: Minima Moralia
+-   action: Read
+    action_key: R
+    author_short: Collins
+    description: ''
+    end_dt: 2013-04-25 00:00:00
+    ix: 165
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2013-04-09 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Collins's The Moonstone
+    title: The Moonstone
+-   action: Read
+    action_key: R
+    author_short: DeForge
+    description: ''
+    end_dt: 2013-04-20 00:00:00
+    ix: 174
+    kind: comic
+    location: ''
+    quit: false
+    source: http://kingtrash.com/ants/index.html
+    start_dt: 2013-04-20 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: DeForge's Ant Comic
+    title: Ant Comic
+-   action: Read
+    action_key: R
+    author_short: Hooper
+    description: ''
+    end_dt: 2013-06-26 00:00:00
+    ix: 196
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2013-06-26 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Hooper's Tall Man
+    title: Tall Man
+-   action: Read
+    action_key: R
+    author_short: Pressfield
+    description: recc'd by David Loesch
+    end_dt: 2013-07-31 00:00:00
+    ix: 204
+    kind: null
+    location: 702S
+    quit: false
+    source: ''
+    start_dt: 2013-07-11 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Pressfield's The War of Art
+    title: The War of Art
+-   action: Read
+    action_key: R
+    author_short: Stigler
+    description: ''
+    end_dt: null
+    ix: 205
+    kind: null
+    location: Rob House
+    quit: false
+    source: ''
+    start_dt: 2013-07-12 00:00:00
+    subaction: ''
+    subaction_key: .
+    subject: Stigler's History of Statistics
+    title: History of Statistics
+-   action: Read
+    action_key: R
+    author_short: Holmes
+    description: ''
+    end_dt: 2013-07-17 00:00:00
+    ix: 209
+    kind: null
+    location: Rob House
+    quit: false
+    source: ''
+    start_dt: 2013-07-17 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Holmes's The Five Orange Pips, The Blue Carbuncle
+    title: The Five Orange Pips, The Blue Carbuncle
+-   action: Read
+    action_key: R
+    author_short: Gergen
+    description: ''
+    end_dt: 2013-08-13 00:00:00
+    ix: 214
+    kind: null
+    location: 702S
+    quit: true
+    source: ''
+    start_dt: 2013-07-28 00:00:00
+    subaction: ''
+    subaction_key: Q
+    subject: Gergen's The Saturated Self
+    title: The Saturated Self
+-   action: Read
+    action_key: R
+    author_short: Hesse
+    description: ''
+    end_dt: 2013-08-29 00:00:00
+    ix: 223
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2013-08-03 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Hesse's Steppenwolf
+    title: Steppenwolf
+-   action: Read
+    action_key: R
+    author_short: Joseph
+    description: ''
+    end_dt: null
+    ix: 239
+    kind: null
+    location: 702S
+    quit: false
+    source: ''
+    start_dt: 2013-09-18 00:00:00
+    subaction: ''
+    subaction_key: .
+    subject: Joseph's The Crest of the Peacock
+    title: The Crest of the Peacock
+-   action: Read
+    action_key: R
+    author_short: Sloan
+    description: ''
+    end_dt: 2013-09-27 00:00:00
+    ix: 240
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2013-09-25 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Sloan's Mr. Penumbra's 24-Hour Bookstore
+    title: Mr. Penumbra's 24-Hour Bookstore
+-   action: Read
+    action_key: R
+    author_short: Butler
+    description: ''
+    end_dt: 2013-10-07 00:00:00
+    ix: 245
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2013-10-03 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Butler's Kindred
+    title: Kindred
+-   action: Read
+    action_key: R
+    author_short: Tobias
+    description: ''
+    end_dt: 2013-10-10 00:00:00
+    ix: 248
+    kind: null
+    location: ''
+    quit: true
+    source: ''
+    start_dt: 2013-10-08 00:00:00
+    subaction: ''
+    subaction_key: Q
+    subject: Tobias's 20 Master Plots
+    title: 20 Master Plots
+-   action: Read
+    action_key: R
+    author_short: McKee
+    description: ''
+    end_dt: 2013-10-23 00:00:00
+    ix: 251
+    kind: null
+    location: Rob House
+    quit: true
+    source: ''
+    start_dt: 2013-10-14 00:00:00
+    subaction: ''
+    subaction_key: Q
+    subject: McKee's Story
+    title: Story
+-   action: Read
+    action_key: R
+    author_short: Francis
+    description: ''
+    end_dt: 2013-10-23 00:00:00
+    ix: 255
+    kind: null
+    location: ''
+    quit: true
+    source: ''
+    start_dt: 2013-10-22 00:00:00
+    subaction: ''
+    subaction_key: Q
+    subject: Francis's Reflex
+    title: Reflex
+-   action: Read
+    action_key: R
+    author_short: Holmes
+    description: ''
+    end_dt: 2013-10-22 00:00:00
+    ix: 256
+    kind: null
+    location: 702S
+    quit: false
+    source: ''
+    start_dt: 2013-10-22 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Holmes's The Red-Headed League
+    title: The Red-Headed League
+-   action: Read
+    action_key: R
+    author_short: Francis
+    description: ''
+    end_dt: 2013-10-26 00:00:00
+    ix: 259
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2013-10-24 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Francis's In the Frame
+    title: In the Frame
+-   action: Read
+    action_key: R
+    author_short: Laing
+    description: finally opening this amazing gift from Scott a long time ago
+    end_dt: 2013-11-04 00:00:00
+    ix: 264
+    kind: poems
+    location: 702S
+    quit: false
+    source: ''
+    start_dt: 2013-11-04 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Laing's Knots
+    title: Knots
+-   action: Read
+    action_key: R
+    author_short: Vonnegut
+    description: ''
+    end_dt: 2013-11-12 00:00:00
+    ix: 265
+    kind: null
+    location: 702S
+    quit: false
+    source: ''
+    start_dt: 2013-11-07 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Vonnegut's Cat's Cradle
+    title: Cat's Cradle
+-   action: Read
+    action_key: R
+    author_short: Geer
+    description: ''
+    end_dt: 2013-12-06 00:00:00
+    ix: 268
+    kind: script (first draft)
+    location: 702S
+    quit: false
+    source: ''
+    start_dt: 2013-12-06 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Geer's United States
+    title: United States
+'2014':
+-   action: Read
+    action_key: R
+    author_short: James
+    description: ''
+    end_dt: 2014-06-24 00:00:00
+    ix: 126
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2014-06-11 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: James's A Pluralistic Universe
+    title: A Pluralistic Universe
+-   action: Read
+    action_key: R
+    author_short: Silver
+    description: ''
+    end_dt: 2014-01-09 00:00:00
+    ix: 276
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2013-12-26 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Silver's The Signal and the Noise
+    title: The Signal and the Noise
+-   action: Read
+    action_key: R
+    author_short: null
+    description: not as bad as I'd thought it would be! /// getting worse...
+    end_dt: 2014-01-24 00:00:00
+    ix: 281
+    kind: null
+    location: 702S
+    quit: false
+    source: ''
+    start_dt: 2014-01-16 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Wr-stanley
+    title: Wr-stanley
+-   action: Read
+    action_key: R
+    author_short: Jung
+    description: read Jung's part only
+    end_dt: 2014-02-19 00:00:00
+    ix: 284
+    kind: null
+    location: Rob House
+    quit: true
+    source: ''
+    start_dt: 2014-02-02 00:00:00
+    subaction: ''
+    subaction_key: Q
+    subject: Jung's Man And His Symbols
+    title: Man And His Symbols
+-   action: Read
+    action_key: R
+    author_short: Knuth
+    description: ''
+    end_dt: null
+    ix: 287
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2014-02-09 00:00:00
+    subaction: ''
+    subaction_key: '1'
+    subject: Knuth's Surreal Numbers
+    title: Surreal Numbers
+-   action: Read
+    action_key: R
+    author_short: McLuhan
+    description: ''
+    end_dt: null
+    ix: 289
+    kind: null
+    location: 702S
+    quit: false
+    source: ''
+    start_dt: 2014-02-20 00:00:00
+    subaction: ''
+    subaction_key: '1'
+    subject: 'McLuhan''s Understanding Media: The Extensions of Man'
+    title: 'Understanding Media: The Extensions of Man'
+-   action: Read
+    action_key: R
+    author_short: Ballard
+    description: ''
+    end_dt: 2014-03-30 00:00:00
+    ix: 290
+    kind: null
+    location: Rob House
+    quit: false
+    source: ''
+    start_dt: 2014-02-22 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Ballard's Crash
+    title: Crash
+-   action: Read
+    action_key: R
+    author_short: Sacks
+    description: Jess reads me sections aloud
+    end_dt: 2014-03-17 00:00:00
+    ix: 292
+    kind: null
+    location: 702S
+    quit: false
+    source: ''
+    start_dt: 2014-03-17 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Sacks's The Man Who Mistook His Wife For a Hat
+    title: The Man Who Mistook His Wife For a Hat
+-   action: Read
+    action_key: R
+    author_short: Thompson
+    description: ''
+    end_dt: 2014-03-24 00:00:00
+    ix: 293
+    kind: null
+    location: 702S
+    quit: false
+    source: ''
+    start_dt: 2014-03-18 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Thompson's Smarter Than You Think
+    title: Smarter Than You Think
+-   action: Read
+    action_key: R
+    author_short: Clowes
+    description: ''
+    end_dt: 2014-04-03 00:00:00
+    ix: 296
+    kind: comic
+    location: Rob House
+    quit: false
+    source: ''
+    start_dt: 2014-03-26 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Clowes's Ghost World
+    title: Ghost World
+-   action: Read
+    action_key: R
+    author_short: Rieke and Warland
+    description: ''
+    end_dt: null
+    ix: 299
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2014-04-03 00:00:00
+    subaction: ''
+    subaction_key: '1'
+    subject: 'Rieke and Warland''s Spikes: Exploring the Neural Code'
+    title: 'Spikes: Exploring the Neural Code'
+-   action: Read
+    action_key: R
+    author_short: Casares
+    description: ''
+    end_dt: 2014-04-17 00:00:00
+    ix: 301
+    kind: null
+    location: Rob House
+    quit: false
+    source: ''
+    start_dt: 2014-04-16 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Casares's The Invention of Morel
+    title: The Invention of Morel
+-   action: Read
+    action_key: R
+    author_short: DeForge
+    description: ''
+    end_dt: 2014-04-17 00:00:00
+    ix: 303
+    kind: null
+    location: Farewell Books
+    quit: false
+    source: ''
+    start_dt: 2014-04-17 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: DeForge's Very Casual
+    title: Very Casual
+-   action: Read
+    action_key: R
+    author_short: O'Connor
+    description: ''
+    end_dt: 2014-04-30 00:00:00
+    ix: 304
+    kind: null
+    location: Rob House
+    quit: false
+    source: ''
+    start_dt: 2014-04-18 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: O'Connor's Wise Blood
+    title: Wise Blood
+-   action: Read
+    action_key: R
+    author_short: Gumbel
+    description: ''
+    end_dt: null
+    ix: 306
+    kind: null
+    location: Farewell Books
+    quit: false
+    source: ''
+    start_dt: 2014-04-25 00:00:00
+    subaction: ''
+    subaction_key: .
+    subject: Gumbel's Statistics of Extreme Values
+    title: Statistics of Extreme Values
+-   action: Read
+    action_key: R
+    author_short: Daniel
+    description: just a guess at start date--I think I'd opened before... /// so glad
+        I read all of this...it's awesome.
+    end_dt: 2014-05-13 00:00:00
+    ix: 309
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2014-05-01 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Daniel's Mostly True
+    title: Mostly True
+-   action: Read
+    action_key: R
+    author_short: Vandenbroucke
+    description: so clever and simple--great
+    end_dt: 2014-05-17 00:00:00
+    ix: 312
+    kind: graphic novel
+    location: Farewell Books
+    quit: false
+    source: ''
+    start_dt: 2014-05-17 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Vandenbroucke's White Cube
+    title: White Cube
+-   action: Read
+    action_key: R
+    author_short: Kundera
+    description: 'okay, I''ve heard enough references to this book lately: I need
+        to just read it /// I don''t care about this other couple at all...'
+    end_dt: 2014-05-21 00:00:00
+    ix: 313
+    kind: null
+    location: Rob House
+    quit: false
+    source: ''
+    start_dt: 2014-05-18 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Kundera's The Unbearable Lightness of Being
+    title: The Unbearable Lightness of Being
+-   action: Read
+    action_key: R
+    author_short: Lem
+    description: Alright, now this shit is good
+    end_dt: 2014-06-09 00:00:00
+    ix: 317
+    kind: null
+    location: Rob House
+    quit: false
+    source: ''
+    start_dt: 2014-05-26 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Lem's Return from the Stars
+    title: Return from the Stars
+-   action: Read
+    action_key: R
+    author_short: Dennett
+    description: resuming from where I left off
+    end_dt: 2014-11-08 00:00:00
+    ix: 322
+    kind: null
+    location: ''
+    quit: true
+    source: ''
+    start_dt: 2014-10-27 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Dennett's Consciousness Explained
+    title: Consciousness Explained
+-   action: Read
+    action_key: R
+    author_short: Porter
+    description: ''
+    end_dt: 2014-07-20 00:00:00
+    ix: 325
+    kind: null
+    location: Dancy House
+    quit: false
+    source: ''
+    start_dt: 2014-07-20 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Porter's Pale Horse, Pale Rider
+    title: Pale Horse, Pale Rider
+-   action: Read
+    action_key: R
+    author_short: Porter
+    description: ''
+    end_dt: 2014-07-24 00:00:00
+    ix: 326
+    kind: null
+    location: Rob House
+    quit: false
+    source: ''
+    start_dt: 2014-07-23 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Porter's Old Mortality
+    title: Old Mortality
+-   action: Read
+    action_key: R
+    author_short: Zinn
+    description: ''
+    end_dt: 2014-08-19 00:00:00
+    ix: 328
+    kind: null
+    location: ''
+    quit: true
+    source: ''
+    start_dt: 2014-07-26 00:00:00
+    subaction: ''
+    subaction_key: Q
+    subject: Zinn's A People's History of the United States
+    title: A People's History of the United States
+-   action: Read
+    action_key: R
+    author_short: Carson
+    description: ''
+    end_dt: 2014-09-06 00:00:00
+    ix: 330
+    kind: null
+    location: Rob House
+    quit: false
+    source: ''
+    start_dt: 2014-09-04 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Carson's The Autobiography of Red
+    title: The Autobiography of Red
+-   action: Read
+    action_key: R
+    author_short: Huxley
+    description: ''
+    end_dt: 2014-10-06 00:00:00
+    ix: 333
+    kind: null
+    location: ''
+    quit: true
+    source: ''
+    start_dt: 2014-09-08 00:00:00
+    subaction: ''
+    subaction_key: Q
+    subject: Huxley's Point Counter Point
+    title: Point Counter Point
+-   action: Read
+    action_key: R
+    author_short: Moynihan
+    description: ''
+    end_dt: 2014-09-09 00:00:00
+    ix: 334
+    kind: graphic novel
+    location: Farewell Books
+    quit: false
+    source: ''
+    start_dt: 2014-09-09 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Moynihan's Forming II
+    title: Forming II
+-   action: Read
+    action_key: R
+    author_short: Tufte
+    description: ''
+    end_dt: null
+    ix: 337
+    kind: null
+    location: Rob House
+    quit: false
+    source: ''
+    start_dt: 2014-10-07 00:00:00
+    subaction: ''
+    subaction_key: .
+    subject: Tufte's The Visual Display of Quantitative Information
+    title: The Visual Display of Quantitative Information
+-   action: Read
+    action_key: R
+    author_short: Brautigan
+    description: ''
+    end_dt: 2014-10-19 00:00:00
+    ix: 339
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2014-10-16 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Brautigan's In Watermelon Sugar
+    title: In Watermelon Sugar
+-   action: Read
+    action_key: R
+    author_short: Sacks
+    description: ''
+    end_dt: 2014-11-21 00:00:00
+    ix: 343
+    kind: null
+    location: ''
+    quit: false
+    source: ''
+    start_dt: 2014-11-14 00:00:00
+    subaction: ''
+    subaction_key: '2'
+    subject: Sacks's The Man Who Mistook His Wife For A Hat
+    title: The Man Who Mistook His Wife For A Hat
+-   action: Read
+    action_key: R
+    author_short: Mishima
+    description: ''
+    end_dt: 2014-11-22 00:00:00
+    ix: 345
+    kind: short story
+    location: Rob House
+    quit: false
+    source: ''
+    start_dt: 2014-11-22 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Mishima's "The Seven Bridges"
+    title: The Seven Bridges
+-   action: Read
+    action_key: R
+    author_short: Mishima
+    description: wow, awesome, because the last one was kinda shit; [written after
+        the book club:] the most interesting paradox raised for myself seems to be
+        how dying for an idea can feel both so empty and so beautiful
+    end_dt: 2014-11-25 00:00:00
+    ix: 346
+    kind: short story
+    location: Rob House
+    quit: false
+    source: ''
+    start_dt: 2014-11-25 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Mishima's "Patriotism"
+    title: Patriotism
+-   action: Read
+    action_key: R
+    author_short: Mishima
+    description: ''
+    end_dt: 2014-11-30 00:00:00
+    ix: 348
+    kind: short play
+    location: Rob House
+    quit: false
+    source: ''
+    start_dt: 2014-11-30 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Mishima's "Dojoji"
+    title: Dojoji
+-   action: Read
+    action_key: R
+    author_short: null
+    description: ''
+    end_dt: 2014-12-07 00:00:00
+    ix: 349
+    kind: ebook
+    location: Rob House
+    quit: false
+    source: http://neuralnetworksanddeeplearning.com/chap2.html
+    start_dt: 2014-12-07 00:00:00
+    subaction: ''
+    subaction_key: '0'
+    subject: Neural Networks and Deep Learning, Chapter 1
+    title: Neural Networks and Deep Learning, Chapter 1
+'2015':
+-   action: Read
+    action_key: R
     author_short: McMurtry
-    authors: Larry McMurtry
     description: 'pretty good (but sad) ending: 800 pages of loose ends to tie up,
         and it was done in a very depressing, fatalistic sort of way. I am happy to
         be done, but the book ended in a thoughtful way, which is strange because
         the whole rest of the book was entirely not thought-provoking.'
     end_dt: 2015-01-04 00:00:00
-    location: Rob House
+    ix: 347
+    kind: null
+    location: ''
     quit: false
-    review: ''
     source: ''
-    start_dt: null
+    start_dt: 2014-11-26 00:00:00
     subaction: ''
     subaction_key: '2'
     subject: McMurtry's Lonesome Dove
     title: Lonesome Dove
-    url: http://www.goodreads.com/book/show/256008.Lonesome_Dove
-    year: 1999
 -   action: Read
     action_key: R
-    api_source: goodreads
-    api_title: 'Surely You''re Joking, Mr. Feynman!: Adventures of a Curious Character'
     author_short: Feynman
-    authors: Richard P. Feynman
     description: ''
     end_dt: 2015-01-10 00:00:00
+    ix: 351
+    kind: null
     location: ''
     quit: false
-    review: ''
     source: ''
     start_dt: 2015-01-05 00:00:00
     subaction: ''
     subaction_key: '2'
     subject: Feynman's "Surely You're Joking, Mr. Feynman!"
     title: Surely You're Joking, Mr. Feynman!
-    url: http://www.goodreads.com/book/show/5544.Surely_You_re_Joking_Mr_Feynman_
-    year: 1997
 -   action: Read
     action_key: R
-    api_source: goodreads
-    api_title: 'Decoding the Universe: How the New Science of Information Is Explaining
-        Everything in the Cosmos, from Our Brains to Black Holes'
     author_short: Seife
-    authors: Charles Seife
     description: ''
     end_dt: 2015-01-17 00:00:00
+    ix: 353
+    kind: null
     location: ''
     quit: false
-    review: ''
     source: ''
     start_dt: 2015-01-11 00:00:00
     subaction: ''
     subaction_key: '2'
     subject: Seife's Decoding the Universe
     title: Decoding the Universe
-    url: http://www.goodreads.com/book/show/116623.Decoding_the_Universe
-    year: 2007
 -   action: Read
     action_key: R
-    api_source: goodreads
-    api_title: 'Everything and More: A Compact History of Infinity'
     author_short: Wallace
-    authors: David Foster Wallace
     description: ''
     end_dt: null
+    ix: 356
+    kind: null
     location: ''
     quit: false
-    review: ''
     source: ''
     start_dt: 2015-02-03 00:00:00
     subaction: ''
     subaction_key: '1'
     subject: 'Wallace''s Everything and More: A Compact History of Infinity'
     title: 'Everything and More: A Compact History of Infinity'
-    url: http://www.goodreads.com/book/show/821914.Everything_and_More
-    year: 2003
 -   action: Read
     action_key: R
-    api_source: goodreads
-    api_title: 'The Boy Who Was Raised as a Dog: And Other Stories from a Child Psychiatrist''s
-        Notebook--What Traumatized Children Can Teach Us About Loss, Love, and Healing'
     author_short: Perry
-    authors: Bruce D. Perry, Maia Szalavitz
     description: ''
     end_dt: null
+    ix: 357
+    kind: null
     location: ''
     quit: false
-    review: ''
     source: ''
     start_dt: 2015-02-03 00:00:00
     subaction: ''
     subaction_key: '1'
     subject: Perry's The Boy Who Was Raised as a Dog
     title: The Boy Who Was Raised as a Dog
-    url: http://www.goodreads.com/book/show/129909.The_Boy_Who_Was_Raised_as_a_Dog
-    year: 2007
 -   action: Read
     action_key: R
-    api_source: goodreads
-    api_title: The Woman in the Dunes
     author_short: Abe
-    authors: "K\u014Db\u014D Abe, E. Dale Saunders"
     description: started off kinda nicely, but quickly got kinda boring and endless
     end_dt: 2015-03-02 00:00:00
+    ix: 358
+    kind: null
     location: Rob House
     quit: false
-    review: ''
     source: ''
     start_dt: 2015-02-23 00:00:00
     subaction: ''
     subaction_key: '2'
     subject: Abe's "The Woman in the Dunes"
     title: The Woman in the Dunes
-    url: http://www.goodreads.com/book/show/9998.The_Woman_in_the_Dunes
-    year: 1991
 -   action: Read
     action_key: R
-    api_source: goodreads
-    api_title: Enquiry
     author_short: Francis
-    authors: Dick Francis
     description: ''
     end_dt: 2015-04-06 00:00:00
+    ix: 363
+    kind: null
     location: American Airlines
     quit: false
-    review: ''
     source: ''
     start_dt: 2015-03-31 00:00:00
     subaction: ''
     subaction_key: '2'
     subject: Francis's Enquiry
     title: Enquiry
-    url: http://www.goodreads.com/book/show/8558.Enquiry
-    year: 2000
 -   action: Read
     action_key: R
-    api_source: goodreads
-    api_title: The Passion According to G.H.
     author_short: Lispector
-    authors: Clarice Lispector, Ronald W. Sousa
     description: having trouble getting into it, but I got a little more so this time
-        at least...just a waste of time, really; it's like she had one or two ideas
+        at least /// just a waste of time, really; it's like she had one or two ideas
         and is now just dragging it out into absurdity. come on, lady...so goddamn
         boring.
     end_dt: 2015-04-20 00:00:00
+    ix: 365
+    kind: null
     location: ''
     quit: true
-    review: ''
     source: ''
     start_dt: 2015-04-09 00:00:00
     subaction: ''
     subaction_key: Q
     subject: Lispector's The Passion According to G.H.
+    tags:
+    - book-club
     title: The Passion According to G.H.
-    url: http://www.goodreads.com/book/show/153426.The_Passion_According_to_G_H_
-    year: 1988
 -   action: Read
     action_key: R
-    api_source: goodreads
-    api_title: 'Neuromancer (Sprawl, #1)'
     author_short: Gibson
-    authors: William Gibson
     description: ''
     end_dt: null
+    ix: 371
+    kind: null
     location: Rob House
     quit: false
-    review: ''
     source: ''
     start_dt: 2015-04-27 00:00:00
     subaction: ''
     subaction_key: .
     subject: Gibson's "Neuromancer"
     title: Neuromancer
-    url: http://www.goodreads.com/book/show/22328.Neuromancer
-    year: 1984

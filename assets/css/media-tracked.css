@@ -6,14 +6,14 @@
 .item-head {
 }
 
-.item-year {
-    font-size: 95%;
+.item-qualifier {
+    font-size: 90%;
 }
-
-.item-info {
-    margin-left: 1em;
-    font-size: 95%;
-    /*color: gray;*/
+.item-year {
+    font-size: 90%;
+}
+.item-author {
+    font-size: 90%;
 }
 
 .item-title {
@@ -27,7 +27,10 @@
 }
 
 .item-label {
-    font-weight: bold;
+    /*font-weight: bold;*/
+    color: gray;
+    font-size: 100%;
+    font-family: "Times New Roman", Georgia, Serif;
 }
 
 .btn-list {

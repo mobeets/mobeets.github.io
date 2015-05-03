@@ -30,19 +30,28 @@ js2: media-tracked
 {% for item in site.data %}
     {% if item[0] contains key %}
         {% capture name %}{{ item[0] | remove:key }}{% endcapture %}
-        <div id="tracked-{{ name }}-2015" class="tracked-{{ name }} all list-group">
-            <h2>{{ name | capitalize }}</h2>
-            <div class="items">
-            {% for item in item[1] reversed %}
+        {% for xs in item[1] reversed %}
+            <div id="tracked-{{ name }}-{{ xs[0] }}" class="tracked-{{ name }} all list-group">
+            <h2>{{ xs[0] }}</h2>
+            {% for item in xs[1] reversed %}
+                {% capture author %}{% if item.authors %}{{ item.authors }}{% else if item.author_short %}{{ item.author_short }}{% endif %}{% endcapture %}
+                {% capture qualifier %}{{ item.kind }}{% if item.kind and item.year %}, {% endif %}{{ item.year }}{% endcapture %}
                 <div class="media-item">
                     <div class="item-head">
-                        <span class="item-title">{{ item.title }}</span> 
-                        <span class="item-year">({{ item.year }})</span>
+                        <span class="item-title">{{ item.title }}</span>
+                        {% if qualifier != empty %}
+                        <span class="item-qualifier">[{{ qualifier }}]</span>
+                        {% endif %}
+                        {% if author != empty %}
+                        <span class="item-author"> by {{ author }}</span>
+                        {% endif %}
                     </div>
-                    <!--<div class="item-info">
-                        <span class="info"><a href="{{ item.url }}">(info)</a></span>
-                    </div>-->
                     <div class="item-opinion">
+                        {% if item.source and item.source != empty %}
+                        <!--<div class="info">
+                            <span class="item-label">info:</span> <a href="{{ item.source }}">(source)</a>
+                        </div>-->
+                        {% endif %}
                         {% if item.end_dt and item.end_dt != item.start_dt %}
                         <div class="date-read">
                             <span class="item-label">date:</span> {%if item.start_dt %}{{ item.start_dt | date: '%b %d, %Y' }} &ndash; {% endif %}{{ item.end_dt | date: '%b %d, %Y' }}{% if item.quit %} (quit){% endif %}
@@ -55,6 +64,21 @@ js2: media-tracked
                             {% endif %}
                         </div>
                         {% endif %}
+                        {% if item.people and item.people != empty %}
+                        <div class="people">
+                            <span class="item-label">with:</span> {{ item.people }}
+                        </div>
+                        {% endif %}
+                        {% if item.location and item.location != empty %}
+                        <div class="location">
+                            <span class="item-label">where:</span> {{ item.location }}
+                        </div>
+                        {% endif %}
+                        {% if item.tags and item.tags != empty %}
+                        <div class="tags">
+                            <span class="item-label">tags:</span> {{ item.tags | join:", " }}
+                        </div>
+                        {% endif %}
                         {% if item.rating %}
                         <div class="rating">
                             <span class="item-label">rating:</span> {{ item.rating }}
@@ -62,8 +86,8 @@ js2: media-tracked
                         {% endif %}
                         {% if item.description != empty %}
                         <div class="comments">
-                            <span class="item-label">comments:</span> {% if item.review != empty %}
-                            [full review <a href="{{ item.review }}">here</a>]
+                            <span class="item-label">comments:</span> {% if item.review and item.review != empty %}
+                            [full review <a href="{{ item.review[0] }}">here</a>]
                             {% endif %} {{ item.description }}
                         </div>
                         {% endif %}
@@ -71,7 +95,7 @@ js2: media-tracked
                 </div>
             {% endfor %}
             </div>
-        </div>
+        {% endfor %}
     {% endif %}
 {% endfor %}
 </div>
