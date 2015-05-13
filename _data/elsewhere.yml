@@ -39,8 +39,8 @@
             categ: "listed"
             date: "2015-05-03"
             key: "media-tracked"
-            name: "Media tracked"
-            url: ".html"
+            name: "Media Log"
+            url: "/medialog"
         -
             categ: "listed"
             date: "2014-12-31"
