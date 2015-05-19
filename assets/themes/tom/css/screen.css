@@ -292,6 +292,7 @@ ul.posts {
   text-decoration: none;
   /*width: 3em;*/
   text-align: center;
+  margin-top: 0.3em;
   margin-right: 0.3em;
   float: left;
 }
