@@ -36,6 +36,12 @@
 
     items:
         -
+            categ: "coded"
+            date: "2015-05-26"
+            key: "dr-strange-bot"
+            name: "@Dr_StrangeBot_"
+            url: ".html"
+        -
             categ: "listed"
             date: "2015-05-03"
             key: "media-tracked"
