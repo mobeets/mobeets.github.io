@@ -31,7 +31,7 @@ a:visited {
 }
 #post a[href^="http://"]:not([href*="{{ site.name_url }}.com"]):after,
 #post a[href^="https://"]:not([href*="{{ site.name_url }}.com"]):after {
-    content: "»";
+    /*content: "»";*/
     /*content: "⇑";*/
 }
 
