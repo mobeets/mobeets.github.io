@@ -157,12 +157,6 @@
             album: "Steppenwolf"
             year: 1927
 
-        -
-            pos: 7
-            artist: "Robin Sloan"
-            album: "Mr. Penumbra's 24-Hour Bookstore"
-            year: 2013
-
 2014:
     NOT_QUITE_BOOKS:
         -
@@ -228,3 +222,66 @@
             album: "Consciousness Explained"
             year: 1991
 
+2015:
+    BOOKS:
+        -
+            pos: 1
+            artist: "Robert Shea and Robert Anton Wilson"
+            album: "The Eye in the Pyramid (Illuminatus! Part 1)"
+            year: 1975
+        -
+            pos: 2
+            artist: "Karl Schroeder"
+            album: "Lady of Mazes"
+            year: 2005
+
+        -
+            pos: 3
+            artist: "Tobias Dantzig"
+            album: "Number: The Language of Science"
+            year: 1930
+
+        -
+            pos: 4
+            artist: "William Gibson"
+            album: "Neuromancer"
+            year: 1984
+
+        -
+            pos: 5
+            artist: "Anna Kavan"
+            album: "Ice"
+            year: 1967
+
+    NOT_QUITE_BOOKS:
+        -
+            pos: 1
+            artist: "Ian Bogost"
+            album: "The Cathedral of Computation [article]"
+            url: "http://www.theatlantic.com/technology/archive/2015/01/the-cathedral-of-computation/384300/"
+            year: 2015
+
+        -
+            pos: 2
+            artist: "Marcella Hazan"
+            album: "Essentials of Classic Italian Cooking [cookbook]"
+            year: 1994
+
+        -
+            pos: 3
+            artist: "Paul Ford"
+            album: "What is Code? [article]"
+            url: "http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/"
+            year: 2015
+
+        -
+            pos: 4
+            artist: "Randall Munroe"
+            album: "What If? [Q&A book]"
+            year: 2014
+
+        -
+            pos: 5
+            artist: "Malaclypse the Younger"
+            album: "Principia Discordia [religious text]"
+            year: 1965

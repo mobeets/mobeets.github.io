@@ -36,6 +36,18 @@
 
     items:
         -
+            categ: "listed"
+            date: "2015-12-30"
+            key: "seen-tried-tasted"
+            name: "Seen, Tried or Tasted"
+            url: ".html"
+        -
+            categ: "listed"
+            date: "2015-12-30"
+            key: "favorites"
+            name: "Favorites"
+            url: ".html"
+        -
             categ: "coded"
             date: "2015-05-26"
             key: "dr-strange-bot"
@@ -47,18 +59,6 @@
             key: "media-tracked"
             name: "Media Log"
             url: "/medialog"
-        -
-            categ: "listed"
-            date: "2014-12-31"
-            key: "seen-tried-tasted"
-            name: "Seen, Tried or Tasted"
-            url: ".html"
-        -
-            categ: "listed"
-            date: "2014-12-31"
-            key: "favorites"
-            name: "Favorites"
-            url: ".html"
         -
             categ: "coded"
             date: "2014-11-09"

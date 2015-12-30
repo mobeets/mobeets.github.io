@@ -676,4 +676,125 @@
             artist: "The Beach Boys"
             album: "Smiley Smile / Wild Honey"
             year: 1967
+2015:
+    new_releases:
+        -
+            pos: 1
+            artist: "Kendrick Lamar"
+            album: "To Pimp a Butterfly"
+            year: 2015
 
+        -
+            pos: 2
+            artist: "Unknown Mortal Orchestra"
+            album: "Multi-Love"
+            year: 2015
+
+        -
+            pos: 3
+            artist: "Panda Bear"
+            album: "Panda Bear Meets the Grim Reaper"
+            year: 2015
+
+        -
+            pos: 4
+            artist: "Vince Staples"
+            album: "Summertime '06"
+            year: 2015
+
+        -
+            pos: 5
+            artist: "Tame Impala"
+            album: "Currents"
+            year: 2015
+
+        -
+            pos: 6
+            artist: "Courtney Barnett"
+            album: "Sometimes I Sit and Think, and Sometimes I Just Sit"
+            year: 2015
+
+        -
+            pos: 7
+            artist: "The Eastern Sea"
+            album: "The Witness"
+            year: 2015
+
+        -
+            pos: 8
+            artist: "Kamasi Washington"
+            album: "The Message"
+            year: 2015
+
+        -
+            pos: 9
+            artist: "J Fernandez"
+            album: "Many Levels of Laughter"
+            year: 2015
+
+        -
+            pos: 10
+            artist: "Dick Diver"
+            album: "Melbourne, Florida"
+            year: 2015
+
+    old_releases:
+        -
+            pos: 1
+            artist: "John Cale"
+            album: "Vintage Violence"
+            year: 1974
+
+        -
+            pos: 2
+            artist: "Unknown Mortal Orchestra"
+            album: "II"
+            year: 2005
+
+        -
+            pos: 3
+            artist: "Can"
+            album: "Future Days"
+            year: 1973
+
+        -
+            pos: 4
+            artist: "Ezra Furman"
+            album: "Day of the Dog"
+            year: 2013
+
+        -
+            pos: 5
+            artist: "Angel Olsen"
+            album: "Burn Your Fire For No Witness"
+            year: 2014
+
+        -
+            pos: 6
+            artist: "Broadcast"
+            album: "The Noise Made By People"
+            year: 2000
+
+        -
+            pos: 7
+            artist: "Sam Prekop"
+            album: "Who's Your New Professor"
+            year: 2005
+
+        -
+            pos: 8
+            artist: "Can"
+            album: "Monster Movie"
+            year: 1969
+
+        -
+            pos: 9
+            artist: "Unknown Mortal Orchestra"
+            album: "Unknown Mortal Orchestra"
+            year: 2011
+
+        -
+            pos: 10
+            artist: "Brian Eno"
+            album: "Apollo"
+            year: 1983

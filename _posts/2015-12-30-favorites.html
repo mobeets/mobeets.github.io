@@ -17,6 +17,7 @@ js2: favorites
         <div class="btn btn-list" data-list="misc">Others</div>
     </div><br>
     <div class="btn-menu">
+        <div class="btn btn-year" data-year="2015">2015</div>
         <div class="btn btn-year" data-year="2014">2014</div>
         <div class="btn btn-year" data-year="2013">2013</div>
         <div class="btn btn-year" data-year="2012">2012</div>
@@ -27,7 +28,7 @@ js2: favorites
         <div class="btn btn-year" data-year="2007">2007</div>
     </div><br>
     <div class="btn-menu">
-        <div class="btn btn-img" data-toggle="">Show images</div>
+        <div class="btn btn-img" data-toggle="">Hide images</div>
     </div><br>
     {% assign baseurl = "http://www.jehosafet.com/cover-art" %}
     {% for year in site.data.albums %}
@@ -68,11 +69,11 @@ js2: favorites
             <h2>{{yr}} Reads</h2>
             <div class="books">                
                 {% if site.data.books[yr].BOOKS.size > 0 %}
-                    <h3>More like books</h3>
+                    <h3>Books</h3>
                     <ol>
                     {% for item in site.data.books[yr].BOOKS %}
                         {% capture itemname %}{% if item.artist %}{{ item.artist }} - {% endif %}{{ item.album }}{% endcapture %}
-                        {% capture itemurl %}{{itemname | replace:':','_' | split:" [" | first }}{% endcapture %}
+                        {% capture itemurl %}{{itemname | replace:':','_' | replace:'?','_' | split:" [" | first }}{% endcapture %}
                         <li>{% if item.artist %}{{ item.artist }} - {% endif %}<i>{{ item.album }}</i> ({{ item.year }}){% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
                         <img class="list-img book-img" src="{{ baseurl }}/books/{{ itemurl }}.jpeg"></img>
                     {% endfor %}
@@ -81,11 +82,11 @@ js2: favorites
             </div>
             <div class="not-books">
                 {% if site.data.books[yr].NOT_QUITE_BOOKS.size > 0 %}
-                    <h3>Less like books</h3>
+                    <h3>Not exactly books</h3>
                     <ol>
                     {% for item in site.data.books[yr].NOT_QUITE_BOOKS %}
                         {% capture itemname %}{% if item.artist %}{{ item.artist }} - {% endif %}{{ item.album }}{% endcapture %}
-                        {% capture itemurl %}{{itemname | replace:':','_' | split:" [" | first }}{% endcapture %}
+                        {% capture itemurl %}{{itemname | replace:':','_' | replace:'?','_' | split:" [" | first }}{% endcapture %}
                         <li>{% if item.artist %}{{ item.artist }} - {% endif %}<i>{{ item.album }}</i> ({{ item.year }}){% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
                         <img class="list-img book-img" src="{{ baseurl }}/books/{{ itemurl }}.jpeg"></img>
                     {% endfor %}
