@@ -14,7 +14,7 @@ js2: seen-tried-tasted
     <div class="btn btn-year" data-year="2013">2013</div>
 </div>
 <div id="inner" class="cur">
-    {% for year in site.data.misc %}
+    {% for year in site.data.misc reversed %}
     {% assign yr = year[0] %}
     <div id="misc-{{ yr }}" class="item-icons list-group">
         <div class="item cur-title">

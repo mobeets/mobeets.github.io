@@ -31,7 +31,7 @@ js2: favorites
         <div class="btn btn-img" data-toggle="">Hide images</div>
     </div><br>
     {% assign baseurl = "http://www.jehosafet.com/cover-art" %}
-    {% for year in site.data.albums %}
+    {% for year in site.data.albums reversed %}
         {% assign yr = year[0] %}
         <div id="music-{{yr}}" class="music all list-group">
             <h2>{{yr}} Listens</h2>
@@ -63,7 +63,7 @@ js2: favorites
             </div>
         </div>
     {% endfor %}
-    {% for year in site.data.books %}
+    {% for year in site.data.books reversed %}
         {% assign yr = year[0] %}
         <div id="books-{{yr}}" class="books all list-group">
             <h2>{{yr}} Reads</h2>
