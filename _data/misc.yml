@@ -354,7 +354,7 @@
             <p>
                 Did you know that the most delicious <a href="http://cooking.nytimes.com/recipes/1015178-marcella-hazans-tomato-sauce">pasta sauce</a> you can make requires only an onion, a can of whole tomatoes, and half a stick of butter? Or that chickpea soup could be delicious? That making carbonara is easy? I totally agree with the author of Marcella Hazan's <a href="http://www.newyorker.com/culture/culture-desk/marcella-hazan-changed-my-life">obituary</a> in The New Yorker: Marcella Hazan changed my life--she's teaching me how to cook.
             </p>
-        type: "cookbook"
+        type: "recipes"
         url: "http://amzn.com/039458404X"
         img: "hazan.png"
     -
