@@ -36,6 +36,12 @@
 
     items:
         -
+            categ: "coded"
+            date: "2016-04-06"
+            key: "bpcs"
+            name: "Steganography (BPCS)"
+            url: "/bpcs"
+        -
             categ: "listed"
             date: "2015-12-30"
             key: "seen-tried-tasted"
