@@ -79,6 +79,7 @@ h1 a:hover {
   color: black;
 }
 #bar-title {
+  font-size: 120%;
   float: left;
   font-weight: bold;
   text-transform: uppercase;
