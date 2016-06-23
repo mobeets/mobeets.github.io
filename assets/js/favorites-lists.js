@@ -70,10 +70,10 @@ function toggle_images() {
 }
 
 function makeUpdateUrl_1(list, year) {
-    return "/listed/seen-tried-tasted/#year=" + year;
+    return "/listed/seen-tried-tasted#year=" + year;
 }
 function makeUpdateUrl_2(list, year) {
-    return "/listed/favorites/#year=" + year + "&list=" + list;
+    return "/listed/favorites#year=" + year + "&list=" + list;
 }
 
 function update_year() {
