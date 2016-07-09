@@ -40,7 +40,7 @@
             date: "2016-07-09"
             key: "correrater"
             name: "Movie Correrater"
-            url: "http://correrater.herokuapp.com/"
+            url: "/correrater"
         -
             categ: "coded"
             date: "2016-04-06"
