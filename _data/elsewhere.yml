@@ -37,6 +37,12 @@
     items:
         -
             categ: "coded"
+            date: "2016-07-19"
+            key: "diced-onion-bot"
+            name: "@DicedOnionBot"
+            url: ".html"
+        -
+            categ: "coded"
             date: "2016-07-09"
             key: "correrater"
             name: "Movie Correrater"
