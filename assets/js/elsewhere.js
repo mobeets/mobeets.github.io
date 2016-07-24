@@ -1,47 +1,60 @@
-function onKeyDown(event) {
-    if(event.which == 83) { // 's' 83
-        $('#stars').toggle();
-    }
-    else if(event.which == 67) { // 'c' 67
-        window.location.href = "/colophon.html";
+function initEscapePad() {
+    $('#escapepad').click(function () {
+        justHid = false;
+        if ( $('#escapepad-label').is(':visible') ){ 
+            $('#escapepad-label').hide();
+            $('#escapepad-open').hide();
+            $('#escapepad-close').show();
+            justHid = true;
+        }
+        $('#contacts').toggle('slide', { direction: 'right' }, 400, function () {
+            if ( !justHid ){
+                $('#escapepad-label').show();
+                $('#escapepad-open').show();
+                $('#escapepad-close').hide();
+            }
+        });
+    });
+}
+
+
+function filterItemsByVal(filterVal) {
+    if(filterVal == 'all') {
+        $('.items a.hidden').fadeIn('fast').removeClass('hidden');
+    } else {
+        $('.items a').each(function() {            
+            if(!$(this).hasClass('group-' + filterVal)) {
+                $(this).fadeOut('fast').addClass('hidden');
+            } else {
+                $(this).fadeIn('fast').removeClass('hidden');
+            }
+        });
     }
 }
 
-function init() {
-
-    $('.icon-set a').hover(
-        function(event){
-            $(event.target).siblings('.icon-img').addClass('icon-img-select');
-            $(event.target).siblings('.icon-description').addClass('icon-desc-select');
-        },
-        function(event){
-            $(event.target).siblings('.icon-img').removeClass('icon-img-select');
-            $(event.target).siblings('.icon-description').removeClass('icon-desc-select');
-    });
-
-    $('.els-filter li').click(function() {
-        $('.els-filter li.current').removeClass('current');
-        $(this).addClass('current');
-        
-        var filterVal = $(this).text().toLowerCase().replace(' ','-'); // only works for one space, I think
-                
-        if(filterVal == 'all') {
-            $('.icon-set.hidden').fadeIn('fast').removeClass('hidden');
-        } else {
-            $('.icon-set').each(function() {
-                if(!$(this).hasClass('els-' + filterVal)) {
-                    $(this).fadeOut('fast').addClass('hidden');
-                } else {
-                    $(this).fadeIn('fast').removeClass('hidden');
-                }
-            });
-        }
-        
-        return false;
-    });
-
-    $(document).keydown(onKeyDown);
+function filterItems() {
+    $('.nav a.active').removeClass('active');
+    $(this).addClass('active');
     
+    // only works for one space, I think
+    var filterVal = $(this).text().toLowerCase().replace(' ','-');
+    filterItemsByVal(filterVal);
+}
+
+function filterItemsFromHash() {
+    filterVal = window.location.hash.substring(1);
+    $('.nav a.active').removeClass('active');
+    cur = $('.nav a:contains("' + filterVal + '")');
+    cur.addClass('active');
+    filterItemsByVal(filterVal);
+}
+
+function init() {
+    initEscapePad();
+    $('.nav a').click(filterItems);
+    if(window.location.hash) {
+        filterItemsFromHash();
+    }
 }
 
 $(document).ready(init);

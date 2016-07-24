@@ -21,38 +21,35 @@ css: elsewhere-styles
     <span id="escapepad-close">»</span>
   </div>
 </div>
-<div class="menu">
-  <h1><a href="{{ HOME_PATH }}">{{ site.title }}</a></h1>
+
+<h1><a href="{{ HOME_PATH }}">{{ site.title }}</a></h1>
+<div class="nav">
+    <ul>
+        <li><a href="#all" class="active">all</a></li>
+        {% for categ in site.data.elsewhere.categs %}
+        <li><a href="#{{ categ }}">{{ categ }}</a></li>
+        {% endfor %}
+    </ul>
 </div>
 
-<ul id="home-filter" class="els-filter">
-    <li class="current">ALL</li>
-    {% for categ in site.data.elsewhere.categs %}
-    <li>{{ categ }}</li>
-    {% endfor %}
-</ul>
-
-<div id="els-items">
-{% for item in site.data.elsewhere.items %}
-{% if site.data.elsewhere.hiddens contains item.key %}
-{% else %}
-  <div id="icon-{{ forloop.index }}" class="icon-set els-{{ item.categ }}">
-    {% if item.url contains 'http://' or item.url contains 'https://' %}
-    <a href="{{ item.url }}"></a>
+<div class="items">
+  {% for item in site.data.elsewhere.items %}
+  {% if item.url contains 'http://' or item.url contains 'https://' %}
+    {% capture item_url %}{{ item.url }}{% endcapture %}
     {% elsif item.url contains '.' %}
-    {% capture full_url %}/{{ item.categ }}/{{item.key}}{% endcapture %}
-    <a href="{{ full_url }}"></a>
+    {% capture item_url %}/{{ item.categ }}/{{item.key}}{% endcapture %}
     {% else %}
-    <a href="{{ item.url }}"></a>
-    {% endif %}
-    <span class="icon-date">{{ item.date }}</span>
-    <img src="/assets/images/elsewhere-icons/{{ item.key }}.png" class="icon-img"/>
-    <span class="icon-description">{{ item.name }}</span>
-  </div>
-{% endif %}
+    {% capture item_url %}{{ item.url }}{% endcapture %}
+  {% endif %}
+  {% if site.data.elsewhere.hiddens contains item.key %}
+  {% else %}
+    <a href="{{ item_url }}" class="group-{{ item.categ }}">
+        <div class="item group-{{ item.categ }}">
+            <img src="/assets/images/elsewhere-icons/{{ item.key }}.png" class="icon-img"/>
+            <div class="item-name">{{ item.name }}</div>
+        </div>
+    </a>
+  {% endif %}
 {% endfor %}
 </div>
 
-<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.9/paper.js" ></script> -->
-<!-- <script type="text/paperscript" src="/assets/js/stars.js" canvas="stars"></script> -->
-<!-- <canvas id="stars" resize></canvas> -->

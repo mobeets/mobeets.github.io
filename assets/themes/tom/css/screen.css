@@ -160,7 +160,7 @@ ul.posts {
 .site {
   background-color: white;
   text-align: justify;
-  width: 95%;
+  /*width: 95%;*/
   max-width: 45em;
   line-height: 1.5em;
   margin: 0 auto;
@@ -175,8 +175,6 @@ ul.posts {
 
 .content {
   overflow: hidden;
-  /*padding-left: 3%;*/
-  /*padding-right: 3%;*/
   padding-bottom: 2%;
   margin: 0 auto;
   width: 85%;
