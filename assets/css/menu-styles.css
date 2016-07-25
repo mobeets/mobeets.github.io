@@ -22,6 +22,18 @@
   cursor: pointer; cursor: hand;
 }
 
+
+#about-link a {
+    font-size: 80%;
+    text-decoration: none;
+    font-family: 'Inconsolata', serif;
+    /*text-transform: uppercase;*/
+    color: gray;
+    float: right;
+    margin-right: 5px;
+    padding-bottom: 15px;
+}
+
 #escapepad {
     font-family: 'Inconsolata', serif;
     text-transform: uppercase;
