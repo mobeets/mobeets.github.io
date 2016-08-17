@@ -1,0 +1,53 @@
+---
+layout: post
+title: "Autocookie"
+description: ""
+category: coded
+tags: []
+---
+{% include JB/setup %}
+
+<a href="http://www.jehosafet.com/autocookie">Autocookie</a> is a web app for generating new recipes. Currently it focuses on cookie recipes but you can <a href="https://github.com/mobeets/autocookie">add</a> different types of recipes yourself.
+
+<p>
+<h4>Why?</h4>
+I used to hate following recipes while baking. Then at some point I realized how much better things tasted when I did. Becoming even more of a conformist, I came to believe that the best ever recipe for chocolate chip cookies was printed on the back of the Toll House chocolate chips package. (I might still believe that.)
+</p>
+<p>
+And then I saw <a href="http://sweets.seriouseats.com/2013/12/the-food-lab-the-best-chocolate-chip-cookies.html">Kenji's brilliant break-down</a> of how different ingredients affect cookie attributes. Such a brute-force effort fascinated me, and I made <a href="http://www.jehosafet.com/cookies">this</a> app to summarize his findings for quick reference. But still, I didn't improvise when I made cookies. Instead, I made the same exact cookies every single time.
+</p>
+<p>
+Why? Because I'm not like Kenji: I would never bake something over and over again and manually note the effects of changing the proportions between flour and baking soda. I wanted something automatic&mdash;something that could tell me how much of an ingredient I could add to or subtract from a recipe before things would start to taste wrong.
+</p>
+<p>
+<h4>So what's an Autocookie?</h4>
+Autocookie collects a bunch of recipes for the same type of food&mdash;chocolate chip cookies, to start&mdash;and finds the range of acceptable ingredient ratios. To continue my flour and baking soda example, if one recipe called for 2 cups of flour and 1 tsp of baking soda, that's a ratio of 2.0 cups/tsp. If another recipe called for 1.5 cups of flour and 2 tsp of baking soda, that's a ratio of 0.75 cups/tsp. All Autocookie does, then, is suggest proportions of baking soda and flour that stay within this range of 0.75-2.0 cups/tsp. Just expand this same idea to all ingredient combinations, across multiple recipes.
+</p>
+<p>
+<h4>Future work</h4>
+Given the messiness of recipe databases, I ended up parsing my recipe ingredient lists myself. I tried the NYTimes's <a href="https://github.com/NYTimes/ingredient-phrase-tagger">ingredient phrase tagger</a>, but in my case, because I was focused on a specific type of recipes&mdash;cookies&mdash;it ended up being easier to just roll my own ingredients parser.
+</p>
+<p>
+Though my recipe parsing is automated I decided to aim for quality over quantity (for once) and only include recipes I've sanity-checked. However, this app could be easily modified to include different types of recipes. For instructions on this, see the README <a href="https://github.com/mobeets/autocookie">here</a>. To get the recipes themselves, you'll need access to the Yummly <a href="https://developer.yummly.com">recipe API</a>. (This is free and simple, if you're a student.)
+</p>
+<p>
+One thing I've learned from working with recipe data is that there's a lot of redundancy out there. The difference between the Hershey's and Toll House chocolate chip cookie recipes, for example, is literally only 1/2 a teaspoon of salt. In a world where anyone can change ingredients by 1/2 a teaspoon and call it a new recipe, someone's got to step up and summarize all this data. A visualization like Autocookie is a start.
+</p>
+<p>
+Some other things I would like to add in the future:
+<ul>
+<li>Better unit conversion (e.g., things like "3 tsp" should be "1 Tbsp")</li>
+<li>Add/remove ingredients (my current code is too janky to support this)</li>
+<li>A way to scale outputs for different serving sizes</li>
+</ul>
+</p>
+<p>
+<h4>Related work</h4>
+<ul>
+<li><a href="https://www.ibmchefwatson.com">Chef Watson</a> (IBM): Suggests ingredient pairings but not quantities.</li>
+<li><a href="http://www.cookingforengineers.com/article/309/Michael-Ohenes-Cookie-Recipe-Generator">Michael Ohene</a>'s cookie generators: <a href="http://www.whatsthesequency.com/cookieaab2.php">This</a> one is paywalled; <a href="http://www.easierbaking.com/">this</a> one is not.</li>
+<li><a href="https://github.com/kkelk/MeanRecipes">This</a> project generates an average of all related recipes.</li>
+</ul>
+</p>
+Autocookie was completed on August 17, 2016.
+
