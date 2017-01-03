@@ -285,3 +285,60 @@
             artist: "Malaclypse the Younger"
             album: "Principia Discordia [religious text]"
             year: 1965
+2016:
+    BOOKS:    
+        -
+            pos: 1
+            artist: "Malcolm X and Alex Haley"
+            album: "The Autobiography of Malcolm X"
+            year: 1965
+        -
+            pos: 2
+            artist: "Ben Lerner"
+            album: "10:04"
+            year: 2014
+        -
+            pos: 3
+            artist: "Hermann Hesse"
+            album: "The Journey to the East"
+            year: 1932
+        -
+            pos: 4
+            artist: "William Sloane"
+            album: "To Walk the Night"
+            year: 1937
+        -
+            pos: 5
+            artist: "Ta-Nahesi Coates"
+            album: "Between the World and Me"
+            year: 2015
+    NOT_QUITE_BOOKS:
+        -
+            pos: 1
+            artist: "Jeffrey Goldberg"
+            album: "The Obama Doctrine [article]"
+            year: 2016
+            url: "http://www.theatlantic.com/magazine/archive/2016/04/the-obama-doctrine/471525/"
+        -
+            pos: 2
+            artist: "Joe Sacco"
+            album: "Journalism [graphic novel]"
+            year: 2012
+        -
+            pos: 3
+            artist: "Michael DeForge"
+            album: "Big Kids [graphic novel]"
+            year: 2016
+            url: 
+        -
+            pos: 4
+            artist: "Tim Urban"
+            album: "The Tail End [blog post]"
+            year: 2015
+            url: "http://waitbutwhy.com/2015/12/the-tail-end.html"
+        -
+            pos: 5
+            artist: Spottiswoode et al.
+            album: "Reciprocal signaling in honeyguide-human mutualism [journal article]"
+            year: 2016
+            url: "https://doi.org/10.1126/science.aaf4885"

@@ -5,14 +5,6 @@ Array.prototype.exists = function (x) {
     return false;
 }
 
-// var years = new Array();
-// years['books'] = [2012, 2013, 2014];
-// years['music'] = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014];
-// years['all'] = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014];
-// years['misc'] = [2013, 2014];
-// var year = 2014;
-// var list = 'all';
-
 function set_default() {
     var lochash = location.hash.substr(1);
     var setyear = lochash.substr(lochash.indexOf('year='))

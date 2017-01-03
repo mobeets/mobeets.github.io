@@ -7,7 +7,7 @@ css: about
 {% include JB/setup %}
 <br>
 <img id="profile" src="assets/images/self.png" style=""/>
-I am a PhD student in [Neural Computation](http://www.cnbc.cmu.edu/pnc) at Carnegie Mellon University, where I use techniques from statistics and machine learning to study the relationship between neural populations and behavior. My advisors are [Byron Yu](https://users.ece.cmu.edu/~byronyu/) and [Steve Chase](http://www.cnbc.cmu.edu/~schase/index.php).
+I am a PhD student in [Neural Computation](http://www.cnbc.cmu.edu/pnc) and Machine Learning at Carnegie Mellon University. I am interested in using techniques from statistics and machine learning to study the relationship between neural population activity and behavior. My advisors are [Byron Yu](https://users.ece.cmu.edu/~byronyu/) and [Steve Chase](http://www.cnbc.cmu.edu/~schase/index.php).
 
 You can find my CV [here](/assets/pdf/JayHennig-CV.pdf), or send me an email at <img src="/assets/images/email.png" style="width: 25%;"/>.
 

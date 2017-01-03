@@ -798,3 +798,106 @@
             artist: "Brian Eno"
             album: "Apollo"
             year: 1983
+2016:
+    new_releases:
+        -    
+            pos: 1
+            artist: "Radiohead"
+            album: "A Moon Shaped Pool"
+            year: 2016
+        -    
+            pos: 2
+            artist: "Angel Olsen"
+            album: "My Woman"
+            year: 2016
+        -    
+            pos: 3
+            artist: "Dr. Dog"
+            album: "The Psychedelic Swamp"
+            year: 2016
+        -    
+            pos: 4
+            artist: "Redspencer"
+            album: "Perks"
+            year: 2016
+        -    
+            pos: 5
+            artist: "Car Seat Headrest"
+            album: "Teens of Denial"
+            year: 2016
+        -    
+            pos: 6
+            artist: "A Tribe Called Quest"
+            album: "We got it from Here... Thank You 4 Your service"
+            year: 2016
+        -    
+            pos: 7
+            artist: "Solange"
+            album: "A Seat at the Table"
+            year: 2016
+        -    
+            pos: 8
+            artist: "Homeboy Sandman"
+            album: "Kindness for Weakness"
+            year: 2016
+        -    
+            pos: 9
+            artist: "Animal Collective"
+            album: "Painting With"
+            year: 2016
+        -    
+            pos: 10
+            artist: "Beyoncé"
+            album: "Lemonade"
+            year: 2016
+    old_releases:
+        -
+            pos: 1
+            artist: "J. Cole"
+            album: "Born Sinner"
+            year: 2013
+        -
+            pos: 2
+            artist: "Joey Badass"
+            album: "1999"
+            year: 2012
+        -
+            pos: 3
+            artist: "Aphex Twin"
+            album: "Selected Ambient Works Volume II"
+            year: 1994
+        -
+            pos: 4
+            artist: "The Modern Lovers"
+            album: "Modern Lovers 'Live'"
+            year: 1978
+        -
+            pos: 5
+            artist: "Neil Young"
+            album: "Tonight's the Night"
+            year: 1975
+        -
+            pos: 6
+            artist: "Viet Cong"
+            album: "Viet Cong"
+            year: 2015
+        -
+            pos: 7
+            artist: "J. Cole"
+            album: "2014 Forest Hills Drive"
+            year: 2014
+        -
+            pos: 8
+            artist: "Gang of Four"
+            album: "Entertainment!"
+            year: 1979
+        -
+            pos: 9
+            artist: "T. Rex"
+            album: "Electric Warrior"
+            year: 1971
+        -
+            pos: 10
+            artist: "Fripp & Eno"
+            album: "Evening Star"
+            year: 1975

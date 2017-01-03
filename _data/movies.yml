@@ -1,0 +1,51 @@
+2016:
+    -    
+        pos: 1
+        artist: "David Cronenberg"
+        album: "Scanners"
+        year: 1981
+    -    
+        pos: 2
+        artist: "John Carpenter"
+        album: "The Thing"
+        year: 1982
+    -    
+        pos: 3
+        artist: "Hal Hartley"
+        album: "Trust"
+        year: 1990
+    -    
+        pos: 4
+        artist: "Zhang Yimou"
+        album: "Hero"
+        year: 2002
+    -    
+        pos: 5
+        artist: "Sean McAllister"
+        album: "A Syrian Love Story"
+        year: 2015
+    -    
+        pos: 6
+        artist: "Richard Linklater"
+        album: "Dazed and Confused"
+        year: 1993
+    -    
+        pos: 7
+        artist: "Don Hertzfeldt"
+        album: "It's Such a Beautiful Day"
+        year: 2012
+    -    
+        pos: 8
+        artist: "Park Chan-wook"
+        album: "Joint Security Area"
+        year: 2005
+    -    
+        pos: 9
+        artist: "Park Chan-wook"
+        album: "Oldboy"
+        year: 2003
+    -    
+        pos: 10
+        artist: "Rachel Lang"
+        album: "Baden Baden"
+        year: 2016

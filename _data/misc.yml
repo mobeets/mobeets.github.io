@@ -352,7 +352,7 @@
         name: "Marcella Hazan"
         description: |
             <p>
-                Did you know that the most delicious <a href="http://cooking.nytimes.com/recipes/1015178-marcella-hazans-tomato-sauce">pasta sauce</a> you can make requires only an onion, a can of whole tomatoes, and half a stick of butter? Or that chickpea soup could be delicious? That making carbonara is easy? I totally agree with the author of Marcella Hazan's <a href="http://www.newyorker.com/culture/culture-desk/marcella-hazan-changed-my-life">obituary</a> in The New Yorker: Marcella Hazan changed my life--she's teaching me how to cook.
+                I had no idea that the most delicious <a href="http://cooking.nytimes.com/recipes/1015178-marcella-hazans-tomato-sauce">pasta sauce</a> you can make requires only an onion, a can of whole tomatoes, and half a stick of butter. Or that chickpea soup could be delicious. That making carbonara is easy. I totally agree with the author of Marcella Hazan's <a href="http://www.newyorker.com/culture/culture-desk/marcella-hazan-changed-my-life">obituary</a> in The New Yorker: Marcella Hazan's recipes teach me how to cook.
             </p>
         type: "recipes"
         url: "http://amzn.com/039458404X"
@@ -502,3 +502,157 @@
         type: "film"
         url: "https://youtu.be/vXr-2hwTk58"
         img: "aaron.png"
+2016:
+    -
+        pos: 1
+        name: "Arturia Beatstep Pro"
+        description: |
+            <p>
+                I've never had so much fun making music. The Beatstep Pro is basically three sequencers combined, so you can make full songs with drums, bass, and a synth, for example. Better yet, the design and controls on this thing are so elegant that it's basically like you have a DAW without ever needing to touch your computer. This is the first time for me that playing electronic music actually feels like playing an instrument.
+            </p>
+        type: "instrument"
+        url: ""
+        img: "beatstep.png"
+    -
+        pos: 2
+        name: "Rick and Morty"
+        description: |
+            <p>
+                I've watched other cartoons like <i>Adventure Time</i>, <i>Steven Universe</i>, and <i>Futurama</i>, and found them fun but never really that fulfilling. But <i>Rick and Morty</i> is different. It's just so clever! When I'm not laughing, I'm mostly just thinking 'Wow, what a cool idea.'
+            </p>
+        type: "TV series"
+        url: ""
+        img: "rick-and-morty.png"
+    -
+        pos: 3
+        name: "Kottke"
+        description: |
+            <p>
+                At some point I realized that Facebook had become my main source for finding new videos and articles. But I quickly realized I'm much better off skipping the news feed entirely and finding places with more curated content. Kottke's posts are now 90% of my source of online entertainment. Mostly anything fun/amusing/interesting I come across online these days comes from here.
+            </p>
+        type: "blog"
+        url: "http://kottke.org/"
+        img: "kottke.png"
+    -
+        pos: 4
+        name: "Gordon Ramsay's scrambled eggs"
+        description: |
+            <br><iframe width="560" height="315" src="https://www.youtube.com/embed/PUP7U5vTMM0" frameborder="0" allowfullscreen></iframe>
+            <p>
+                This is the only way I'll ever make scrambled eggs again. Also, I've never had any opinions about Gordon Ramsay before, but something about his behavior in this video is just hypnotizing.
+            </p>
+        type: "video/recipe"
+        url: "https://www.youtube.com/watch?v=PUP7U5vTMM0"
+        img: "ramsay.png"
+    -
+        pos: 5
+        name: "Beyonce's Lemonade"
+        description: |
+            <p>
+                I've never been a big Beyoncé fan, but this film got me. It's worth pointing out that I'm always a sucker for stories like this, but I totally bought into the whole concept of this album as if it were 100% true. Clearly it's not, but in any case the emotions felt so raw and sincere that I don't think it really matters either way.
+            </p>
+        type: "film"
+        url: ""
+        img: "lemonade.png"
+    -
+        pos: 6
+        name: "The Modern Lovers's The Morning Of Our Lives"
+        description: |
+            <br><iframe width="560" height="315" src="https://www.youtube.com/embed/AbUYJfbZ-Qc" frameborder="0" allowfullscreen></iframe>
+            <p>
+                It's hard to beat the feeling of discovering a beautiful song by a band you thought you'd already heard everything by. I found this song from a submission to Laura Olin's newsletter <a href="https://theawl.com/newsletter-83b47d181923#.kvnbdc5wk">Everything Changes</a>, as something to listen to <a href="https://docs.google.com/spreadsheets/d/13tQ8-bUoICO3ziweml5bWs4coHvxh4FkXcw3r0I0Qno/edit#gid=2108571733">when you feel sad</a>.
+            </p>
+        type: "song"
+        url: "https://www.youtube.com/watch?v=AbUYJfbZ-Qc"
+        img: "modern-lovers.png"
+    -
+        pos: 7
+        name: "beer bread"
+        description: |
+            <p>
+                If I'm lucky, by the time I'm 50 I'll have a deep catalog of simple-but-amazingly-delicious recipes like this one. One of the few times when searching for 'best X recipe' actually gets you a useful answer.
+            </p>
+        type: "recipe"
+        url: "http://www.food.com/recipe/beer-bread-73440"
+        img: "beer-bread.png"
+    -
+        pos: 8
+        name: "Stranger Things"
+        description: |
+            <p>
+                First TV show I've felt strongly about in a very long time.
+            </p>
+        type: "TV series"
+        url: ""
+        img: "stranger-things.png"
+    -
+        pos: 9
+        name: "Dominion"
+        description: |
+            <p>
+                A card game in which you build your deck <i>as you play</i>. Plus, you can easily annoy your opponents by making your turn last for tens of moves.
+            </p>
+        type: "game"
+        url: ""
+        img: "dominion.png"
+    -
+        pos: 10
+        name: "Jerry Gretzinger's Map"
+        description: |
+            <br><iframe src="https://player.vimeo.com/video/6745866" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <p>
+                <a href="http://jerrysmap.blogspot.com/">Jerry's Map</a> is a project by Jerry Gretzinger begun in 1963, to create a map of a world that does not exist. Every day, he makes a 8x10-inch collage of the next piece of the map. There are currently around 3,400 panels.
+            </p>
+        type: "film/artwork"
+        url: "https://vimeo.com/6745866"
+        img: "jerry.png"
+    -
+        pos: 11
+        name: "Google Timelapse"
+        description: |
+            <p>
+                One of the most frequent thoughts I have when staring out the window of an airplane is to wonder what all those buildings down there might have looked like ten years ago, twenty years ago, etc. So I was really excited to find this project, a first attempt at providing a view of how our cities develop (and decay) over time. The resolution isn't that ideal just yet, but it will be soon.
+            </p>
+        type: "web app"
+        url: "https://earthengine.google.com/timelapse/"
+        img: "timelapse.png"
+    # -
+    #     pos: 12
+    #     name: "Everything is Terrible"
+    #     description: |
+    #         <p>
+    #             Hello.
+    #         </p>
+    #     type: "film"
+    #     url: "http://www.google.com"
+    #     img: "hazan.png"
+    # -
+    #     pos: 13
+    #     name: "Polygraph history of music [web app]"
+    #     description: |
+    #         <p>
+    #             Hello.
+    #         </p>
+    #     type: "film"
+    #     url: "http://www.google.com"
+    #     img: "hazan.png"
+    # -
+    #     pos: 14
+    #     name: "http://katierosepipkin.com/ [artist]"
+    #     description: |
+    #         <p>
+    #             Hello.
+    #         </p>
+    #     type: "film"
+    #     url: "http://www.google.com"
+    #     img: "hazan.png"
+    # -
+    #     pos: 15
+    #     name: "Poetry in Piet"
+    #     description: |
+    #         <p>
+    #             Hello.
+    #         </p>
+    #     type: "film"
+    #     url: "http://www.google.com"
+    #     img: "hazan.png"

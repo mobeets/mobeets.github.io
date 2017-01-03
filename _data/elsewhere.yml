@@ -36,6 +36,18 @@
 
     items:
         -
+            categ: "listed"
+            date: "2016-12-31"
+            key: "seen-tried-tasted"
+            name: "Seen, Tried or Tasted"
+            url: ".html"
+        -
+            categ: "listed"
+            date: "2016-12-31"
+            key: "favorites"
+            name: "Favorites"
+            url: ".html"
+        -
             categ: "coded"
             date: "2016-08-17"
             key: "autocookie"
@@ -59,18 +71,6 @@
             key: "bpcs"
             name: "Steganography (BPCS)"
             url: "/bpcs"
-        -
-            categ: "listed"
-            date: "2015-12-30"
-            key: "seen-tried-tasted"
-            name: "Seen, Tried or Tasted"
-            url: ".html"
-        -
-            categ: "listed"
-            date: "2015-12-30"
-            key: "favorites"
-            name: "Favorites"
-            url: ".html"
         -
             categ: "coded"
             date: "2015-05-26"
