@@ -14,6 +14,8 @@ You can find my CV [here](/assets/pdf/JayHennig-CV.pdf), or send me an email at 
 When I'm not working in the lab, I'm probably coding, reading, or watching something:
 
 <div id="contact-buttons">
+<a href="/" class="button green">Projects</a>
+
 <a href="https://github.com/{{ site.author.github }}" class="button green">Code</a>
 
 <a href="/medialog" class="button green">Medialog</a>
