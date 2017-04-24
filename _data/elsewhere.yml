@@ -33,8 +33,13 @@
 # if url contains http:// or https://, leave it be
 # if url starts with ., built the url using above info
 # otherwise leave it be
-
     items:
+        -
+            categ: "coded"
+            date: "2017-04-24"
+            key: "neural-music-pad"
+            name: "Neural Synth"
+            url: "http://neural-music-pad.herokuapp.com/"
         -
             categ: "listed"
             date: "2016-12-31"
