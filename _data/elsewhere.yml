@@ -39,7 +39,7 @@
             date: "2017-04-24"
             key: "neural-music-pad"
             name: "Neural Synth"
-            url: "http://neural-music-pad.herokuapp.com/"
+            url: "http://neural-synth.herokuapp.com/"
         -
             categ: "listed"
             date: "2016-12-31"
