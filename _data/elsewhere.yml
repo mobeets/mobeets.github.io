@@ -36,6 +36,12 @@
     items:
         -
             categ: "coded"
+            date: "2017-04-27"
+            key: "midi-touchpad"
+            name: "MIDI Touchpad"
+            url: "https://github.com/mobeets/miditouchpad"
+        -
+            categ: "coded"
             date: "2017-04-24"
             key: "neural-music-pad"
             name: "Neural Synth"
