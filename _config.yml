@@ -10,7 +10,7 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jehosafet
+title : mobeets
 tagline: "Giving us its origin, which is the sphere, and where it's going, which is the tetrahedron."
 author :
   name : Jay H
@@ -31,7 +31,8 @@ paginate_path: "/page:num"
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 name_url : jehosafet
-production_url : http://www.jehosafet.com
+production_url : https://mobeets.github.io/
+# production_url : http://www.jehosafet.com
 # baseurl: /blog
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
