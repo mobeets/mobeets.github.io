@@ -52,9 +52,13 @@ img.center {
   color: #666;
 }
 
+.nav {
+  font-family: 'Lato', serif;
+}
 h1, h2, h3 {
   display: block;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', serif;
+  /*font-family: 'Playfair Display', serif;*/
 }
 h2, h3 {
   margin-top: 0.5em;
@@ -65,7 +69,7 @@ h2, h3 {
   text-decoration: underline;
 }
 h1 {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 250%;
   text-align: center;
   margin-top: 2px;
@@ -79,10 +83,11 @@ h1 a:hover {
   color: black;
 }
 #bar-title {
+  font-family: 'Lato', serif;
   font-size: 120%;
   float: left;
   font-weight: bold;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-right: 5%;
   margin-bottom: 2%;
   text-align: center;
@@ -111,7 +116,8 @@ h1 a:hover {
   text-align: center;
   text-decoration: underline;
   cursor: pointer; cursor: hand;
-  font-family: 'Playfair Display', serif;
+  /*font-family: 'Playfair Display', serif;*/
+  font-family: 'Lato', serif;
 }
 .title-preview a, .title-preview a:visited {
   text-decoration: none;
