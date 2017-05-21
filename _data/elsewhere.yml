@@ -36,6 +36,12 @@
     items:
         -
             categ: "coded"
+            date: "2017-05-21"
+            key: "disguise-bot"
+            name: "@DisguiseBot"
+            url: ".html"
+        -
+            categ: "coded"
             date: "2017-04-27"
             key: "midi-touchpad"
             name: "MIDI Touchpad"
