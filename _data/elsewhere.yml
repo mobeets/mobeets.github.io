@@ -35,6 +35,12 @@
 # otherwise leave it be
     items:
         -
+            categ: "made"
+            date: "2017-07-18"
+            key: "cat-piano"
+            name: "Cat piano"
+            url: ".html"
+        -
             categ: "coded"
             date: "2017-05-21"
             key: "disguise-bot"
