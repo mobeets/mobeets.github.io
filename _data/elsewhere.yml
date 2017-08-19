@@ -35,6 +35,12 @@
 # otherwise leave it be
     items:
         -
+            categ: "coded"
+            date: "2017-08-19"
+            key: "audio-cursor"
+            name: "Audio-cursor"
+            url: "/audio-cursor-interface/"
+        -
             categ: "made"
             date: "2017-07-18"
             key: "cat-piano"
