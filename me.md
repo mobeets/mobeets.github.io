@@ -11,8 +11,6 @@ I am a PhD student in [Neural Computation](http://www.cnbc.cmu.edu/pnc) and Mach
 
 You can find my CV [here](/assets/pdf/JayHennig-CV.pdf), or send me an email at <img src="/assets/images/email.png" style="width: 25%;"/>.
 
-When I'm not working in the lab, I'm probably coding, reading, or watching something:
-
 <div id="contact-buttons">
 <a href="/" class="button green">Projects</a>
 
