@@ -36,6 +36,12 @@
     items:
         -
             categ: "coded"
+            date: "2017-10-21"
+            key: "music-vis"
+            name: "Music Visualizer"
+            url: "/music-vis/"
+        -
+            categ: "coded"
             date: "2017-08-19"
             key: "audio-cursor"
             name: "Audio-cursor"
