@@ -794,6 +794,16 @@
         img: "teropa.png"
     -
         pos: 14
+        name: "Alabama White Sauce Chicken Thighs"
+        description: |
+            <p>
+                My favorite recipe I found this year was for Big Bob Gibson's Alabama White Sauce chicken thighs. Actually, I doubt this is actually Big Bob Gibson's recipe, but it is a really great name, and a delicious sauce for chicken thighs.
+            </p>
+        type: "music"
+        url: "http://www.foodnetwork.com/recipes/jeff-mauro/grilled-chicken-with-alabama-white-bbq-sauce-2810701"
+        img: "sauce.png"
+    -
+        pos: 15
         name: "Pink Trombone"
         description: |
             <p>
@@ -802,13 +812,13 @@
         type: "app"
         url: "https://dood.al/pinktrombone/"
         img: "mouth.png"
-    -
-        pos: 15
-        name: "In Bb"
-        description: |
-            <p>
-                This is the kind of creation that is so simple that really anyone could have invented it, and for that reason, it's all the more impressive that someone actually did think of it. This grid of videos was made of submissions from various people, all of them playing music in the key of Bb major. You can then play the videos all together, or staggered in really any order that you please, and end up with a completely different song each time.
-            </p>
-        type: "music"
-        url: "http://inbflat.net/"
-        img: "bb.png"
+    # -
+    #     pos: 15
+    #     name: "In Bb"
+    #     description: |
+    #         <p>
+    #             This is the kind of creation that is so simple that really anyone could have invented it, and for that reason, it's all the more impressive that someone actually did think of it. This grid of videos was made of submissions from various people, all of them playing music in the key of Bb major. You can then play the videos all together, or staggered in really any order that you please, and end up with a completely different song each time.
+    #         </p>
+    #     type: "music"
+    #     url: "http://inbflat.net/"
+    #     img: "bb.png"
