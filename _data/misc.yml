@@ -656,3 +656,159 @@
     #     type: "film"
     #     url: "http://www.google.com"
     #     img: "hazan.png"
+2017:
+    -
+        pos: 1
+        name: "Carnegie Library's synth rental"
+        description: |
+            <p>
+                The Carnegie Library in Pittsburgh owns more than 20 electronic synths and pedals that you can check out and take home just like they were library books. Even better, the whole set-up has really reawakened my love for libraries. For example, I've started checking out books from the library instead of just buying them on Amazon.
+            </p>
+        type: "resource"
+        url: "https://librarycatalog.einetwork.net/Search/Results?lookfor=*&type=Keyword&basicType=Keyword&filter[]=building:%22CLP+-+Main+Library%22&filter[]=format:%22Other+Objects%22&sort=relevance&page=1&view=list&searchSource=local"
+        img: "synth.png"
+    -
+        pos: 2
+        name: "pix2pix and other GANs"
+        description: |
+            <p>
+                2017 was the year of the GAN, or generative adversarial network, a type of neural network. By far the most fun use of GANs is pix2pix, which can fill in your crappy line drawings and make them pseudo-realistic. More recently, GANs have been used to invent high-resolution images of <a href="http://research.nvidia.com/publication/2017-10_Progressive-Growing-of">fake celebrities</a>. The downside is, as neural networks get better and better at faking images, it becomes less relevant to "only believe it when you see it."
+            </p>
+        type: "algorithm"
+        url: "https://phillipi.github.io/pix2pix/"
+        img: "pix.png"
+    -
+        pos: 3
+        name: "Submerged inside a 6ft Water Balloon"
+        description: |
+            <br><iframe width="560" height="315" src="https://www.youtube.com/embed/Iv4G420TaRM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            <p>
+                This video really blew me away. It sounds like a silly idea at first, but it quickly becomes a rollercoaster ride of terror and humor all mixed up together. The moment he gets in the balloon up to his neck was honestly one of the funniest things I think I've ever seen.
+            </p>
+        type: "video"
+        url: "https://youtu.be/Iv4G420TaRM"
+        img: "balloon.png"
+    -
+        pos: 4
+        name: "Pillow Talking"
+        description: |
+            <br><iframe width="560" height="315" src="https://www.youtube.com/embed/NWWeQlXfSa0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            <p>
+                I love this song (and video) for so many reasons. It's one of the most creative songs I've heard in a long time, and the dialogue/discussion is really well done and balanced. I only wish that Lil Dicky's other songs were anywhere near as good as this one.
+            </p>
+        type: "song/video"
+        url: "https://youtu.be/NWWeQlXfSa0"
+        img: "dicky.png"
+    -
+        pos: 5
+        name: "Tycho's Sunrise Set"
+        description: |
+            <br><iframe width="560" height="315" src="https://www.youtube.com/embed/ZmGjBiCtF7g" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            <p>
+                This playlist by Tycho is great work music, but more important, it introduced me to such a wide variety of electronic music that I'd never even heard of before--especially Weval, which became one of my favorite albums this year. Like so many of the things I find online these days, I found this via <a href="kottke.org">Kottke</a>.
+            </p>
+        type: "playlist"
+        url: "https://youtu.be/ZmGjBiCtF7g"
+        img: "tycho.png"
+    -
+        pos: 6
+        name: "Speaking Piano"
+        description: |
+            <br><iframe width="560" height="315" src="https://www.youtube.com/embed/muCPjK4nGY4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            <p>
+                I didn't even know it was possible to make a piano sound like a human voice. It's also fascinating the way the sounds this piano makes are at first completely unintelligible, but once you hear it along with the captions, suddenly it all just snaps into place.
+            </p>
+        type: "invention"
+        url: "https://youtu.be/muCPjK4nGY4"
+        img: "piano.png"
+    -
+        pos: 7
+        name: "Teachable Machine"
+        description: |
+            <p>
+                As machine learning and neural networks see increasing applications to everything around us, it's going to be really important to give people an understanding of A.I. that goes beyond Terminator and references to the human brain. Google is doing a great job at making approachable, interactive ways of learning about neural nets, and this teachable machine app is a really fun example of that.
+            </p>
+        type: "app"
+        url: "https://teachablemachine.withgoogle.com/"
+        img: "machine.png"
+    -
+        pos: 8
+        name: "Overcooked"
+        description: |
+            <p>
+                I don't play video games very often, but this one had me hooked almost immediately. In this game, you and your friends have to fill various orders in a restaurant, all while dealing with obstacles such as awkward kitchen designs and earthquakes. Even more fun, you can play while sharing only one or two controllers.
+            </p>
+        type: "video game"
+        url: "http://www.ghosttowngames.com/overcooked/"
+        img: "overcooked.png"
+    -
+        pos: 9
+        name: "Halt and Catch Fire"
+        description: |
+            <p>
+                I don't usually get into dramas, but I really grew to love this show. The character development is so gradual and methodical, I really got into it. The seasons unfold really naturally so that different characters become the protagonists in different seasons, so that at one point or another you've seen the world from everyone's perspective. Plus, the focus of the show is computers and technology, and it's a lot of fun to watch the focus shift from mainframes in the 70s, to video games in the 80s, and the Internet in the 90s.
+            </p>
+        type: "TV series"
+        url: "http://www.amc.com/shows/halt-and-catch-fire"
+        img: "fire.png"
+    -
+        pos: 10
+        name: "Game of Life clock"
+        description: |
+            <p>
+                Sometimes people make incredibly intricate, beautiful things for really no reason at all except that someone suggested it. This is a digital clock built solely using Conway's Game of Life. It's worth finding the demo and zooming all the way into various parts of the circuit.
+            </p>
+        type: "app"
+        url: "https://codegolf.stackexchange.com/questions/88783/build-a-digital-clock-in-conways-game-of-life/"
+        img: "clock.png"
+    -
+        pos: 11
+        name: "Never Catch Me"
+        description: |
+            <br><iframe width="560" height="315" src="https://www.youtube.com/embed/2lXD0vv-ds8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            <p>
+                Just a really beautiful music video that I won't even try to describe in words.
+            </p>
+        type: "music video"
+        url: "https://youtu.be/2lXD0vv-ds8"
+        img: "lotus.png"
+    -
+        pos: 12
+        name: "Silicon Valley"
+        description: |
+            <p>
+                For the past year and a half I've been working out five times a week in my living room, which also means I've been watching an insane amount of TV shows. Silicon Valley quickly became my go-to show when I needed something to boost my mood. Jared's definitely my favorite character.
+            </p>
+        type: "TV series"
+        url: "https://www.hbo.com/silicon-valley"
+        img: "sv.png"
+    -
+        pos: 13
+        name: "Overview of generative music"
+        description: |
+            <p>
+                It's kind of incredible to me that anyone could make a slideshow worth sharing, but this set of slides on the history of generative music is really packed with entertainment value. You can actually interact with the slides and watch various algorithms for generative music play out in real time.
+            </p>
+        type: "app"
+        url: "https://teropa.info/generative-music-slides/#/title"
+        img: "teropa.png"
+    -
+        pos: 14
+        name: "Pink Trombone"
+        description: |
+            <p>
+                I hadn't laughed so much in a long time. Isn't it funny how the primary goal of so many children's toys is to make them laugh, but all we adults really have are youtube videos and gifs? What I'm getting at is, it would be great if someone could make this voice simulator into an actual physical device that I could keep on my desk.
+            </p>
+        type: "app"
+        url: "https://dood.al/pinktrombone/"
+        img: "mouth.png"
+    -
+        pos: 15
+        name: "In Bb"
+        description: |
+            <p>
+                This is the kind of creation that is so simple that really anyone could have invented it, and for that reason, it's all the more impressive that someone actually did think of it. This grid of videos was made of submissions from various people, all of them playing music in the key of Bb major. You can then play the videos all together, or staggered in really any order that you please, and end up with a completely different song each time.
+            </p>
+        type: "music"
+        url: "http://inbflat.net/"
+        img: "bb.png"

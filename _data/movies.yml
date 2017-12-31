@@ -49,3 +49,54 @@
         artist: "Rachel Lang"
         album: "Baden Baden"
         year: 2016
+2017:
+    -    
+        pos: 1
+        artist: "Hayao Miyazaki"
+        album: "My Neighbor Totoro"
+        year: 1988
+    -    
+        pos: 2
+        artist: "Teller"
+        album: "Tim's Vermeer"
+        year: 2013
+    -    
+        pos: 3
+        artist: "Denis Villeneuve"
+        album: "Arrival"
+        year: 2016
+    -    
+        pos: 4
+        artist: "Denis Villeneuve"
+        album: "Blade Runner 2049"
+        year: 2017
+    -    
+        pos: 5
+        artist: "Denzel Washington"
+        album: "Fences"
+        year: 2016
+    -    
+        pos: 6
+        artist: "Paul Verhoeven"
+        album: "Total Recall"
+        year: 1990
+    -    
+        pos: 7
+        artist: "John McTiernan"
+        album: "Die Hard"
+        year: 1988
+    -    
+        pos: 8
+        artist: "Barry Jenkins"
+        album: "Moonlight"
+        year: 2016
+    -    
+        pos: 9
+        artist: "Kevan Funk"
+        album: "Hello Destroyer"
+        year: 2016
+    -    
+        pos: 10
+        artist: "Chris Smith"
+        album: "Jim & Andy"
+        year: 2017

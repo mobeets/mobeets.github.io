@@ -901,3 +901,106 @@
             artist: "Fripp & Eno"
             album: "Evening Star"
             year: 1975
+2017:
+    new_releases:
+        -
+            pos: 1
+            artist: (Sandy) Alex G
+            album: "Rocket"
+            year: 2017
+        -
+            pos: 2
+            artist: Joey Badass
+            album: "All-Amerikkkan Badass"
+            year: 2017
+        -
+            pos: 3
+            artist: Thundercat
+            album: "Drunk"
+            year: 2017
+        -
+            pos: 4
+            artist: Homeshake
+            album: "Fresh Air"
+            year: 2017
+        -
+            pos: 5
+            artist: Kendrick Lamar
+            album: "DAMN."
+            year: 2017
+        -
+            pos: 6
+            artist: Talaboman
+            album: "The Night Land"
+            year: 2017
+        -
+            pos: 7
+            artist: "Courtney Barnett & Kurt Vile"
+            album: "Lotta Sea Lice"
+            year: 2017
+        -
+            pos: 8
+            artist: Dr. Dog
+            album: "Abandoned Mansion"
+            year: 2017
+        -
+            pos: 9
+            artist: Daphni
+            album: "Joli Mai"
+            year: 2017
+        -
+            pos: 10
+            artist: St. Vincent
+            album: "MASSEDUCTION"
+            year: 2017
+    old_releases:
+        -
+            pos: 1
+            artist: Mild High Club
+            album: "Timeline"
+            year: 2015
+        -
+            pos: 2
+            artist: Weval
+            album: "Weval"
+            year: 2016
+        -
+            pos: 3
+            artist: Outkast
+            album: "ATLiens"
+            year: 1996
+        -
+            pos: 4
+            artist: Damu The Fudgemunk
+            album: "Spare time"
+            year: 2008
+        -
+            pos: 5
+            artist: Mulatu Astatke
+            album: "The Story of Ethio Jazz 1965-1975"
+            year: 2009
+        -
+            pos: 6
+            artist: Grateful Dead
+            album: "American Beauty"
+            year: 1970
+        -
+            pos: 7
+            artist: Jerry Paper
+            album: "Fuzzy Logic"
+            year: 2013
+        -
+            pos: 8
+            artist: Floating Points
+            album: "Elaenia"
+            year: 2015
+        -
+            pos: 9
+            artist: mu-Ziq
+            album: "XTLP"
+            year: 2014
+        -
+            pos: 10
+            artist: Gang of Four
+            album: "Solid Gold"
+            year: 1981

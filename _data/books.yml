@@ -342,3 +342,41 @@
             album: "Reciprocal signaling in honeyguide-human mutualism [journal article]"
             year: 2016
             url: "https://doi.org/10.1126/science.aaf4885"
+2017:
+    BOOKS:
+        -
+            pos: 1
+            artist: "George Saunders"
+            album: "Lincoln in the Bardo"
+            year: 2017
+        -
+            pos: 2
+            artist: "James Gleick"
+            album: "Time Travel: A History"
+            year: 2016
+        -
+            pos: 3
+            artist: "Jace Clayton"
+            album: "Uproot: Travels in 21st-Century Music and Digital Culture"
+            year: 2016
+        -
+            pos: 4
+            artist: "Ursula K Le Guin"
+            album: "The Left Hand of Darkness"
+            year: 1969
+        -
+            pos: 5
+            artist: "Haruki Murakami"
+            album: "Norwegian Wood"
+            year: 1987
+    NOT_QUITE_BOOKS:
+        -
+            pos: 1
+            artist: Art Spiegelman
+            album: "Maus [graphic novel]"
+            year: 1986
+        -
+            pos: 2
+            artist: Simone de Beauvoir
+            album: "The Woman Destroyed [short stories]"
+            year: 2016

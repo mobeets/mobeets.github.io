@@ -18,6 +18,7 @@ js2: favorites
         <div class="btn btn-list" data-list="misc">Others</div>
     </div><br>
     <div class="btn-menu">
+        <div class="btn btn-year" data-year="2017">2017</div>
         <div class="btn btn-year" data-year="2016">2016</div>
         <div class="btn btn-year" data-year="2015">2015</div>
         <div class="btn btn-year" data-year="2014">2014</div>
@@ -45,7 +46,7 @@ js2: favorites
                         {% capture itemname %}{% if item.artist %}{{ item.artist }} - {% endif %}{{ item.album }}{% endcapture %}
                         {% capture itemurl %}{{itemname | replace:'.','_' | replace:'/','_' | replace:':','_'}}{% endcapture %}
                         <li>{% if item.artist %}{{ item.artist }} - {% endif %}<i>{{ item.album }}</i>{% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
-                        <img class="list-img album-img" src="{{ baseurl }}/{{ yr }}/{{ itemurl }}.jpeg"></img>
+                        <img class="list-img album-img" src="{{ baseurl }}/music/{{ yr }}/{{ itemurl }}.jpeg"></img>
                     {% endfor %}
                     </ol>
                 {% endif %}
@@ -58,7 +59,7 @@ js2: favorites
                         {% capture itemname %}{% if item.artist %}{{ item.artist }} - {% endif %}{{ item.album }}{% endcapture %}
                         {% capture itemurl %}{{itemname | replace:'.','_' | replace:'/','_' | replace:':','_'}}{% endcapture %}
                         <li>{% if item.artist %}{{ item.artist }} - {% endif %}<i>{{ item.album }}</i> ({{ item.year }}){% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
-                        <img class="list-img album-img" src="{{ baseurl }}/{{ yr }}/{{ itemurl }}.jpeg"></img>
+                        <img class="list-img album-img" src="{{ baseurl }}/music/{{ yr }}/{{ itemurl }}.jpeg"></img>
                     {% endfor %}
                     </ol>
                 {% endif %}
@@ -108,7 +109,7 @@ js2: favorites
                         {% capture itemname %}{{ item.album }}{% endcapture %}
                         {% capture itemurl %}{{itemname | replace:'.','_' | replace:'/','_' | replace:':','_'}}{% endcapture %}
                         <li><i>{{ item.album }}</i> ({{ item.year }}){% if item.artist %} - {{ item.artist }}{% endif %}{% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
-                        <img class="list-img album-img" src="{{ baseurl }}/movies/{{ itemurl }}.jpeg"></img>
+                        <img class="list-img album-img" src="{{ baseurl }}/movies/{{yr}}/{{ itemurl }}.jpeg"></img>
                     {% endfor %}
                     </ol>
                 {% endif %}
