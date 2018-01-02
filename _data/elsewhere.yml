@@ -35,6 +35,18 @@
 # otherwise leave it be
     items:
         -
+            categ: "listed"
+            date: "2017-12-31"
+            key: "seen-tried-tasted"
+            name: "Seen, Tried or Tasted"
+            url: ".html"
+        -
+            categ: "listed"
+            date: "2017-12-31"
+            key: "favorites"
+            name: "Favorites"
+            url: ".html"
+        -
             categ: "coded"
             date: "2017-10-21"
             key: "music-vis"
@@ -70,18 +82,6 @@
             key: "neural-music-pad"
             name: "Neural Synth"
             url: "http://neural-synth.herokuapp.com/"
-        -
-            categ: "listed"
-            date: "2016-12-31"
-            key: "seen-tried-tasted"
-            name: "Seen, Tried or Tasted"
-            url: ".html"
-        -
-            categ: "listed"
-            date: "2016-12-31"
-            key: "favorites"
-            name: "Favorites"
-            url: ".html"
         -
             categ: "coded"
             date: "2016-08-17"

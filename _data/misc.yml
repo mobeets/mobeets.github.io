@@ -746,7 +746,7 @@
         name: "Halt and Catch Fire"
         description: |
             <p>
-                I don't usually get into dramas, but I really grew to love this show. The character development is so gradual and methodical, I really got into it. The seasons unfold really naturally so that different characters become the protagonists in different seasons, so that at one point or another you've seen the world from everyone's perspective. Plus, the focus of the show is computers and technology, and it's a lot of fun to watch the focus shift from mainframes in the 70s, to video games in the 80s, and the Internet in the 90s.
+                I really grew to love this show. The character development is so gradual and methodical, I really got into it. The seasons unfold really naturally so that different characters become the protagonists in different seasons, so that at one point or another you've seen the world from everyone's perspective. Plus, the focus of the show is computers and technology, and it's a lot of fun to watch the focus shift from mainframes in the 70s, to video games in the 80s, and the Internet in the 90s.
             </p>
         type: "TV series"
         url: "http://www.amc.com/shows/halt-and-catch-fire"
@@ -799,7 +799,7 @@
             <p>
                 My favorite recipe I found this year was for Big Bob Gibson's Alabama White Sauce chicken thighs. Actually, I doubt this is actually Big Bob Gibson's recipe, but it is a really great name, and a delicious sauce for chicken thighs.
             </p>
-        type: "music"
+        type: "recipe"
         url: "http://www.foodnetwork.com/recipes/jeff-mauro/grilled-chicken-with-alabama-white-bbq-sauce-2810701"
         img: "sauce.png"
     -
