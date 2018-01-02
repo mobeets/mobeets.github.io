@@ -35,6 +35,12 @@
 # otherwise leave it be
     items:
         -
+            categ: "written"
+            date: "2018-01-02"
+            key: "reading-things"
+            name: "Reading difficult things"
+            url: "/reading-difficult-things/"
+        -
             categ: "listed"
             date: "2017-12-31"
             key: "seen-tried-tasted"
