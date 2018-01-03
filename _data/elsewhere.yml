@@ -38,8 +38,8 @@
             categ: "written"
             date: "2018-01-02"
             key: "reading-things"
-            name: "Reading difficult things"
-            url: "/reading-difficult-things/"
+            name: "Paper Trails"
+            url: "/paper-trails/"
         -
             categ: "listed"
             date: "2017-12-31"
