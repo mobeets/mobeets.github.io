@@ -35,6 +35,12 @@
 # otherwise leave it be
     items:
         -
+            categ: "coded"
+            date: "2018-07-09"
+            key: "gifmoji"
+            name: "Gifmoji"
+            url: "https://gifmoji.github.io/"
+        -
             categ: "written"
             date: "2018-01-02"
             key: "reading-things"
