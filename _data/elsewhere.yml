@@ -31,9 +31,15 @@
 # categ determines url
 
 # if url contains http:// or https://, leave it be
-# if url starts with ., built the url using above info
+# if url starts with ., build the url using above info
 # otherwise leave it be
     items:
+        -
+            categ: "made"
+            date: "2018-09-16"
+            key: "landslide"
+            name: "Landslide"
+            url: ".html"
         -
             categ: "coded"
             date: "2018-07-09"
@@ -370,12 +376,12 @@
             key: "toklas-condensed"
             name: "Gertrude Stein's The [Condensed] Autobiography of Alice Toklas"
             url: ".html"
-        -
-            categ: "coded"
-            date: "2012-01-31"
-            key: "python-dot-art"
-            name: "Dot art"
-            url: ".html"
+        # -
+        #     categ: "coded"
+        #     date: "2012-01-31"
+        #     key: "python-dot-art"
+        #     name: "Dot art"
+        #     url: ".html"
         -
             categ: "drawn"
             date: "2011-12-18"
