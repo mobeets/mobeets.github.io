@@ -818,7 +818,7 @@
         name: "Quanta Magazine"
         description: |
             <p>
-                Quanta is, without a doubt, the most consistently good science writing I've come across. In my opinion, this is because the writers at Quanta understand that almost all research questions are accessible to outsiders, once you get past the jargon. The even more impressive aspect of their articles is how good they are at conveying the researchers' excitement for the scientific questions, without oversimplifying what they're actually doing. My favorite example of this is their coverage of the <a href="https://www.quantamagazine.org/tag/2018-fields-medal-and-nevanlinna-prize-winners/">2018 Fields Medalists</a>.
+                Quanta is by far the most consistently good science writing I've come across. In my opinion, this is because the writers at Quanta understand that almost all research questions--and I don't mean the overly simplified versions!--are accessible to outsiders, once you get past the jargon. Even better, Quanta articles do a really good job of conveying the researchers' excitement for what they're doing. A good example of this is their coverage of the <a href="https://www.quantamagazine.org/tag/2018-fields-medal-and-nevanlinna-prize-winners/">2018 Fields Medalists</a>.
             </p>
         type: "magazine"
         url: "https://www.quantamagazine.org/"
@@ -828,7 +828,7 @@
         name: "Zelda: Breath of the Wild"
         description: |
             <p>
-                I wouldn't call myself someone who enjoys video games, but really _Breath of the Wild_ is just that good that it deserves my number two spot. As someone who lives in one of the <a href="http://us-climate.blogspot.com/2015/03/dreary-weather.html">dreariest</a> cities in America, I can't stress enough how great it is to play a game that is often so peaceful and beautiful. Because, you know, there are monsters to fight and all that if you want, but the best parts of this game are the huntering and gathering, taming wild horses and walruses, and the shrine puzzles.
+                I wouldn't call myself someone who enjoys video games, but really <i>Breath of the Wild</i> is just that good that it deserves the number two spot. As someone who lives in one of the <a href="http://us-climate.blogspot.com/2015/03/dreary-weather.html">dreariest</a> cities in America, I can't stress enough how enjoyable it is to play a game that is so peaceful and beautiful. Because, you know, there are monsters to fight and all that if you want, but the best parts of this game are the hunting/gathering/cooking, taming wild horses and walruses, and the shrine puzzles.
             </p>
         type: "video game"
         url: "https://www.zelda.com/breath-of-the-wild/"
@@ -839,7 +839,7 @@
         description: |
             <br><iframe width="560" height="315" src="https://www.youtube.com/embed/9XP-B2FlNNM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>
-                <a href="https://www.youtube.com/channel/UCg3qsVzHeUt5_cPpcRtoaJQ">Kiwami Japan</a> is one of the weirdest Youtube channels I've ever come across. He makes knives out of everything: pasta, cardboard, aluminum foil, and jello, just to name a few. But my favorite video by far is when he made a hand out of fried meat, and then ate it. I don't know what's wrong with this guy, or what his backstory is, but it is definitely entertaining. In a disturbing way.
+                <a href="https://www.youtube.com/channel/UCg3qsVzHeUt5_cPpcRtoaJQ">Kiwami Japan</a> is one of the weirdest Youtube channels I've ever come across. He makes knives out of everything: pasta, cardboard, aluminum foil, and jello, just to name a few. But my favorite video by far is when he made a hand out of fried meat, and then ate it. I don't know what's wrong with this guy, or what his backstory is, but it is very entertaining (in a disturbing way).
             </p>
         type: "video"
         url: "https://www.youtube.com/watch?v=9XP-B2FlNNM"
@@ -849,7 +849,7 @@
         name: "Leona's ice cream sandwiches"
         description: |
             <p>
-                This is a thing only available in Pittsburgh for now, but seriously, if you're ever in town, find the oatmeal lace and cinnamon ice cream sandwich. It's one of the most incredible desserts I've ever had. And something I didn't even realize until now is that it's lactose-free!
+                This is a thing only available in Pittsburgh for now, but seriously, if you're ever in town, find one of these ice cream sandwiches that has a lace cookie. It's one of the most incredible desserts I've ever had. And something I didn't even realize until now is that it's lactose-free!
             </p>
         type: "dessert"
         url: "http://www.leonaspgh.com/"
@@ -860,7 +860,7 @@
         description: |
             <br><iframe width="560" height="315" src="https://video.vice.com/en_uk/embed/5a5dfac6177dd44de3197af2" frameBorder="0" scrolling="no" allowfullscreen></iframe>
             <p>
-                This guy turned his backyard into the top-rated restaurant in London on Trip Advisor, essentially by writing fake reviews, and telling all callers that he was booked indefinitely. Then, when he did finally let real customers in, he served them frozen dinners. This has got to be one of the most inspiring pranks.
+                This guy turned his backyard into the top-rated restaurant in London on Trip Advisor, essentially by writing fake reviews, and telling all callers that he was booked indefinitely. Then, when he did finally let real customers in, he served them frozen dinners. This is just such a brilliant and well-executed prank.
             </p>
         type: "video"
         url: "https://www.vice.com/en_us/article/434gqw/i-made-my-shed-the-top-rated-restaurant-on-tripadvisor"
@@ -881,7 +881,7 @@
         description: |
             <br><iframe width="560" height="315" src="https://www.youtube.com/embed/k4kWsRfk0lM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>
-                The only cute animal video that's ever made it on this list.
+                The only cute animal video that's ever made it on this list. (And I've seen a lot of cute animal videos.)
             </p>
         type: "video"
         url: "https://www.youtube.com/watch?v=k4kWsRfk0lM"
@@ -912,7 +912,7 @@
         name: "#tweeprint"
         description: |
             <p>
-                People in academia love to poke fun at twitter as a waste of time, as if all anyone's doing is mindlessly retweeting links to papers. Even if that were the case (which it's not), isn't that still more useful than a journal's email digests? The fact is, twitter is full of people using tweets to provide accessible synopses of their research that you won't find in any other medium, including talks, poster sessions, or abstracts. Even better, it's a new way to promote science and reach new audiences. And without the #tweeprint, and science-twitter in general, I would know absolutely nothing about the mechanosensory system of <a href="https://twitter.com/NatashaMhatre/status/1074739264879874048">black-widow spiders</a>.
+                People in academia love to poke fun at twitter as a waste of time, as if all anyone's doing is mindlessly retweeting links to papers. Even if that were the case (which it's not), isn't that still more useful than a journal's email digests? The fact is, twitter is full of people using tweets to provide a unique kind of research synopsis that you simply cannot find in any other medium, including talks, poster sessions, or abstracts. Even better, it's a new way to promote science and reach new audiences. Without the #tweeprint, and science-twitter in general, I would know absolutely nothing about the mechanosensory system of <a href="https://twitter.com/NatashaMhatre/status/1074739264879874048">black-widow spiders</a>.
             </p>
         type: "twitter"
         url: "https://twitter.com/search?q=%23tweeprint&src=typd"
@@ -922,7 +922,7 @@
         name: "Penguins hockey season opener"
         description: |
             <p>
-                This was my first ever hockey game, and it did not disappoint. The Penguins beat the Capitals. There were a ton of goals (the final score was 7-6 in OT), and a lot of very happy fans. Not only that, but Tom Hanks was there, and Jess and I were on the jumbotron right after they showed Tom Hanks!
+                This was my first ever hockey game, and it did not disappoint. There were a ton of goals (the Penguins beat the Capitals 7-6 in OT), and a lot of very happy fans. Not only that, but Tom Hanks was there, and Jess and I were on the jumbotron right after they showed Tom Hanks!
             </p>
         type: "sports"
         url: "https://www.nhl.com/gamecenter/wsh-vs-pit/2018/10/04/2018020007#game=2018020007,game_state=final"
@@ -932,7 +932,7 @@
         name: "Degrees of Freedom"
         description: |
             <p>
-                This is a really great article about reseach on brain-machine interfaces and their use to enable paralyzed patients to control a robotic arm. Even more interesting for me, the article focuses on the former advisor of my current advisor--my science grandfather. This article is going to be my go-to for anyone who's interested in understanding my research area. It also made me incredibly inspired to know how close my research (which is pure science, not clinical) is to actually improving people's lives.
+                This is a really great article about reseach on brain-machine interfaces and how they were used to enable a paralyzed patient to control a robotic arm. Even more interesting for me, the article focuses on the former advisor of my current advisor--my science grandfather. This article is going to be my go-to for anyone who's interested in understanding my research area. It also made me incredibly inspired to know how close my research (which is pure science, not clinical) is to actually improving people's lives.
             </p>
         type: "article"
         url: "https://www.newyorker.com/magazine/2018/11/26/how-to-control-a-machine-with-your-brain"
@@ -942,7 +942,7 @@
         name: "Dutch Blitz"
         description: |
             <p>
-                My friend Ben heard about this game because his mother lives in an area with a lot of Amish neighbors, and they apparently play this game en masse every weekend. <i>Dutch Blitz</i> is basically like multi-person competitive solitaire, and it's a rush. When you first learn it, you might also score negative points, but it's worth the effort to persevere.
+                My friend Ben heard about this game because his mother lives in an area with a lot of Amish neighbors, and they apparently play this game en masse every weekend. <i>Dutch Blitz</i> is basically like multi-person competitive solitaire, and it's a rush. When you first learn it, you might score negative points, but it's worth the effort to persevere.
             </p>
         type: "card game"
         url: "https://boardgamegeek.com/boardgame/148203/dutch-blitz"
@@ -962,7 +962,7 @@
         name: "Integers visualized using UMAP on prime factors"
         description: |
             <p>
-                I first came across this visualization in a <a href="https://twitter.com/jhnhw/status/1031829726757900288">tweet</a>, and it just immediately blew my mind. How could numbers look so much like...a solar system? Even more interesting is, it's not even immediately apparent on closer look why these numbers group up like they do and form such distinct looking types of clusters. No one's convinced there's necessarily something new in this view from a mathematical perspective, but still, I find it inspiring.
+                I first came across this visualization in a <a href="https://twitter.com/jhnhw/status/1031829726757900288">tweet</a>, and it just immediately blew my mind. How could numbers look so much like...a solar system? Even weirder, it's not even apparent on closer look why these numbers group up like they do and form such distinct looking types of clusters. No one's convinced there's necessarily something new in this view from a mathematical perspective, but still, I find it inspiring.
             </p>
         type: "visualization"
         url: "https://johnhw.github.io/umap_primes/index.md.html"
