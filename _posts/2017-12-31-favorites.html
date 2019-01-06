@@ -18,6 +18,7 @@ js2: favorites
         <div class="btn btn-list" data-list="misc">Others</div>
     </div><br>
     <div class="btn-menu">
+        <div class="btn btn-year" data-year="2018">2018</div>
         <div class="btn btn-year" data-year="2017">2017</div>
         <div class="btn btn-year" data-year="2016">2016</div>
         <div class="btn btn-year" data-year="2015">2015</div>
@@ -68,6 +69,7 @@ js2: favorites
     {% endfor %}
     {% for year in site.data.books reversed %}
         {% assign yr = year[0] %}
+        {% assign yrstr = yr | plus: 0 %}
         <div id="books-{{yr}}" class="books all list-group">
             <h2>{{yr}} Reads</h2>
             <div class="books">                
@@ -78,7 +80,11 @@ js2: favorites
                         {% capture itemname %}{% if item.artist %}{{ item.artist }} - {% endif %}{{ item.album }}{% endcapture %}
                         {% capture itemurl %}{{itemname | replace:':','_' | replace:'?','_' | split:" [" | first }}{% endcapture %}
                         <li>{% if item.artist %}{{ item.artist }} - {% endif %}<i>{{ item.album }}</i> ({{ item.year }}){% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
-                        <img class="list-img book-img" src="{{ baseurl }}/books/{{ itemurl }}.jpeg"></img>
+                        {% if yrstr > 2016 %}
+                            <img class="list-img book-img" src="{{ baseurl }}/books/{{ yr }}/{{ itemurl }}.jpeg"></img>
+                        {% else %}
+                            <img class="list-img book-img" src="{{ baseurl }}/books/{{ itemurl }}.jpeg"></img>
+                        {% endif %}
                     {% endfor %}
                     </ol>
                 {% endif %}
@@ -91,7 +97,11 @@ js2: favorites
                         {% capture itemname %}{% if item.artist %}{{ item.artist }} - {% endif %}{{ item.album }}{% endcapture %}
                         {% capture itemurl %}{{itemname | replace:':','_' | replace:'?','_' | split:" [" | first }}{% endcapture %}
                         <li>{% if item.artist %}{{ item.artist }} - {% endif %}<i>{{ item.album }}</i> ({{ item.year }}){% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
-                        <img class="list-img book-img" src="{{ baseurl }}/books/{{ itemurl }}.jpeg"></img>
+                        {% if yrstr > 2016 %}
+                            <img class="list-img book-img" src="{{ baseurl }}/books/{{ yr }}/{{ itemurl }}.jpeg"></img>
+                        {% else %}
+                            <img class="list-img book-img" src="{{ baseurl }}/books/{{ itemurl }}.jpeg"></img>
+                        {% endif %}
                     {% endfor %}
                     </ol>
                 {% endif %}
@@ -107,9 +117,9 @@ js2: favorites
                     <ol>
                     {% for item in site.data.movies[yr] %}
                         {% capture itemname %}{{ item.album }}{% endcapture %}
-                        {% capture itemurl %}{{itemname | replace:'.','_' | replace:'/','_' | replace:':','_'}}{% endcapture %}
+                        {% capture itemurl %}{{itemname | replace:'.','_' | replace:'/','_' | replace:':','_' | replace: '?','%3F'}}{% endcapture %}
                         <li><i>{{ item.album }}</i> ({{ item.year }}){% if item.artist %} - {{ item.artist }}{% endif %}{% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
-                        <img class="list-img album-img" src="{{ baseurl }}/movies/{{yr}}/{{ itemurl }}.jpeg"></img>
+                        <img class="list-img album-img movie-img" src="{{ baseurl }}/movies/{{yr}}/{{ itemurl }}.jpeg"></img>
                     {% endfor %}
                     </ol>
                 {% endif %}

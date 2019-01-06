@@ -380,3 +380,61 @@
             artist: Simone de Beauvoir
             album: "The Woman Destroyed [short stories]"
             year: 2016
+2018:
+    BOOKS:
+        -    
+            pos: 1
+            artist: "Frank Herbert"
+            album: "Dune"
+            year: 1965
+        -    
+            pos: 2
+            artist: "Herman Hesse"
+            album: "Narcissus and Goldmund"
+            year: 1930
+        -
+            pos: 3
+            artist: "Tommy Orange"
+            album: "There There"
+            year: 2018
+        -
+            pos: 4
+            artist: "Robert Kanigel"
+            album: "The Man Who Knew Infinity"
+            year: 1991
+        -
+            pos: 5
+            artist: "William Dement"
+            album: "Some Must Watch While Some Must Sleep"
+            year: 1972
+        -
+            pos: 6
+            artist: "Matthew Rohrer"
+            album: "The Others"
+            year: 2017
+    NOT_QUITE_BOOKS:
+        -
+            pos: 1
+            artist: "Larry Swanson and others"
+            album: "Beautiful Brain: The Drawings of Santiago Ramon y Cajal"
+            year: 2015
+        -    
+            pos: 1
+            artist: "Nick Drnaso"
+            album: "Sabrina"
+            year: 2018
+        -    
+            pos: 2
+            artist: "Lilli Carre"
+            album: "Heads or Tails"
+            year: 2012
+        -    
+            pos: 3
+            artist: "Tom Gauld"
+            album: "Mooncop"
+            year: 2016
+        -    
+            pos: 4
+            artist: "Michael DeForge"
+            album: "Sticks Angelica, Folk Hero"
+            year: 2017

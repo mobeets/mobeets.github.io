@@ -100,3 +100,54 @@
         artist: "Chris Smith"
         album: "Jim & Andy"
         year: 2017
+2018:
+    -    
+        pos: 1
+        artist: "Morgan Neville"
+        album: "Won't You Be My Neighbor?"
+        year: 2018
+    -    
+        pos: 2
+        artist: "Luca Guadagnino"
+        album: "Call Me By Your Name"
+        year: 2017
+    -    
+        pos: 3
+        artist: "Kinji Fukasaku"
+        album: "Battle Royale"
+        year: 2000
+    -    
+        pos: 4
+        artist: "Jennie Livingston"
+        album: "Paris is Burning"
+        year: 1990
+    -    
+        pos: 5
+        artist: "Spike Jonze"
+        album: "Adaptation."
+        year: 2002
+    -    
+        pos: 6
+        artist: "Adam Rifkin"
+        album: "Giuseppe Makes a Movie"
+        year: 2014
+    -    
+        pos: 7
+        artist: "Lenny Abrahamson"
+        album: "Frank"
+        year: 2014
+    -    
+        pos: 8
+        artist: "Luca Guadagnino"
+        album: "Suspiria"
+        year: 2018
+    -    
+        pos: 9
+        artist: "George A. Romero"
+        album: "Season of the Witch"
+        year: 1972
+    -    
+        pos: 10
+        artist: "Andrea Luka Zimmerman"
+        album: "Erase and Forget"
+        year: 2017

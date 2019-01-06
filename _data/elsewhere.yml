@@ -35,6 +35,18 @@
 # otherwise leave it be
     items:
         -
+            categ: "coded"
+            date: "2018-12-17"
+            key: "psths"
+            name: "Viewing neural populations"
+            url: "https://mobeets.github.io/psth-to-population/"
+        -
+            categ: "coded"
+            date: "2018-12-12"
+            key: "boids-and-bugs"
+            name: "Boids and Bugs"
+            url: "https://mobeets.github.io/boids-and-bugs/"
+        -
             categ: "made"
             date: "2018-09-16"
             key: "landslide"

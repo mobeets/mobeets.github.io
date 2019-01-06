@@ -9,11 +9,10 @@ js2: seen-tried-tasted
 {% include JB/setup %}
  
 <div class="btn-menu">
-    <div class="btn btn-year" data-year="2017">2017</div>
-    <div class="btn btn-year" data-year="2016">2016</div>
-    <div class="btn btn-year" data-year="2015">2015</div>
-    <div class="btn btn-year" data-year="2014">2014</div>
-    <div class="btn btn-year" data-year="2013">2013</div>
+{% for year in site.data.misc reversed %}
+{% assign yr = year[0] %}
+    <div class="btn btn-year" data-year="{{ yr }}">{{ yr }}</div>
+{% endfor %}
 </div>
 <div id="inner" class="cur">
     {% for year in site.data.misc reversed %}

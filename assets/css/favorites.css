@@ -12,11 +12,15 @@ ol {
     padding-bottom: 2em;
 }
 .album-img {
-    width: 15em;
-}
-.book-img {
     width: 10em;
 }
+.book-img {
+    width: 7em;
+}
+.movie-img {
+    width: 7em;
+}
+
 .btn-list {
     background: #3cb0fd;
 }

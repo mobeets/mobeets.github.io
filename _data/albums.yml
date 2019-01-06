@@ -1004,3 +1004,106 @@
             artist: Gang of Four
             album: "Solid Gold"
             year: 1981
+2018:
+    new_releases:
+        -    
+            pos: 1
+            artist: "Robyn"
+            album: "Honey"
+            year: 2018
+        -    
+            pos: 2
+            artist: "Kadhja Bonet"
+            album: "Childqueen"
+            year: 2018
+        -    
+            pos: 3
+            artist: "Ought"
+            album: "Room Inside the World"
+            year: 2018
+        -    
+            pos: 4
+            artist: "Courtney Barnett"
+            album: "Tell Me How You Really Feel"
+            year: 2018
+        -    
+            pos: 5
+            artist: "Unknown Mortal Orchestra"
+            album: "Sex & Food"
+            year: 2018
+        -    
+            pos: 6
+            artist: "Kiefer"
+            album: "Happysad"
+            year: 2018
+        -    
+            pos: 7
+            artist: "Car Seat Headrest"
+            album: "Twin Fantasy"
+            year: 2018
+        -    
+            pos: 8
+            artist: "Spiritualized"
+            album: "And Nothing Hurt"
+            year: 2018
+        -    
+            pos: 9
+            artist: "The Marias"
+            album: "Superclean Vols. I and II"
+            year: 2018
+        -    
+            pos: 10
+            artist: "Noname"
+            album: "Room 25"
+            year: 2018
+    old_releases:
+        -    
+            pos: 1
+            artist: "Luke Abbott"
+            album: "Holkham Drones"
+            year: 2012
+        -    
+            pos: 2
+            artist: "Sylvan Esso"
+            album: "Sylvan Esso"
+            year: 2014
+        -    
+            pos: 3
+            artist: "Boards of Canada"
+            album: "Music Has the Right to Children"
+            year: 1998
+        -    
+            pos: 4
+            artist: "Jorge Ben"
+            album: "Samba Esquema Nova"
+            year: 1963
+        -    
+            pos: 5
+            artist: "Jan Jelinek"
+            album: "Loop-Finding-Jazz-Records"
+            year: 2001
+        -    
+            pos: 6
+            artist: "Sylvan Esso"
+            album: "What Now"
+            year: 2017
+        -    
+            pos: 7
+            artist: "Blaze Foley"
+            album: "Live at the Austin Outhouse"
+            year: 1999
+        -    
+            pos: 8
+            artist: "mu-ziq"
+            album: "Somerset Avenue Tracks (1992 - 1995)"
+            year: 2013
+        -    
+            pos: 9
+            artist: "Hiroshi Yoshimura"
+            album: "Green"
+            year: 1986
+        -    
+            pos: 10
+            artist: "Cluster and Brian Eno"
+            album: "Cluster & Eno"
+            year: 1977

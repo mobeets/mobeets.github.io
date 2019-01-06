@@ -705,7 +705,7 @@
         description: |
             <br><iframe width="560" height="315" src="https://www.youtube.com/embed/ZmGjBiCtF7g" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
             <p>
-                This playlist by Tycho is great work music, but more important, it introduced me to such a wide variety of electronic music that I'd never even heard of before--especially Weval, which became one of my favorite albums this year. Like so many of the things I find online these days, I found this via <a href="kottke.org">Kottke</a>.
+                This playlist by Tycho is great work music, but more important, it introduced me to such a wide variety of electronic music that I'd never even heard of before--especially Weval, which became one of my favorite albums this year. Like so many of the things I find online these days, I found this via <a href="https://kottke.org/">Kottke</a>.
             </p>
         type: "playlist"
         url: "https://youtu.be/ZmGjBiCtF7g"
@@ -812,13 +812,158 @@
         type: "app"
         url: "https://dood.al/pinktrombone/"
         img: "mouth.png"
-    # -
-    #     pos: 15
-    #     name: "In Bb"
-    #     description: |
-    #         <p>
-    #             This is the kind of creation that is so simple that really anyone could have invented it, and for that reason, it's all the more impressive that someone actually did think of it. This grid of videos was made of submissions from various people, all of them playing music in the key of Bb major. You can then play the videos all together, or staggered in really any order that you please, and end up with a completely different song each time.
-    #         </p>
-    #     type: "music"
-    #     url: "http://inbflat.net/"
-    #     img: "bb.png"
+2018:
+    -
+        pos: 1
+        name: "Quanta Magazine"
+        description: |
+            <p>
+                Quanta is, without a doubt, the most consistently good science writing I've come across. In my opinion, this is because the writers at Quanta understand that almost all research questions are accessible to outsiders, once you get past the jargon. The even more impressive aspect of their articles is how good they are at conveying the researchers' excitement for the scientific questions, without oversimplifying what they're actually doing. My favorite example of this is their coverage of the <a href="https://www.quantamagazine.org/tag/2018-fields-medal-and-nevanlinna-prize-winners/">2018 Fields Medalists</a>.
+            </p>
+        type: "magazine"
+        url: "https://www.quantamagazine.org/"
+        img: "quanta.png"
+    -
+        pos: 2
+        name: "Zelda: Breath of the Wild"
+        description: |
+            <p>
+                I wouldn't call myself someone who enjoys video games, but really _Breath of the Wild_ is just that good that it deserves my number two spot. As someone who lives in one of the <a href="http://us-climate.blogspot.com/2015/03/dreary-weather.html">dreariest</a> cities in America, I can't stress enough how great it is to play a game that is often so peaceful and beautiful. Because, you know, there are monsters to fight and all that if you want, but the best parts of this game are the huntering and gathering, taming wild horses and walruses, and the shrine puzzles.
+            </p>
+        type: "video game"
+        url: "https://www.zelda.com/breath-of-the-wild/"
+        img: "zelda.png"
+    -
+        pos: 3
+        name: "Hand-shaped fried meat"
+        description: |
+            <br><iframe width="560" height="315" src="https://www.youtube.com/embed/9XP-B2FlNNM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
+                <a href="https://www.youtube.com/channel/UCg3qsVzHeUt5_cPpcRtoaJQ">Kiwami Japan</a> is one of the weirdest Youtube channels I've ever come across. He makes knives out of everything: pasta, cardboard, aluminum foil, and jello, just to name a few. But my favorite video by far is when he made a hand out of fried meat, and then ate it. I don't know what's wrong with this guy, or what his backstory is, but it is definitely entertaining. In a disturbing way.
+            </p>
+        type: "video"
+        url: "https://www.youtube.com/watch?v=9XP-B2FlNNM"
+        img: "meathand.png"
+    -
+        pos: 4
+        name: "Leona's ice cream sandwiches"
+        description: |
+            <p>
+                This is a thing only available in Pittsburgh for now, but seriously, if you're ever in town, find the oatmeal lace and cinnamon ice cream sandwich. It's one of the most incredible desserts I've ever had. And something I didn't even realize until now is that it's lactose-free!
+            </p>
+        type: "dessert"
+        url: "http://www.leonaspgh.com/"
+        img: "leonas.png"
+    -
+        pos: 5
+        name: "The Shed at Dulwich"
+        description: |
+            <br><iframe width="560" height="315" src="https://video.vice.com/en_uk/embed/5a5dfac6177dd44de3197af2" frameBorder="0" scrolling="no" allowfullscreen></iframe>
+            <p>
+                This guy turned his backyard into the top-rated restaurant in London on Trip Advisor, essentially by writing fake reviews, and telling all callers that he was booked indefinitely. Then, when he did finally let real customers in, he served them frozen dinners. This has got to be one of the most inspiring pranks.
+            </p>
+        type: "video"
+        url: "https://www.vice.com/en_us/article/434gqw/i-made-my-shed-the-top-rated-restaurant-on-tripadvisor"
+        img: "dulwich.png"
+    -
+        pos: 6
+        name: "Wipeout!"
+        description: |
+            <p>
+                I was probably conditioned from a young age to like <i>Wipeout!</i>, because I grew up watching Spike TV's <i>MXC</i>, which overdubbed the Japanese show <i>Takeshi's Castle</i>. Basically, what happens in this show is unathletic people run into walls and slip off platforms, all to a soundtrack of slapstick sound effecs. I don't know why, but it's always funny to me.
+            </p>
+        type: "TV series"
+        url: "https://en.wikipedia.org/wiki/Wipeout_(2008_U.S._game_show)"
+        img: "wipeout.png"
+    -
+        pos: 7
+        name: "Gonna Feed the Babies"
+        description: |
+            <br><iframe width="560" height="315" src="https://www.youtube.com/embed/k4kWsRfk0lM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
+                The only cute animal video that's ever made it on this list.
+            </p>
+        type: "video"
+        url: "https://www.youtube.com/watch?v=k4kWsRfk0lM"
+        img: "babies.png"
+    -
+        pos: 8
+        name: "Mario Kart 8 Deluxe"
+        description: |
+            <p>
+                I've always been bad at Nintendo games, partly because I grew up with a Playstation, so it felt good to finally master a version of <i>Mario Kart</i>. This version is all over the place, visually, but it also comes with the equivalent of a bowling lane's bumpers, so you don't have to constantly fall off the roads if you don't want to. Which makes it a great video game to play with other people who are also bad at video games.
+            </p>
+        type: "video game"
+        url: "https://mariokart8.nintendo.com/?gclid=EAIaIQobChMIzNmQ9P_W3wIVB1mGCh3Q8ApwEAAYASAAEgIPAPD_BwE&gclsrc=aw.ds"
+        img: "mario.png"
+    -
+        pos: 9
+        name: "Genius Deconstructed"
+        description: |
+            <br><iframe width="560" height="315" src="https://www.youtube.com/embed/lGKlIJsz7bM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
+                <i>Deconstructed</i> interviews producers and beat-makers about how they made the music to various songs. What was surprising to me was how you can end up contributing a beat to a J Cole or Kendrick Lamar song, but that doesn't lead to fame, fortune, or even necessarily a friendship with the artist. It's also interesting to see the different DAWs being used: lots of Fruityloops and Ableton, but those are by no means the only ones being used. One of my favorites in the series is on Childish Gambino's "Redbone". Another thing worth mentioning is the <a href="http://songexploder.net/">Song Exploder</a> podcast, though the focus there is more on the musicians than on the producers.
+            </p>
+        type: "video series"
+        url: "https://genius.com/shows/deconstructed"
+        img: "genius.png"
+    -
+        pos: 10
+        name: "#tweeprint"
+        description: |
+            <p>
+                People in academia love to poke fun at twitter as a waste of time, as if all anyone's doing is mindlessly retweeting links to papers. Even if that were the case (which it's not), isn't that still more useful than a journal's email digests? The fact is, twitter is full of people using tweets to provide accessible synopses of their research that you won't find in any other medium, including talks, poster sessions, or abstracts. Even better, it's a new way to promote science and reach new audiences. And without the #tweeprint, and science-twitter in general, I would know absolutely nothing about the mechanosensory system of <a href="https://twitter.com/NatashaMhatre/status/1074739264879874048">black-widow spiders</a>.
+            </p>
+        type: "twitter"
+        url: "https://twitter.com/search?q=%23tweeprint&src=typd"
+        img: "tweeprint.png"
+    -
+        pos: 11
+        name: "Penguins hockey season opener"
+        description: |
+            <p>
+                This was my first ever hockey game, and it did not disappoint. The Penguins beat the Capitals. There were a ton of goals (the final score was 7-6 in OT), and a lot of very happy fans. Not only that, but Tom Hanks was there, and Jess and I were on the jumbotron right after they showed Tom Hanks!
+            </p>
+        type: "sports"
+        url: "https://www.nhl.com/gamecenter/wsh-vs-pit/2018/10/04/2018020007#game=2018020007,game_state=final"
+        img: "penguins.png"
+    -
+        pos: 12
+        name: "Degrees of Freedom"
+        description: |
+            <p>
+                This is a really great article about reseach on brain-machine interfaces and their use to enable paralyzed patients to control a robotic arm. Even more interesting for me, the article focuses on the former advisor of my current advisor--my science grandfather. This article is going to be my go-to for anyone who's interested in understanding my research area. It also made me incredibly inspired to know how close my research (which is pure science, not clinical) is to actually improving people's lives.
+            </p>
+        type: "article"
+        url: "https://www.newyorker.com/magazine/2018/11/26/how-to-control-a-machine-with-your-brain"
+        img: "nyer.png"
+    -
+        pos: 13
+        name: "Dutch Blitz"
+        description: |
+            <p>
+                My friend Ben heard about this game because his mother lives in an area with a lot of Amish neighbors, and they apparently play this game en masse every weekend. <i>Dutch Blitz</i> is basically like multi-person competitive solitaire, and it's a rush. When you first learn it, you might also score negative points, but it's worth the effort to persevere.
+            </p>
+        type: "card game"
+        url: "https://boardgamegeek.com/boardgame/148203/dutch-blitz"
+        img: "blitz.png"
+    -
+        pos: 14
+        name: "KEXP live music sessions"
+        description: |
+            <p>
+                Having a TV with a built-in Youtube app means that I now watch a lot of Youtube. That being said, one of my favorite new ways to listen to new music is to put on KEXP's live music sessions. The sound quality is superb (especially compared to Pitchfork's--their mixing is just awful), as is the video quality and overall vibe. One of the videos I return to all the time is this set by <a href="https://www.youtube.com/watch?v=yYqu5NdFMf8">Floating Points</a>.
+            </p>
+        type: "video series"
+        url: "https://www.youtube.com/channel/UC3I2GFN_F8WudD_2jUZbojA"
+        img: "kexp.png"
+    -
+        pos: 15
+        name: "Integers visualized using UMAP on prime factors"
+        description: |
+            <p>
+                I first came across this visualization in a <a href="https://twitter.com/jhnhw/status/1031829726757900288">tweet</a>, and it just immediately blew my mind. How could numbers look so much like...a solar system? Even more interesting is, it's not even immediately apparent on closer look why these numbers group up like they do and form such distinct looking types of clusters. No one's convinced there's necessarily something new in this view from a mathematical perspective, but still, I find it inspiring.
+            </p>
+        type: "visualization"
+        url: "https://johnhw.github.io/umap_primes/index.md.html"
+        img: "primes.png"

@@ -43,7 +43,7 @@ The player who has won the most cards by the end of the game is the winner. Beca
 For this phase, choose one (and only one) of three actions:
 
 1. __Start a new stack__ by playing a single card from your hand.
-2. __Add to a stack__ by playing a card (or sequence of cards) onto only _one_ of the existing stacks. You can play any number of cards, as long as each card in the stack matches the previous card in number, or is the same color and +/- 1 away in value. For example, if the top card on a stack is the King of Hearts, the next card could be another King (of any color), or a red Queen, or a red Ace. (Aces are considered one away from both Kings and Twos.)
+2. __Add to a stack__ by playing a card (or sequence of cards) onto only _one_ of the existing stacks. You can play any number of cards, as long as each card in the stack matches the previous card in number, or is the same color and +/- 1 away in value. (Similar to Uno rules.) For example, if the top card on a stack is the King of Hearts, the next card could be another King (of any color), or a red Queen, or a red Ace. (Aces are considered one away from both Kings and Twos.)
 3. __Bid on a stack__ by playing a single card below the stack. You can bid on a stack at any time, but when you play a bid card it cannot match the current top card of the stack in color or number. Once you have placed a bid on a stack, that bid cannot be removed or replaced. Your opponent can make their own bid on each stack. Your goal is to win a stack of cards by getting your bid card to finish the stack. (See the "Win stacks" section below.)
 
 <img style="width: 30%; min-width: 150px; float: left; margin-bottom: 10px; margin-right: 10px;" src="/assets/images/landslide/play-1.png">
@@ -75,4 +75,4 @@ If there are no more stacks left at this point, the next card from the deck is a
 Finally, you may choose to draw cards from the deck until you have six cards in your hand. If the first deck is empty before you have drawn the required number of cards, you must shuffle the discard pile to form a second deck, and then draw the remaining number of cards you need from that new deck. The game ends as soon as the second deck is empty!
 
 <br><br>
-Created with Jess Graves in September, 2018.
+Landslide was created with Jess Graves in September, 2018.
