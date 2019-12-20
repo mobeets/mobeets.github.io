@@ -1107,3 +1107,106 @@
             artist: "Cluster and Brian Eno"
             album: "Cluster & Eno"
             year: 1977
+2019:
+    new_releases:
+        -
+            pos: 1
+            artist: "Toro Y Moi"
+            album: "Outer Peace & Soul Trash"
+            year: 2019
+        -
+            pos: 2
+            artist: "Weyes Blood"
+            album: "Titanic Rising"
+            year: 2019
+        -
+            pos: 3
+            artist: "Crumb"
+            album: "Jinx"
+            year: 2019
+        -
+            pos: 4
+            artist: "Weval"
+            album: "The Weight"
+            year: 2019
+        -
+            pos: 5
+            artist: "(Sandy) Alex G"
+            album: "House of Sugar"
+            year: 2019
+        -
+            pos: 6
+            artist: "Sampa the Great"
+            album: "The Return"
+            year: 2019
+        -
+            pos: 7
+            artist: "Faye Webster"
+            album: "Atlanta Millionaires Club"
+            year: 2019
+        -
+            pos: 8
+            artist: "Steve Lacy"
+            album: "Apollo XXI"
+            year: 2019
+        -
+            pos: 9
+            artist: "Whitney"
+            album: "Forever Turned Around"
+            year: 2019
+        -
+            pos: 10
+            artist: "Modern Nature"
+            album: "How To Live"
+            year: 2019
+    old_releases:
+        -
+            pos: 1
+            artist: "Duster"
+            album: "Stratosphere"
+            year: 1998
+        -   
+            pos: 2
+            artist: "Kacey Musgraves"
+            album: "Golden Hour"
+            year: 2018
+        -   
+            pos: 3
+            artist: "Harry Nilsson"
+            album: "Aerial Ballet"
+            year: 1968
+        -   
+            pos: 4
+            artist: "Haruomi Hosono"
+            album: "Philharmony"
+            year: 1982
+        -   
+            pos: 5
+            artist: "Kurt Vile"
+            album: "Bottle It Up"
+            year: 2018
+        -   
+            pos: 6
+            artist: "Cass McCombs"
+            album: "Mangy Love"
+            year: 2016
+        -   
+            pos: 7
+            artist: "Papa M"
+            album: "Live From a Shark Cage"
+            year: 1999
+        -   
+            pos: 8
+            artist: "Robert Turman"
+            album: "Flux"
+            year: 1981
+        -   
+            pos: 9
+            artist: "Dur-Dur Band"
+            album: "Volume 5"
+            year: 2013
+        -   
+            pos: 10
+            artist: "Slowdive"
+            album: "Souvlaki"
+            year: 1994

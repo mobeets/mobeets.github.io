@@ -14,10 +14,11 @@ js2: favorites
         <div class="btn btn-list" data-list="all">All</div>
         <div class="btn btn-list" data-list="books">Books</div>
         <div class="btn btn-list" data-list="music">Music</div>
-        <div class="btn btn-list" data-list="movies">Movies</div>
+        <div class="btn btn-list" data-list="movies">TV & Film</div>
         <div class="btn btn-list" data-list="misc">Others</div>
     </div><br>
     <div class="btn-menu">
+        <div class="btn btn-year" data-year="2019">2019</div>
         <div class="btn btn-year" data-year="2018">2018</div>
         <div class="btn btn-year" data-year="2017">2017</div>
         <div class="btn btn-year" data-year="2016">2016</div>
@@ -111,13 +112,27 @@ js2: favorites
     {% for year in site.data.movies reversed %}
         {% assign yr = year[0] %}
         <div id="movies-{{yr}}" class="movies all list-group">
-            <h2>{{yr}} Films</h2>
+            <h2>{{yr}} TV & Film</h2>
             <div class="movies">                
-                {% if site.data.movies[yr].size > 0 %}
+                {% if site.data.movies[yr].movies.size > 0 %}
+                    <h3>Movies</h3>
                     <ol>
-                    {% for item in site.data.movies[yr] %}
+                    {% for item in site.data.movies[yr].movies %}
                         {% capture itemname %}{{ item.album }}{% endcapture %}
-                        {% capture itemurl %}{{itemname | replace:'.','_' | replace:'/','_' | replace:':','_' | replace: '?','%3F'}}{% endcapture %}
+                        {% capture itemurl %}{{itemname | replace:';','_' | replace:'.','_' | replace:'/','_' | replace:':','_' | replace: '?','%3F'}}{% endcapture %}
+                        <li><i>{{ item.album }}</i> ({{ item.year }}){% if item.artist %} - {{ item.artist }}{% endif %}{% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
+                        <img class="list-img album-img movie-img" src="{{ baseurl }}/movies/{{yr}}/{{ itemurl }}.jpeg"></img>
+                    {% endfor %}
+                    </ol>
+                {% endif %}
+            </div>
+            <div class="tv">                
+                {% if site.data.movies[yr].tv.size > 0 %}
+                    <h3>TV</h3>
+                    <ol>
+                    {% for item in site.data.movies[yr].tv %}
+                        {% capture itemname %}{{ item.album }}{% endcapture %}
+                        {% capture itemurl %}{{itemname | replace:';','_' | replace:'.','_' | replace:'/','_' | replace:':','_' | replace: '?','%3F'}}{% endcapture %}
                         <li><i>{{ item.album }}</i> ({{ item.year }}){% if item.artist %} - {{ item.artist }}{% endif %}{% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
                         <img class="list-img album-img movie-img" src="{{ baseurl }}/movies/{{yr}}/{{ itemurl }}.jpeg"></img>
                     {% endfor %}

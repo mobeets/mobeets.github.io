@@ -1,153 +1,224 @@
 2016:
-    -    
-        pos: 1
-        artist: "David Cronenberg"
-        album: "Scanners"
-        year: 1981
-    -    
-        pos: 2
-        artist: "John Carpenter"
-        album: "The Thing"
-        year: 1982
-    -    
-        pos: 3
-        artist: "Hal Hartley"
-        album: "Trust"
-        year: 1990
-    -    
-        pos: 4
-        artist: "Zhang Yimou"
-        album: "Hero"
-        year: 2002
-    -    
-        pos: 5
-        artist: "Sean McAllister"
-        album: "A Syrian Love Story"
-        year: 2015
-    -    
-        pos: 6
-        artist: "Richard Linklater"
-        album: "Dazed and Confused"
-        year: 1993
-    -    
-        pos: 7
-        artist: "Don Hertzfeldt"
-        album: "It's Such a Beautiful Day"
-        year: 2012
-    -    
-        pos: 8
-        artist: "Park Chan-wook"
-        album: "Joint Security Area"
-        year: 2005
-    -    
-        pos: 9
-        artist: "Park Chan-wook"
-        album: "Oldboy"
-        year: 2003
-    -    
-        pos: 10
-        artist: "Rachel Lang"
-        album: "Baden Baden"
-        year: 2016
+    movies:
+        -
+            pos: 1
+            artist: "David Cronenberg"
+            album: "Scanners"
+            year: 1981
+        -    
+            pos: 2
+            artist: "John Carpenter"
+            album: "The Thing"
+            year: 1982
+        -    
+            pos: 3
+            artist: "Hal Hartley"
+            album: "Trust"
+            year: 1990
+        -    
+            pos: 4
+            artist: "Zhang Yimou"
+            album: "Hero"
+            year: 2002
+        -    
+            pos: 5
+            artist: "Sean McAllister"
+            album: "A Syrian Love Story"
+            year: 2015
+        -    
+            pos: 6
+            artist: "Richard Linklater"
+            album: "Dazed and Confused"
+            year: 1993
+        -    
+            pos: 7
+            artist: "Don Hertzfeldt"
+            album: "It's Such a Beautiful Day"
+            year: 2012
+        -    
+            pos: 8
+            artist: "Park Chan-wook"
+            album: "Joint Security Area"
+            year: 2005
+        -    
+            pos: 9
+            artist: "Park Chan-wook"
+            album: "Oldboy"
+            year: 2003
+        -    
+            pos: 10
+            artist: "Rachel Lang"
+            album: "Baden Baden"
+            year: 2016
 2017:
-    -    
-        pos: 1
-        artist: "Hayao Miyazaki"
-        album: "My Neighbor Totoro"
-        year: 1988
-    -    
-        pos: 2
-        artist: "Teller"
-        album: "Tim's Vermeer"
-        year: 2013
-    -    
-        pos: 3
-        artist: "Denis Villeneuve"
-        album: "Arrival"
-        year: 2016
-    -    
-        pos: 4
-        artist: "Denis Villeneuve"
-        album: "Blade Runner 2049"
-        year: 2017
-    -    
-        pos: 5
-        artist: "Denzel Washington"
-        album: "Fences"
-        year: 2016
-    -    
-        pos: 6
-        artist: "Paul Verhoeven"
-        album: "Total Recall"
-        year: 1990
-    -    
-        pos: 7
-        artist: "John McTiernan"
-        album: "Die Hard"
-        year: 1988
-    -    
-        pos: 8
-        artist: "Barry Jenkins"
-        album: "Moonlight"
-        year: 2016
-    -    
-        pos: 9
-        artist: "Kevan Funk"
-        album: "Hello Destroyer"
-        year: 2016
-    -    
-        pos: 10
-        artist: "Chris Smith"
-        album: "Jim & Andy"
-        year: 2017
+    movies:
+        -    
+            pos: 1
+            artist: "Hayao Miyazaki"
+            album: "My Neighbor Totoro"
+            year: 1988
+        -    
+            pos: 2
+            artist: "Teller"
+            album: "Tim's Vermeer"
+            year: 2013
+        -    
+            pos: 3
+            artist: "Denis Villeneuve"
+            album: "Arrival"
+            year: 2016
+        -    
+            pos: 4
+            artist: "Denis Villeneuve"
+            album: "Blade Runner 2049"
+            year: 2017
+        -    
+            pos: 5
+            artist: "Denzel Washington"
+            album: "Fences"
+            year: 2016
+        -    
+            pos: 6
+            artist: "Paul Verhoeven"
+            album: "Total Recall"
+            year: 1990
+        -    
+            pos: 7
+            artist: "John McTiernan"
+            album: "Die Hard"
+            year: 1988
+        -    
+            pos: 8
+            artist: "Barry Jenkins"
+            album: "Moonlight"
+            year: 2016
+        -    
+            pos: 9
+            artist: "Kevan Funk"
+            album: "Hello Destroyer"
+            year: 2016
+        -    
+            pos: 10
+            artist: "Chris Smith"
+            album: "Jim & Andy"
+            year: 2017
 2018:
-    -    
-        pos: 1
-        artist: "Morgan Neville"
-        album: "Won't You Be My Neighbor?"
-        year: 2018
-    -    
-        pos: 2
-        artist: "Luca Guadagnino"
-        album: "Call Me By Your Name"
-        year: 2017
-    -    
-        pos: 3
-        artist: "Kinji Fukasaku"
-        album: "Battle Royale"
-        year: 2000
-    -    
-        pos: 4
-        artist: "Jennie Livingston"
-        album: "Paris is Burning"
-        year: 1990
-    -    
-        pos: 5
-        artist: "Spike Jonze"
-        album: "Adaptation."
-        year: 2002
-    -    
-        pos: 6
-        artist: "Adam Rifkin"
-        album: "Giuseppe Makes a Movie"
-        year: 2014
-    -    
-        pos: 7
-        artist: "Lenny Abrahamson"
-        album: "Frank"
-        year: 2014
-    -    
-        pos: 8
-        artist: "Luca Guadagnino"
-        album: "Suspiria"
-        year: 2018
-    -    
-        pos: 9
-        artist: "George A. Romero"
-        album: "Season of the Witch"
-        year: 1972
-    -    
-        pos: 10
-        artist: "Andrea Luka Zimmerman"
-        album: "Erase and Forget"
-        year: 2017
+    movies:
+        -    
+            pos: 1
+            artist: "Morgan Neville"
+            album: "Won't You Be My Neighbor?"
+            year: 2018
+        -    
+            pos: 2
+            artist: "Luca Guadagnino"
+            album: "Call Me By Your Name"
+            year: 2017
+        -    
+            pos: 3
+            artist: "Kinji Fukasaku"
+            album: "Battle Royale"
+            year: 2000
+        -    
+            pos: 4
+            artist: "Jennie Livingston"
+            album: "Paris is Burning"
+            year: 1990
+        -    
+            pos: 5
+            artist: "Spike Jonze"
+            album: "Adaptation."
+            year: 2002
+        -    
+            pos: 6
+            artist: "Adam Rifkin"
+            album: "Giuseppe Makes a Movie"
+            year: 2014
+        -    
+            pos: 7
+            artist: "Lenny Abrahamson"
+            album: "Frank"
+            year: 2014
+        -    
+            pos: 8
+            artist: "Luca Guadagnino"
+            album: "Suspiria"
+            year: 2018
+        -    
+            pos: 9
+            artist: "George A. Romero"
+            album: "Season of the Witch"
+            year: 1972
+        -    
+            pos: 10
+            artist: "Andrea Luka Zimmerman"
+            album: "Erase and Forget"
+            year: 2017
+2019:
+    movies:
+        -
+            pos: 1
+            artist: "Yasujirô Ozu"
+            album: "Tokyo Story"
+            year: 1953
+        -
+            pos: 2
+            artist: "Noah Baumbach"
+            album: "Frances Ha"
+            year: 2012
+        -
+            pos: 3
+            artist: "Bob Persichetti, Peter Ramsey, & Rodney Rothman"
+            album: "Spider-Man: Into the Spider-Verse"
+            year: 2018
+        -
+            pos: 4
+            artist: "Chris Smith; Jenner Furst & Julia Nason"
+            album: "Fyre; Fyre Fraud"
+            year: 2019
+        -
+            pos: 5
+            artist: "Steven Bognar & Julia Reichert"
+            album: "American Factory"
+            year: 2019
+        -
+            pos: 6
+            artist: "Wayne Wang"
+            album: "Anywhere But Here"
+            year: 1999
+        -
+            pos: 7
+            artist: "Barry Jenkins"
+            album: "If Beale Street Could Talk"
+            year: 2018
+    tv:
+        -
+            pos: 1
+            artist: "Phoebe Waller-Bridge"
+            album: "Fleabag"
+            year: "2016-2019"
+        -
+            pos: 2
+            artist: "David Chase"
+            album: "The Sopranos"
+            year: "1999-2007"
+        -
+            pos: 3
+            artist: "Natasha Nyonne, Leslye Headland, & Amy Poehler"
+            album: "Russian Doll"
+            year: "2019"
+        -
+            pos: 4
+            artist: "Alec Berg & Bill Hader"
+            album: "Barry"
+            year: "2018-2019"
+        -
+            pos: 5
+            artist: "Damon Lindelof"
+            album: "Watchmen"
+            year: "2019"
+        -
+            pos: 6
+            artist: "Keegan-Michael Key & Jordan Peele"
+            album: "Key and Peele"
+            year: "2012-2015"

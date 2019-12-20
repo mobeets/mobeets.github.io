@@ -438,3 +438,55 @@
             artist: "Michael DeForge"
             album: "Sticks Angelica, Folk Hero"
             year: 2017
+2019:
+    BOOKS:
+        -
+            pos: 1
+            artist: "John McPhee"
+            album: "Encounters with the Archdruid"
+            year: 1971
+        -
+            pos: 2
+            artist: "Geoffrey West"
+            album: "Scale"
+            year: 2017
+        -
+            pos: 3
+            artist: "W. Somerset Maugham"
+            album: "Of Human Bondage"
+            year: 1915
+        -
+            pos: 4
+            artist: "Steven Strogatz"
+            album: "Sync"
+            year: 2003
+        -
+            pos: 5
+            artist: "Lise Eliot"
+            album: "What's Going on in There?: How the Brain and Mind Develop in the First Five Years of Life"
+            year: 1999
+        -
+            pos: 6
+            artist: "Ford Madox Ford"
+            album: "The Good Soldier"
+            year: 1915
+        -
+            pos: 7
+            artist: "John McPhee"
+            album: "The Control of Nature"
+            year: 1989
+        -
+            pos: 8
+            artist: "Judea Pearl and Dana Mackenzie"
+            album: "The Book of Why"
+            year: 2018
+        -
+            pos: 9
+            artist: "Rosamond Lehmann"
+            album: "Invitation to the Waltz"
+            year: 1932
+        -
+            pos: 10
+            artist: "Tim Wu"
+            album: "The Curse of Bigness"
+            year: 2018
