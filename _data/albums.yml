@@ -1165,11 +1165,11 @@
             artist: "Duster"
             album: "Stratosphere"
             year: 1998
-        -   
+        -
             pos: 2
-            artist: "Kacey Musgraves"
-            album: "Golden Hour"
-            year: 2018
+            artist: "Arthur Russell"
+            album: "Iowa Dream"
+            year: 2019
         -   
             pos: 3
             artist: "Haruomi Hosono"
@@ -1177,36 +1177,36 @@
             year: 1982
         -   
             pos: 4
+            artist: "Kacey Musgraves"
+            album: "Golden Hour"
+            year: 2018
+        -   
+            pos: 5
             artist: "Harry Nilsson"
             album: "Aerial Ballet"
             year: 1968
         -   
-            pos: 5
+            pos: 6
             artist: "Kurt Vile"
             album: "Bottle It In"
             year: 2018
         -   
-            pos: 6
+            pos: 7
             artist: "Cass McCombs"
             album: "Mangy Love"
             year: 2016
         -   
-            pos: 7
+            pos: 8
             artist: "Papa M"
             album: "Live From a Shark Cage"
             year: 1999
         -   
-            pos: 8
+            pos: 9
             artist: "Robert Turman"
             album: "Flux"
             year: 1981
         -   
-            pos: 9
+            pos: 10
             artist: "Dur-Dur Band"
             album: "Volume 5"
             year: 2013
-        -   
-            pos: 10
-            artist: "Slowdive"
-            album: "Souvlaki"
-            year: 1994
