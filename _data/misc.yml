@@ -967,3 +967,117 @@
         type: "visualization"
         url: "https://johnhw.github.io/umap_primes/index.md.html"
         img: "primes.png"
+2019:
+    -
+        pos: 1
+        name: "Laser cutter"
+        description: |
+            <p>
+                I am so glad that I took a mini course at Carnegie Mellon to have access to their laser cutters. It's been kind of like a library for me, in that it takes some time to figure out exactly how you want to use it, but once you do, it changes everything. Making things with it is a slow process filled with trial-and-error, but it's also very magical. As the instructor put it, "Never forget the power of this machine: it can take sketches or drawings that you've made and turn them into <i>real objects</i>."
+            </p>
+        type: "machine"
+        url: "https://resources.ideate.cmu.edu/equipment/laser-cutter/"
+        img: "laser.png"
+    -
+        pos: 2
+        name: "Smash Bros Ultimate"
+        description: |
+            <p>
+                I can't imagine the pressure Nintendo must have felt to put out this game, knowing that practically everyone buying the Switch was waiting for it to come out. That's what makes it even more impressive that this game is so well done! The fact that they included 70+ characters initially seemed like a cop-out, but it's actually what makes this game so easy to keep playing; there are always more characters to discover. As a testament to how much I love this game, Jess and I played it 101 days out of the first year we owned it.
+            </p>
+        type: "video game"
+        url: "https://www.smashbros.com/en_US/"
+        img: "smash.png"
+    -
+        pos: 3
+        name: 'Someday'
+        description: |
+            <br><iframe width="560" height="315" src="https://www.youtube.com/embed/n-wEvzqdDZg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
+                I love this song, but the music video just really takes it over the top. The effect is a sort of kaleidoscope composed of thousands of images of city-scapes such as apartment windows and highway overpasses, and the result is mesmerizing. It's kind of like <i>Koyaanisqatsi</i>, but entertaining. Part of me wants to understand exactly how these visuals are made. Is there any sort of pattern matching done automatically by some software, or is it all manual? Either way, I'm sure something like this takes a lot of work. The result is beautiful.
+            </p>
+        type: "music video"
+        url: "https://www.youtube.com/watch?v=n-wEvzqdDZg"
+        img: "weval.png"
+    -
+        pos: 4
+        name: "Zygote to tadpole"
+        description: |
+            <br><iframe width="560" height="315" src="https://www.youtube.com/embed/7Q9VyHJ1l2Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
+                I hope that subconsciously, whenever I imagine the process of life beginning from a single fertilized egg, I will picture scenes from this short film. (The fact that the end result here is a tadpole doesn't really matter, as the first half of the video is probably nearly exactly the same for all animals.) Early in the video (e.g., at 0:30), it's almost as if the cells are dividing (and then twisting to make room for the others) in unison. How is this possible?? I would love to watch an annotated version of this video.
+            </p>
+        type: "video"
+        url: "https://www.youtube.com/watch?v=7Q9VyHJ1l2Q"
+        img: "tadpole.png"
+    -
+        pos: 5
+        name: "Quantum Country"
+        description: |
+            <p>
+                This website is a sort of experimental tutorial about quantum computing with its own built-in study app. The study app is based on the idea of <a href="https://en.wikipedia.org/wiki/Spaced_learning">spaced learning</a>, where the goal is to learn new concepts with the minimum amount of studying (by studying things at just the right time). While I didn't stick with the tutorial for very long, I think it's a really cool concept (as well as a very clever way of encouraging your audience to keep returning to your website!).
+            </p>
+        type: "website"
+        url: "https://quantum.country/"
+        img: "quantum.png"
+    -
+        pos: 6
+        name: "Journey to the Microcosmos"
+        description: |
+            <p>
+                This has probably been the first youtube channel that I've consistently watched their videos basically as soon as they came out, one per week. Each video explains different aspects of microscopic life, featuring creatures such as tardigrades, rotifers, and ciliates. It's beautiful microscope footage (though I never even knew such a thing existed before this channel) with nice ethereal music. It was the perfect thing to put on when the boys were little and I had nothing else to do.
+            </p>
+        type: "video series"
+        url: "https://www.youtube.com/channel/UCBbnbBWJtwsf0jLGUwX5Q3g"
+        img: "microcosmos.png"
+    -
+        pos: 7
+        name: "amateur underwater footage"
+        description: |
+            <p>
+                For a while, one of my favorite things to do to relax at night with Jess was to put on some nice HD underwater footage on youtube on mute while listening to ambient music such as <a href="https://www.youtube.com/watch?v=mjnAE5go9dI"><i>The Distintegration Loops</i></a>, Jan Jelinek, or Cluster & Eno. It's amazing how much high-quality amateur underwater footage there is! The cool thing is that there are always animals and fish that I've never seen before. Clearly there are way more weird sea creatures than I knew.
+            </p>
+        type: "videos"
+        url: "https://www.youtube.com/watch?v=64t-EHbNtRM&list=PLI1mKoe24mlVQ8a9zkg7jyAmtWlQmqwcf&index=5&t=2s"
+        img: "underwater.png"
+    -
+        pos: 8
+        name: "Still Woozy"
+        description: |
+            <br><iframe width="560" height="315" src="https://www.youtube.com/embed/zL3wWykAKfs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
+                I can't wait until this guy puts out a full-length. His music just feels so good, and his voice is super smooth. I listen to the few songs he's released all the time, and they never get old. "<a href="https://www.youtube.com/watch?v=zL3wWykAKfs">Goodie Bag</a>," the first song of his I heard, is still my favorite.
+            </p>
+        type: "musician"
+        url: "https://www.youtube.com/channel/UCFvpiAtMwvCTCZuEM8Ua8Uw"
+        img: "woozy.png"
+    -
+        pos: 9
+        name: "Chaudhuri et al. (2019)"
+        description: |
+            <p>
+                This paper, titled "The intrinsic attractor manifold and population dynamics of a canonical cognitive circuit across waking and sleep," introduced me to an interesting data analysis technique I'd never heard of before called persistent homology. But method aside, it had never occurred to me that different data types (e.g., continuous vs. discrete, linear vs. circular) actually mean the data lives on a particular topological space. For example, the space formed by two circular variables is a torus, or donut, while the space formed by two continuous variables is a plane. Even if the data analysis part is sensitive to noise or computationally intractable, I think it's a really cool perspective to keep in mind (for example, it can explain why neural activity in motor cortex is <a href="https://mobeets.github.io/psth-to-population/">shaped like a cone</a>).
+            </p>
+        type: "academic paper"
+        url: "https://t.co/vhbDbEikoC"
+        img: "topology.png"
+    -
+        pos: 10
+        name: "Mercury is our closest planet"
+        description: |
+            <p>
+                I thought this was a really interesting point: If someone asks you which planet is closer to Earth <i>right now</i>, then on average you'd always be better off guessing Mercury than Venus. In fact, the sun itself is closer on average to Earth than to any planet, and the explanation is purely mathematical and very simple. Reading the comments, I think this point seemed annoying or pedantic to some people, but I thought it was initially pretty surprising.
+            </p>
+        type: "article"
+        url: "https://physicstoday.scitation.org/do/10.1063/PT.6.3.20190312a/full/"
+        img: "mercury.png"
+    -
+        pos: 11
+        name: "Jozsa Corner"
+        description: |
+            <p>
+                I was invited to go have dinner at a place called Jozsa's Corner, which I'd never heard of before and knew nothing about. This made the whole experience even better--kind of like seeing an amazing movie without having ever seen the previews. For $33 a person (and BYOB), I and three others were treated to a private, seven-course dinner of Hungarian food, hosted by an incredibly lovely man named Alex. It's a very unique eating experience, and one I will probably never forget!
+            </p>
+        type: "restaurant"
+        url: "http://www.jozsacorner.com/jozsacorner/Welcome.html"
+        img: "jozsa.png"
