@@ -7,7 +7,7 @@ css: about
 {% include JB/setup %}
 <br>
 <!-- <img id="profile" src="assets/images/self.png" style=""/> -->
-<img id="profile" src="assets/images/jay-hennig-photo.jpg" style=""/>
+<img id="profile" src="assets/images/jay-hennig-photo.jpg"/>
 Hi! I am a PhD student in [Neural Computation](http://www.cnbc.cmu.edu/pnc) and Machine Learning at Carnegie Mellon University, advised by [Byron Yu](https://users.ece.cmu.edu/~byronyu/) and [Steve Chase](http://www.cnbc.cmu.edu/~schase/index.php).
 
 I'm interested in using techniques from statistics and machine learning to understand how populations of neurons interact to perceive the world and drive behavior.
