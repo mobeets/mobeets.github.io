@@ -1,0 +1,41 @@
+papers:
+    -
+        title: "New neural activity patterns emerge with long-term learning"
+        authors: "ER Oby, MD Golub, <b>JA Hennig</b>, ..., BM Yu, SM Chase, AP Batista"
+        journal: "Proceedings of the National Academy of Sciences"
+        volume: "116 (30), 15210-15215"
+        year: 2019
+        url: https://www.pnas.org/content/116/30/15210.short
+        image: Oby2019
+    -
+        title: "Constraints on neural redundancy"
+        authors: "<b>JA Hennig</b>, MD Golub, ..., BM Yu, SM Chase, AP Batista"
+        journal: "eLife"
+        volume: "7, e36774"
+        year: 2018
+        url: https://elifesciences.org/articles/36774
+        image: Hennig2018
+    -
+        title: "A classifying variational autoencoder with application to polyphonic music generation"
+        authors: "<b>JA Hennig</b>, A Umakantha, RC Williamson"
+        journal: "arXiv [preprint]"
+        volume: "arXiv:1711.07050"
+        year: 2017
+        url: https://arxiv.org/abs/1711.07050
+        image: Hennig2017
+    -
+        title: "A distinct mechanism of temporal integration for motion through depth"
+        authors: "LN Katz, <b>JA Hennig</b>, LK Cormack, AC Huk"
+        journal: "Journal of Neuroscience"
+        volume: "35 (28), 10212-10216"
+        year: 2015
+        url: https://www.jneurosci.org/content/35/28/10212.short
+        image: Katz2015
+    -
+        title: "Signal multiplexing and single-neuron computations in lateral intraparietal area during decision-making"
+        authors: "MLR Meister, <b>JA Hennig</b>, AC Huk"
+        journal: "Journal of Neuroscience"
+        volume: "33 (6), 2254-2267"
+        year: 2013
+        url: https://www.jneurosci.org/content/33/6/2254.short
+        image: Meister2013
