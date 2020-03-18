@@ -36,6 +36,12 @@
     items:
         -
             categ: "coded"
+            date: "2020-03-18"
+            key: "disease-spread"
+            name: "Disease spread"
+            url: "https://mobeets.github.io/disease-spread/"
+        -
+            categ: "coded"
             date: "2018-12-17"
             key: "psths"
             name: "Viewing neural populations"
