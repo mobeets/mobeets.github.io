@@ -1,3 +1,6 @@
+.title {
+    margin-bottom: 1em;
+}
 
 #post {
     text-align: left;
@@ -6,7 +9,7 @@
 .button {
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 6px 6px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -22,8 +25,10 @@
 
 #profile {
     float: left;
-    width: 12em;
+    width: 10em;
     margin-right: 18px;
+    margin-bottom: 1em;
+    /*margin-top: 1em;*/
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     border-radius: 7px;
@@ -75,7 +80,7 @@
 .item-image {
     margin-right: 1em;
     float: left;
-    /*padding-top: 1em;*/
+    padding-bottom: 1em;
 }
 .item-brief {
     text-align: justify;
@@ -98,7 +103,7 @@
     /*padding: 1.625em 0 0;*/
     overflow: auto;
     padding-top: 1em;
-    padding-bottom: 1em;
+    /*padding-bottom: 1em;*/
 }
 .item-comments {
     display: contents;
