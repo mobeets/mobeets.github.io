@@ -26,8 +26,9 @@
 #profile {
     float: left;
     width: 10em;
+    max-width: 40%;
     margin-right: 18px;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     /*margin-top: 1em;*/
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
