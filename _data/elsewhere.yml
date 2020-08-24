@@ -41,6 +41,12 @@
             name: "Disease spread"
             url: "https://mobeets.github.io/disease-spread/"
         -
+            categ: "made"
+            date: "2019-05-16"
+            key: "bayesball"
+            name: "Bayesball [band]"
+            url: "https://bayesball.bandcamp.com/"
+        -
             categ: "coded"
             date: "2018-12-17"
             key: "psths"
@@ -178,17 +184,17 @@
             key: "unfulfilled"
             name: "Unfulfilled"
             url: ".html"
-        -
-            categ: "drawn"
-            date: "2014-03-20"
-            key: "wait-stand-here"
-            name: "Labor Ready"
-            url: ".html"
+        # -
+        #     categ: "drawn"
+        #     date: "2014-03-20"
+        #     key: "wait-stand-here"
+        #     name: "Labor Ready"
+        #     url: ".html"
         -
             categ: "made"
             date: "2014-03-18"
             key: "thu-jehosafet-music-2"
-            name: "elec-music"
+            name: "Soundcloud"
             url: "https://soundcloud.com/jehosafet"
         -
             categ: "written"
@@ -196,24 +202,24 @@
             key: "unfulfilled-3"
             name: "Unfulfilled #3 - Jessie Conover"
             url: ".html"
-        -
-            categ: "listed"
-            date: "2014-03-14"
-            key: "on-me-20140314"
-            name: "On me, 14 March 2014"
-            url: "https://medium.com/p/21a78487a2b3"
-        -
-            categ: "drawn"
-            date: "2014-03-13"
-            key: "julian-crazy-eyes"
-            name: "Julian Crazy Eyes"
-            url: ".html"
-        -
-            categ: "drawn"
-            date: "2014-01-25"
-            key: "pie-man"
-            name: "Fly cat, pie man"
-            url: ".html"
+        # -
+        #     categ: "listed"
+        #     date: "2014-03-14"
+        #     key: "on-me-20140314"
+        #     name: "On me, 14 March 2014"
+        #     url: "https://medium.com/p/21a78487a2b3"
+        # -
+        #     categ: "drawn"
+        #     date: "2014-03-13"
+        #     key: "julian-crazy-eyes"
+        #     name: "Julian Crazy Eyes"
+        #     url: ".html"
+        # -
+        #     categ: "drawn"
+        #     date: "2014-01-25"
+        #     key: "pie-man"
+        #     name: "Fly cat, pie man"
+        #     url: ".html"
         -
             categ: "coded"
             date: "2014-01-24"
@@ -248,7 +254,7 @@
             categ: "made"
             date: "2013-12-18"
             key: "thu-jehosafet-music"
-            name: "music"
+            name: "Bandcamp"
             url: "http://mobeetsforus.bandcamp.com/"
         -
             categ: "coded"
@@ -268,12 +274,12 @@
             key: "urban-dick-bot"
             name: "@UrbanDickBot"
             url: ".html"
-        -
-            categ: "listed"
-            date: "2013-11-15"
-            key: "when-broken-work"
-            name: "Things that still work when broken"
-            url: ".md"
+        # -
+        #     categ: "listed"
+        #     date: "2013-11-15"
+        #     key: "when-broken-work"
+        #     name: "Things that still work when broken"
+        #     url: ".md"
         -
             categ: "coded"
             date: "2013-11-12"
@@ -286,12 +292,12 @@
             key: "edward"
             name: "Edward [head]"
             url: ".html"
-        -
-            categ: "listed"
-            date: "2013-10-24"
-            key: "big-bite-for-last"
-            name: "Save the Big Bite For Last"
-            url: ".md"
+        # -
+        #     categ: "listed"
+        #     date: "2013-10-24"
+        #     key: "big-bite-for-last"
+        #     name: "Save the Big Bite For Last"
+        #     url: ".md"
         -
             categ: "written"
             date: "2013-09-26"
@@ -328,36 +334,36 @@
             key: "unfulfilled-1"
             name: "Unfulfilled #1 - Jess Graves"
             url: ".html"
-        -
-            categ: "written"
-            date: "2013-08-05"
-            key: "about-grass"
-            name: "About grass or neighbors"
-            url: ".md"
-        -
-            categ: "listed"
-            date: "2013-07-29"
-            key: "on-me-20130729"
-            name: "On me, 29 July 2013"
-            url: "https://medium.com/who-i-am/e1aa74f42b63"
-        -
-            categ: "coded"
-            date: "2013-07-25"
-            key: "story-fork"
-            name: "Story fork"
-            url: ".html"
+        # -
+        #     categ: "written"
+        #     date: "2013-08-05"
+        #     key: "about-grass"
+        #     name: "About grass or neighbors"
+        #     url: ".md"
+        # -
+        #     categ: "listed"
+        #     date: "2013-07-29"
+        #     key: "on-me-20130729"
+        #     name: "On me, 29 July 2013"
+        #     url: "https://medium.com/who-i-am/e1aa74f42b63"
+        # -
+        #     categ: "coded"
+        #     date: "2013-07-25"
+        #     key: "story-fork"
+        #     name: "Story fork"
+        #     url: ".html"
         -
             categ: "coded"
             date: "2013-06-10"
             key: "morse-news"
             name: "Morse News"
             url: "http://morse-news.herokuapp.com/"
-        -
-            categ: "coded"
-            date: "2013-04-16"
-            key: "color-grids"
-            name: "Book color grids"
-            url: ".html"
+        # -
+        #     categ: "coded"
+        #     date: "2013-04-16"
+        #     key: "color-grids"
+        #     name: "Book color grids"
+        #     url: ".html"
         -
             categ: "written"
             date: "2013-03-16"
@@ -376,12 +382,12 @@
             key: "speak-neuron"
             name: "Speak Neuron"
             url: "/speak-neuron"
-        -
-            categ: "drawn"
-            date: "2012-09-02"
-            key: "thinking-about-thinking"
-            name: "Thinking About Thinking"
-            url: ".html"
+        # -
+        #     categ: "drawn"
+        #     date: "2012-09-02"
+        #     key: "thinking-about-thinking"
+        #     name: "Thinking About Thinking"
+        #     url: ".html"
         -
             categ: "written"
             date: "2012-06-14"
@@ -418,12 +424,12 @@
             key: "ed-head"
             name: "Ed [head]"
             url: ".html"
-        -
-            categ: "drawn"
-            date: "2009-02-11"
-            key: "the-octopus"
-            name: "The Octopus"
-            url: ".jpg"
+        # -
+        #     categ: "drawn"
+        #     date: "2009-02-11"
+        #     key: "the-octopus"
+        #     name: "The Octopus"
+        #     url: ".jpg"
         -
             categ: "made"
             date: "2008-04-15"
