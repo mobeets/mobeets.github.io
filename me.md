@@ -27,7 +27,7 @@ You can email me at <img src="/assets/images/email.png" style="width: 20%;"/>, o
 <ul class="papers">
 {% for item in site.data.papers.papers %}
 <!-- <hr> -->
-<li class="paper-item"><span class="item-title">"{{ item.title }}"</span> <span style="font-size: small;"><a href="{{ item.url }}">[link]</a> <a href="/assets/pdf/papers/{{ item.image }}.pdf">[pdf]</a></span><br/>
+<li class="paper-item"><span class="item-title">"{{ item.title }}"</span> <span style="font-size: small;"><a href="{{ item.url }}">[link]</a> <a href="/assets/pdf/papers/{{ item.image }}.pdf">[pdf]</a> {% if item.demo %} <a href="{{ item.demo }}">[demo]</a> {% endif %} </span><br/>
 	<span style="font-size: small; color: gray;">{{ item.authors }}</span><br><span style="font-size: small;"><i>{{ item.journal }}</i> ({{ item.year }})</span><br/>
 	<div class="item-content">
 		<img src="/assets/images/academic/{{ item.image }}.{{ item.imagetype }}" width="200px" class="item-image">
