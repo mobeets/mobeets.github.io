@@ -1,20 +1,37 @@
 papers:
     -
+        title: "Learning is shaped by abrupt changes in neural engagement"
+        authors: "<b>JA Hennig</b>, ..., AP Batista*, SM Chase*, BM Yu*"
+        journal: "[under review]"
+        volume: "N/A"
+        year: 2020
+        url: https://www.biorxiv.org/content/10.1101/2020.05.24.112714v1
+        image: Hennig2020
+        imagetype: gif
+        briefly: "We identified large fluctuations in neural population activity in motor cortex (M1) indicative of arousal-like internal state changes. These changes in neural activity helped to explain why animals learned some tasks more quickly than others."
+        summary: "Internal states such as arousal, attention, and motivation are known to modulate brain-wide neural activity, but how these processes interact with learning is not well understood. During learning, the brain must modify the neural activity it produces to improve behavioral performance. How do internal states affect the evolution of this learning process? Using a brain-computer interface (BCI) learning paradigm in non-human primates, we identified large fluctuations in neural population activity in motor cortex (M1) indicative of arousal-like internal state changes. These fluctuations drove population activity along dimensions we term neural engagement axes. Neural engagement increased abruptly at the start of learning, and then gradually retreated. In a BCI, the causal relationship between neural activity and behavior is known. This allowed us to understand how these changes impacted behavioral performance for different task goals. We found that neural engagement interacted with learning, helping to explain why animals learned some task goals more quickly than others."
+    -
         title: "New neural activity patterns emerge with long-term learning"
-        authors: "ER Oby, MD Golub, <b>JA Hennig</b>, ..., BM Yu, SM Chase, AP Batista"
+        authors: "ER Oby, MD Golub, <b>JA Hennig</b>, ..., BM Yu*, SM Chase*, AP Batista*"
         journal: "Proceedings of the National Academy of Sciences"
         volume: "116 (30), 15210-15215"
         year: 2019
         url: https://www.pnas.org/content/116/30/15210.short
         image: Oby2019
+        imagetype: png
+        briefly: "We establish that new neural activity patterns emerge with learning, providing evidence that the formation of new patterns of neural population activity can underlie the learning of new skills."
+        summary: "Learning has been associated with changes in the brain at every level of organization. However, it remains difficult to establish a causal link between specific changes in the brain and new behavioral abilities. We establish that new neural activity patterns emerge with learning. We demonstrate that these new neural activity patterns cause the new behavior. Thus, the formation of new patterns of neural population activity can underlie the learning of new skills."
     -
         title: "Constraints on neural redundancy"
-        authors: "<b>JA Hennig</b>, MD Golub, ..., BM Yu, SM Chase, AP Batista"
+        authors: "<b>JA Hennig</b>, MD Golub, ..., BM Yu*, SM Chase*, AP Batista*"
         journal: "eLife"
         volume: "7, e36774"
         year: 2018
         url: https://elifesciences.org/articles/36774
         image: Hennig2018
+        imagetype: png
+        briefly: "Millions of neurons in the brain control the activity of tens of muscles in the arm, meaning neural activity is redundant. We compared various hypotheses for how the brain deals with this redundancy by recording in primary motor cortex while subjects performed a brain-computer interface task."
+        summary: "Millions of neurons drive the activity of hundreds of muscles, meaning many different neural population activity patterns could generate the same movement. Studies have suggested that these redundant (i.e. behaviorally equivalent) activity patterns may be beneficial for neural computation. However, it is unknown what constraints may limit the selection of different redundant activity patterns. We leveraged a brain-computer interface, allowing us to define precisely which neural activity patterns were redundant. Rhesus monkeys made cursor movements by modulating neural activity in primary motor cortex. We attempted to predict the observed distribution of redundant neural activity. Principles inspired by work on muscular redundancy did not accurately predict these distributions. Surprisingly, the distributions of redundant neural activity and task-relevant activity were coupled, which enabled accurate predictions of the distributions of redundant activity. This suggests limits on the extent to which redundancy may be exploited by the brain for computation."
     -
         title: "A classifying variational autoencoder with application to polyphonic music generation"
         authors: "<b>JA Hennig</b>, A Umakantha, RC Williamson"
@@ -23,6 +40,9 @@ papers:
         year: 2017
         url: https://arxiv.org/abs/1711.07050
         image: Hennig2017
+        imagetype: png
+        briefly: "We augment a neural network known as a variational autoencoder (VAE) to classify the observed data while also learning its latent representation. We show that when this network is combined with an LSTM and used to generate music, the network plays fewer incorrect notes than a standard VAE+LSTM."
+        summary: "The variational autoencoder (VAE) is a popular probabilistic generative model. However, one shortcoming of VAEs is that the latent variables cannot be discrete, which makes it difficult to generate data from different modes of a distribution. Here, we propose an extension of the VAE framework that incorporates a classifier to infer the discrete class of the modeled data. To model sequential data, we can combine our Classifying VAE with a recurrent neural network such as an LSTM. We apply this model to algorithmic music generation, where our model learns to generate musical sequences in different keys. Most previous work in this area avoids modeling key by transposing data into only one or two keys, as opposed to the 10+ different keys in the original music. We show that our Classifying VAE and Classifying VAE+LSTM models outperform the corresponding non-classifying models in generating musical samples that stay in key. This benefit is especially apparent when trained on untransposed music data in the original keys."
     -
         title: "A distinct mechanism of temporal integration for motion through depth"
         authors: "LN Katz, <b>JA Hennig</b>, LK Cormack, AC Huk"
@@ -31,6 +51,9 @@ papers:
         year: 2015
         url: https://www.jneurosci.org/content/35/28/10212.short
         image: Katz2015
+        imagetype: png
+        briefly: "We compare the time-varying improvements in sensitivity during motion discrimination tasks in 2D and 3D, and find that the two are remarkably similar, however with a lower signal-to-noise ratio in 3D."
+        summary: "Temporal integration of visual motion has been studied extensively within the frontoparallel plane (i.e., 2D). However, the majority of motion occurs within a 3D environment, and it is unknown whether the principles from 2D motion processing generalize to more realistic 3D motion. We therefore characterized and compared temporal integration underlying 2D (left/right) and 3D (toward/away) direction discrimination in human observers, varying motion coherence across a range of viewing durations. The resulting discrimination-versus-duration functions followed three stages, as follows: (1) a steep improvement during the first ∼150 ms, likely reflecting early sensory processing; (2) a subsequent, more gradual benefit of increasing duration over several hundreds of milliseconds, consistent with some form of temporal integration underlying decision formation; and (3) a final stage in which performance ceased to improve with duration over ∼1 s, which is consistent with an upper limit on integration. As previously found, improvements in 2D direction discrimination with time were consistent with near-perfect integration. In contrast, 3D motion sensitivity was lower overall and exhibited a substantial departure from perfect integration. These results confirm that there are overall differences in sensitivity for 2D and 3D motion that are consistent with a sensory difference between binocular and dichoptic sensory mechanisms. They also reveal a difference at the integration stage, in which 3D motion is not accumulated as perfectly as in the 2D motion model system."
     -
         title: "Signal multiplexing and single-neuron computations in lateral intraparietal area during decision-making"
         authors: "MLR Meister, <b>JA Hennig</b>, AC Huk"
@@ -39,3 +62,6 @@ papers:
         year: 2013
         url: https://www.jneurosci.org/content/33/6/2254.short
         image: Meister2013
+        imagetype: png
+        briefly: "We show that cells in the lateral intraparietal area (LIP) have firing activity that simultaneously carries decision signals and decision-irrelevant sensory signals. We conclude that LIP cells show a broader range of response motifs than previously considered."
+        summary: "Previous work has revealed a remarkably direct neural correlate of decisions in the lateral intraparietal area (LIP). Specifically, firing rate has been observed to ramp up or down in a manner resembling the accumulation of evidence for a perceptual decision reported by making a saccade into (or away from) the neuron's response field (RF). However, this link between LIP response and decision formation emerged from studies where a saccadic target was always stimulating the RF during decisions, and where the neural correlate was the averaged activity of a restricted sample of neurons. Because LIP cells are (1) highly responsive to the presence of a visual stimulus in the RF, (2) heterogeneous, and (3) not clearly anatomically segregated from large numbers of neurons that fail selection criteria, the underlying neuronal computations are potentially obscured. To address this, we recorded single neuron spiking activity in LIP during a well-studied moving-dot direction–discrimination task and manipulated whether a saccade target was present in the RF during decision-making. We also recorded from a broad sample of LIP neurons, including ones conventionally excluded in prior studies. Our results show that cells multiplex decision signals with decision-irrelevant visual signals. We also observed disparate, repeating response “motifs” across neurons that, when averaged together, resemble traditional ramping decision signals. In sum, neural responses in LIP simultaneously carry decision signals and decision-irrelevant sensory signals while exhibiting diverse dynamics that reveal a broader range of neural computations than previously entertained."

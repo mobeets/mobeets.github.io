@@ -17,7 +17,7 @@
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    width: 8em;
+    width: 5.5em;
 }
 
 #profile {
@@ -30,7 +30,7 @@
 }
 
 .green {
-    background-color: #4CAF50; /* Green */
+    background-color: #528ef7; /* Green */
 }
 
 .button:hover {
@@ -51,4 +51,60 @@
 }
 #contact-buttons a:visited {
     color: white;
+}
+
+.papers {
+    list-style: none;
+    margin-left: 0;
+}
+#post ul {
+    margin-left: 0;
+}
+
+.item-title{
+    clear: both;
+    font-size: 20px;
+    font-weight: bold;
+}
+.paper-item {
+    margin-top: 1.5em;
+    background-color: #f5f8fc;
+    padding: 1em;
+    border-radius: 10px;
+}
+.item-image {
+    margin-right: 1em;
+    float: left;
+    /*padding-top: 1em;*/
+}
+.item-brief {
+    text-align: justify;
+    float: left;
+    display: contents;
+}
+
+.item-blurb {
+    text-align: justify;
+    float: left;
+    display: contents;
+    /*vertical-align: top;*/
+    /*padding: 1em;*/
+    /*background-color: #eee;*/
+    /*border-radius: 10px;*/
+}
+
+.item-content {
+    clear: both;
+    /*padding: 1.625em 0 0;*/
+    overflow: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.item-comments {
+    display: contents;
+    text-align: justify;
+}
+.item-comments div {
+    text-align: justify;
+    display: contents;
 }
