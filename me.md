@@ -11,7 +11,7 @@ js2: about
 <!-- <img id="profile" src="assets/images/self.png" style=""/> -->
 <img id="profile" src="assets/images/jay-hennig-photo.jpg"/>
 
-Hi! I am a PhD student in [Neural Computation](https://compneuro.cmu.edu/) and Machine Learning at Carnegie Mellon University, advised by [Byron Yu](https://users.ece.cmu.edu/~byronyu/) and [Steve Chase](http://www.cnbc.cmu.edu/~schase/index.php). You can email me at <img src="/assets/images/email.png" style="width: 7em;"/>, or find me on twitter [@jehosafet](https://twitter.com/jehosafet).
+Hi! I am a PhD student in neural computation and machine learning at Carnegie Mellon University, advised by [Byron Yu](https://users.ece.cmu.edu/~byronyu/) and [Steve Chase](http://www.cnbc.cmu.edu/~schase/index.php). You can email me at <img src="/assets/images/email.png" style="width: 7em;"/>, or find me on twitter [@jehosafet](https://twitter.com/jehosafet).
 
 <div id="contact-buttons">
 <a href="/assets/pdf/JayHennig-CV.pdf" class="button green"><img src="/assets/images/icons/cv.png" width="12px;">&nbsp;&nbsp;CV</a>
