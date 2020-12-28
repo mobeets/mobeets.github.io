@@ -47,7 +47,7 @@ js2: favorites
                     <ol>
                     {% for item in site.data.albums[yr].new_releases %}
                         {% capture itemname %}{% if item.artist %}{{ item.artist }} - {% endif %}{{ item.album }}{% endcapture %}
-                        {% capture itemurl %}{{itemname | replace:'.','_' | replace:'/','_' | replace:';','_' | replace:':','_' | replace:'?','%3F'}}{% endcapture %}
+                        {% capture itemurl %}{{itemname | replace:'.','_' | replace:'/','_' | replace:';','_' | replace:':','_' | replace:'?','_'}}{% endcapture %}
                         <li>{% if item.artist %}{{ item.artist }} - {% endif %}<i>{{ item.album }}</i>{% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
                         <img class="list-img album-img" src="{{ baseurl }}/music/{{ yr }}/{{ itemurl }}.jpeg"></img>
                     {% endfor %}
@@ -60,7 +60,7 @@ js2: favorites
                     <ol>
                     {% for item in site.data.albums[yr].old_releases %}
                         {% capture itemname %}{% if item.artist %}{{ item.artist }} - {% endif %}{{ item.album }}{% endcapture %}
-                        {% capture itemurl %}{{itemname | replace:'.','_' | replace:'/','_' | replace:';','_' | replace:':','_' | replace:'?','%3F'}}{% endcapture %}
+                        {% capture itemurl %}{{itemname | replace:'.','_' | replace:'/','_' | replace:';','_' | replace:':','_' | replace:'?','_'}}{% endcapture %}
                         <li>{% if item.artist %}{{ item.artist }} - {% endif %}<i>{{ item.album }}</i> ({{ item.year }}){% if item.url %} <a href="{{ item.url}}">[link]</a>{% endif %}</li>
                         <img class="list-img album-img" src="{{ baseurl }}/music/{{ yr }}/{{ itemurl }}.jpeg"></img>
                     {% endfor %}
