@@ -1210,3 +1210,106 @@
             artist: "Dur-Dur Band"
             album: "Volume 5"
             year: 2013
+2020:
+    new_releases:
+        - 
+            artist: Omar Apollo
+            album: "Apolonio"
+            year: 2020
+            pos: 1
+        - 
+            artist: Oneohtrix Point Never
+            album: "Magic Oneohtrix Point Never"
+            year: 2020
+            pos: 2
+        - 
+            artist: Yves Tumor
+            album: "Heaven to a Tortured Mind"
+            year: 2020
+            pos: 3
+        - 
+            artist: Lomelda
+            album: "Hannah"
+            year: 2020
+            pos: 4
+        - 
+            artist: Neil Young
+            album: "Homegrown"
+            year: 2020
+            pos: 5
+        - 
+            artist: Caribou
+            album: "Suddenly"
+            year: 2020
+            pos: 6
+        - 
+            artist: Adrienne Lenker
+            album: "songs"
+            year: 2020
+            pos: 7
+        - 
+            artist: The Soft Pink Truth
+            album: "Shall We Go On Sinning So That Grace May Increase?"
+            year: 2020
+            pos: 8
+        - 
+            artist: Four Tet
+            album: "Sixteen Oceans"
+            year: 2020
+            pos: 9
+        - 
+            artist: Skee Mask
+            album: "Iss005/Iss006"
+            year: 2020
+            pos: 10
+    old_releases:
+        - 
+            artist: Two Lone Swordsmen
+            album: "Stay Down"
+            year: 1998
+            pos: 1
+        - 
+            artist: Ebi (aka Susumu Yokota)
+            album: "Zen"
+            year: 1994
+            pos: 2
+        - 
+            artist: Fela Kuti & the Africa '70
+            album: "Why Black Man Dey Suffer, Open & Close, Roforofo Fight, Gentleman, Zombie, Unknown Soldier"
+            year: "1971 - 1981"
+            pos: 3
+        - 
+            artist: Cocteau Twins
+            album: "Heaven or Las Vegas"
+            year: 1990
+            pos: 4
+        - 
+            artist: Bobby Womack
+            album: "Fly Me to the Moon"
+            year: 1969
+            pos: 5
+        - 
+            artist: Disclosure
+            album: "Settle"
+            year: 2013
+            pos: 6
+        - 
+            artist: Bob Dylan
+            album: "Desire"
+            year: 1976
+            pos: 7
+        - 
+            artist: Aphex Twin
+            album: "Drukqs"
+            year: 2001
+            pos: 8
+        - 
+            artist: Tim Hecker
+            album: "Haunt Me, Haunt Me Do It Again"
+            year: 2001
+            pos: 9
+        - 
+            artist: Stars of the Lid
+            album: "The Tired Sounds of Stars of the Lid"
+            year: 2001
+            pos: 10

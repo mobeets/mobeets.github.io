@@ -222,3 +222,106 @@
             artist: "Keegan-Michael Key & Jordan Peele"
             album: "Key and Peele"
             year: "2012-2015"
+2020:
+    movies:
+        - 
+            pos: 1
+            artist: "Stephen Norrington"
+            album: "Blade"
+            year: 1998
+        - 
+            pos: 2
+            artist: "Grant Sputore"
+            album: "I Am Mother"
+            year: 2019
+        - 
+            pos: 3
+            artist: "György Pálfi"
+            album: "Final Cut: Ladies and Gentlemen"
+            year: 2012
+        - 
+            pos: 4
+            artist: "Tamara Kotevska and Ljubomir Stefanov"
+            album: "Honeyland"
+            year: 2019
+        - 
+            pos: 5
+            artist: "Gregory Hoblit"
+            album: "Frequency"
+            year: 2000
+        - 
+            pos: 6
+            artist: "Dan Gilroy"
+            album: "Nightcrawler"
+            year: 2014
+        - 
+            pos: 7
+            artist: "Bong Joon-ho"
+            album: "Parasite"
+            year: 2019
+        - 
+            pos: 8
+            artist: "Sue Kim"
+            album: "The Speed Cubers [short]"
+            year: 2000
+        - 
+            pos: 9
+            artist: "Bong Joon-ho"
+            album: "The Host"
+            year: 2006
+        - 
+            pos: 10
+            artist: "Amy Holden Jones"
+            album: "Slumber Party Massacre"
+            year: 1982
+    tv:
+        - 
+            pos: 1
+            artist: "Dan Harmon"
+            album: "Community"
+            year: "2009-2014"
+        - 
+            pos: 2
+            artist: "John Enbom & others"
+            album: "Party Down"
+            year: "2009-2010"
+        - 
+            pos: 3
+            artist: "Scott Frank & Allan Scott"
+            album: "Queen's Gambit"
+            year: "2020"
+        - 
+            pos: 4
+            artist: "Amy Sherman-Palladino"
+            album: "The Marvelous Mrs. Maisel"
+            year: "2017-2019"
+        - 
+            pos: 5
+            artist: "Baran bo Odar & Jantje Friese"
+            album: "Dark"
+            year: "2017 - 2020"
+        - 
+            pos: 6
+            artist: "Jason Hehir"
+            album: "The Last Dance"
+            year: "2020"
+        - 
+            pos: 7
+            artist: "Alex Garland"
+            album: "Devs"
+            year: "2020"
+        - 
+            pos: 8
+            artist: "Dan Goor & Michael Schur"
+            album: "Brooklyn 99"
+            year: "2013-2018"
+        - 
+            pos: 9
+            artist: "Pendleton Ward & Duncan Trussell"
+            album: "The Midnight Gospel"
+            year: "2020"
+        - 
+            pos: 10
+            artist: "Lil Dicky & Jeff Schaffer"
+            album: "Dave"
+            year: "2020"

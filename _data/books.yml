@@ -490,3 +490,55 @@
             artist: "Tim Wu"
             album: "The Curse of Bigness"
             year: 2018
+2020:
+    BOOKS:
+        - 
+            pos: 1
+            artist: Reuben Hersh
+            album: "What Is Mathematics, Really?"
+            year: 1997
+        - 
+            pos: 2
+            artist: Amy Goldstein
+            album: "Janesville: An American Story"
+            year: 2017
+        - 
+            pos: 3
+            artist: Francis Abernethy
+            album: "Legendary Ladies of Texas"
+            year: 1994
+        - 
+            pos: 4
+            artist: David MacKay
+            album: "Sustainable Energy - without the hot air"
+            year: 2008
+        - 
+            pos: 5
+            artist: Ted Chiang
+            album: "Exhalation: Stories"
+            year: 2019
+        - 
+            pos: 6
+            artist: Ted Chiang
+            album: "Stories of Your Life and Others"
+            year: 2002
+        - 
+            pos: 7
+            artist: T. H. White
+            album: "The Once and Future King"
+            year: 1958
+        - 
+            pos: 8
+            artist: Barbara Freese
+            album: "Coal: A Human History"
+            year: 2003
+        - 
+            pos: 9
+            artist: Thomas Pynchon
+            album: "Inherent Vice"
+            year: 2009
+        - 
+            pos: 10
+            artist: Oscar Wilde
+            album: "The Picture of Dorian Gray"
+            year: 1890
