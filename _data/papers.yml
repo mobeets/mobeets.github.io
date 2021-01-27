@@ -2,7 +2,7 @@ papers:
     -
         title: "Learning is shaped by abrupt changes in neural engagement"
         authors: "<b>JA Hennig</b>, ..., AP Batista*, SM Chase*, BM Yu*"
-        journal: "[under review]"
+        journal: "[under review at Nature Neuroscience]"
         volume: "N/A"
         year: 2020
         url: https://www.biorxiv.org/content/10.1101/2020.05.24.112714v1
@@ -10,6 +10,17 @@ papers:
         imagetype: gif
         briefly: "We identified large fluctuations in neural population activity in motor cortex (M1) indicative of arousal-like internal state changes. These changes in neural activity helped to explain why animals learned some tasks more quickly than others."
         summary: "Internal states such as arousal, attention, and motivation are known to modulate brain-wide neural activity, but how these processes interact with learning is not well understood. During learning, the brain must modify the neural activity it produces to improve behavioral performance. How do internal states affect the evolution of this learning process? Using a brain-computer interface (BCI) learning paradigm in non-human primates, we identified large fluctuations in neural population activity in motor cortex (M1) indicative of arousal-like internal state changes. These fluctuations drove population activity along dimensions we term neural engagement axes. Neural engagement increased abruptly at the start of learning, and then gradually retreated. In a BCI, the causal relationship between neural activity and behavior is known. This allowed us to understand how these changes impacted behavioral performance for different task goals. We found that neural engagement interacted with learning, helping to explain why animals learned some task goals more quickly than others."
+    -
+        title: "Intracortical Brain-Machine Interfaces"
+        authors: "ER Oby, <b>JA Hennig</b>, AP Batista, BM Yu, SM Chase"
+        journal: "Neural Engineering, 3rd Edition"
+        volume: "185-221"
+        year: 2020
+        url: "https://link.springer.com/chapter/10.1007/978-3-030-43395-6_5"
+        image: Oby2020
+        imagetype: png
+        briefly: "A brain–machine interface, or BMI, directly connects the brain to the external world, translating a user's internal motor commands into action. In this chapter, we discuss the four basic components of an intracortical BMI: an intracortical neural recording, a decoding algorithm, an output device, and sensory feedback."
+        summary: ""
     -
         title: "New neural activity patterns emerge with long-term learning"
         authors: "ER Oby, MD Golub, <b>JA Hennig</b>, ..., BM Yu*, SM Chase*, AP Batista*"
