@@ -70,12 +70,12 @@
             key: "gifmoji"
             name: "Gifmoji"
             url: "https://gifmoji.github.io/"
-        -
-            categ: "listed"
-            date: "2018-04-11"
-            key: "recipes"
-            name: "Recipes"
-            url: "/recipes"
+        # -
+        #     categ: "listed"
+        #     date: "2018-04-11"
+        #     key: "recipes"
+        #     name: "Recipes"
+        #     url: "/recipes"
         -
             categ: "coded"
             date: "2018-01-09"
@@ -166,12 +166,12 @@
             key: "dr-strange-bot"
             name: "@DrStrange_Bot"
             url: ".html"
-        -
-            categ: "listed"
-            date: "2015-05-03"
-            key: "media-tracked"
-            name: "Media Log"
-            url: "/medialog"
+        # -
+        #     categ: "listed"
+        #     date: "2015-05-03"
+        #     key: "media-tracked"
+        #     name: "Media Log"
+        #     url: "/medialog"
         -
             categ: "coded"
             date: "2014-11-09"
