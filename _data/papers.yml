@@ -2,10 +2,10 @@ papers:
     -
         title: "Learning is shaped by abrupt changes in neural engagement"
         authors: "<b>JA Hennig</b>, ..., AP Batista*, SM Chase*, BM Yu*"
-        journal: "[under review at Nature Neuroscience]"
-        volume: "N/A"
-        year: 2020
-        url: https://www.biorxiv.org/content/10.1101/2020.05.24.112714v1
+        journal: "Nature Neuroscience"
+        volume: 1546-1726"
+        year: 2021
+        url: https://www.nature.com/articles/s41593-021-00822-8
         image: Hennig2020
         imagetype: gif
         briefly: "We identified large fluctuations in neural population activity in motor cortex (M1) indicative of arousal-like internal state changes. These changes in neural activity helped to explain why animals learned some tasks more quickly than others."
