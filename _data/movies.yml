@@ -325,3 +325,106 @@
             artist: "Lil Dicky & Jeff Schaffer"
             album: "Dave"
             year: "2020"
+2021:
+    movies:
+        -
+            pos: 1
+            artist: Steve James
+            album: "Hoop Dreams"
+            year: 1994
+        -
+            pos: 2
+            artist: Denis Villeneuve
+            album: "Dune: Part One"
+            year: 2021
+        -
+            pos: 3
+            artist: Brandon Cronenberg
+            album: "Possessor"
+            year: 2020
+        -
+            pos: 4
+            artist: Gina Prince-Bythewood
+            album: "Love and Basketball"
+            year: 2000
+        -
+            pos: 5
+            artist: Rob Reiner
+            album: "When Harry Met Sally"
+            year: 1989
+        -
+            pos: 6
+            artist: Doug Liman
+            album: "Edge of Tomorrow"
+            year: 2014
+        -
+            pos: 7
+            artist: Tim Wardle
+            album: "Three Identical Strangers"
+            year: 2018
+        -
+            pos: 8
+            artist: Wes Craven
+            album: "Scream"
+            year: 1996
+        -
+            pos: 9
+            artist: Jemaine Clement and Taika Waititi
+            album: "What We Do in the  Shadows"
+            year: 2014
+        -
+            pos: 10
+            artist: Andrew Davis
+            album: "The Fugitive"
+            year: 1993
+    tv:
+        -
+            pos: 1
+            artist: Jemaine Clement
+            album: "What We Do in the Shadows" 
+            year: "2016-2021"
+        -
+            pos: 2
+            artist: Mike White
+            album: "The White Lotus"
+            year: "2021"
+        -
+            pos: 3
+            artist: Peter Jackson
+            album: "The Beatles: Get Back"
+            year: "2021"
+        -
+            pos: 4
+            artist: Jason Sudeikis
+            album: "Ted Lasso" 
+            year: "2020-2021"
+        -
+            pos: 5
+            artist: Amy Sherman-Palladino
+            album: "Gilmore Girls" 
+            year: "2000-2007"
+        -
+            pos: 6
+            artist: Raphael Bob-Waksberg
+            album: "Bojack Horseman" 
+            year: "2014-2020"
+        -
+            pos: 7
+            artist: Jesse Armstrong
+            album: "Succession" 
+            year: "2018-2021"
+        -
+            pos: 8
+            artist: Jac Schaeffer
+            album: "WandaVision"
+            year: "2021"
+        -
+            pos: 9
+            artist: Luke Jennings and Phoebe Waller-Bridge
+            album: "Killing Eve" 
+            year: "2018-2021"
+        -
+            pos: 10
+            artist: Tim Robinson
+            album: "I Think You Should Leave with Tim Robinson" 
+            year: "2019-2021"

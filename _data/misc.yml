@@ -1081,3 +1081,107 @@
         type: "restaurant"
         url: "http://www.jozsacorner.com/jozsacorner/Welcome.html"
         img: "jozsa.png"
+2021:
+    -
+        pos: 1
+        name: Seek by iNaturalist
+        description: |
+            <p>
+                I've been looking for an app like this for a long time. It's like Spotify for plants! The AR thing works really well: You just point your camera at a plant, and try out different angles until the app recognizes it. This app transformed our morning walks for at least a month, as we tried to learn the names of every weed and wildflower we came across. Two downsides: 1) It doesn't identify trees very well. 2) It should let you save photos of the same species in different seasons, since the same plant can look very different before/after it's flowered (for example). Still, this app is amazing, and I recommend it to practically anyone I take a walk with.
+            </p>
+        type: app
+        img: "seek.png"
+        url: "https://www.inaturalist.org/pages/seek_app"
+    -
+        pos: 2
+        name: Blender
+        description: |
+            <br><iframe width="560" height="315" src="https://www.youtube.com/embed/whPWKecazgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
+                I spent February and March of this year learning Blender, arguably the most powerful free software application out there. It's for 3D modeling, which means you can use it for everything from making 3D animations, to <a href="https://www.youtube.com/watch?v=VYuUlQO-kYE">3D sculpting</a>, to <a href="https://www.youtube.com/watch?v=JjnyapZ_P-g">creating CGI worlds</a> for use in film. It's a truly amazing piece of software, and it totally transformed the way I watched movies and (especially) animation. Ian Hubert's talk on <a href="https://www.youtube.com/watch?v=whPWKecazgM">world building</a> is an incredible introduction to some of the things Blender can do, and Blender Guru's <a href="https://www.youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD">donut tutorial</a> is excellent.
+            </p>
+        type: video series
+        img: "blender.png"
+        url: "https://www.blender.org/"
+    -
+        pos: 2
+        name: Cookies when you have no eggs
+        description: |
+            <p>
+                This recipe is so random and awfully presented, and yet so fundamental in our house. We've used it for years, but this past year we've started finding some very tasty modifications: Swap out some flour for cocoa, for example, or add in a spoonful of peanut butter. The critical ingredient: coconut oil. The missing ingredient: eggs.
+            </p>
+        type: recipe
+        img: "cookies.png"
+        url: "https://guides.brit.co/guides/make-cookies-when-you-have-no-eggs/particle-3"
+    -
+        pos: 4
+        name: Mike Boyd
+        description: |
+            <br><iframe width="560" height="315" src="https://www.youtube.com/embed/AuXmuhmtwz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
+                This is such a satisfying Youtube channel, and one that pairs really well with my favorite book this year, K. Anders Ericsson & Robert Pool's <i>Peak: Secrets from the New Science of Expertise</i>. Mike Boyd is a professional learner. What I mean by that is that he is an expert in what it takes to learn new skills, where a skill could be anything from how to <a href="https://www.youtube.com/watch?v=X6iJ0hPpGec">break a glass with your voice</a>, how to <a href="https://www.youtube.com/watch?v=V6iyDEWG1CU">hold your breath for four minutes</a>, or even how to <a href="https://www.youtube.com/watch?v=lTYJMke4kd8">wheelie</a>. Every single video of his that I've watched makes me so happy.
+            </p>
+        type: youtube channel
+        img: "boyd.png"
+        url: "https://www.youtube.com/c/MikeBoydVideo"
+    -
+        pos: 5
+        name: The Midnight Gospel's S1E8
+        description: |
+            <p>
+                <a href="https://www.netflix.com/title/80987903"><i>The Midnight Gospel</i></a> is an animated series on Netflix. It's essentially an interview podcast, with intricate/trippy animated eye candy (from Pendleton Ward, of <i>Adventure Time</i>) to watch as you listen to the host, Duncan Trussell, interview his guests about life, death, spirituality, meditation, and drugs. Every episode is interesting, but the series finale, in which Duncan interviews his mother, is genuinely one of the most moving things I've ever watched/listened to. It will stick with you.
+            </p>
+        type: TV episode
+        img: "gospel.png"
+        url: "https://www.imdb.com/title/tt12176328"
+    -
+        pos: 6
+        name: Rocket League
+        description: |
+            <p>
+                This isn't a game I would recommend for just anyone, but it is pretty special. Rocket League is a soccer video game, but with  flying cars instead of people (typically three cars per side), and a giant metal (?) ball as your soccer ball. It's an absurd game that's as funny as it is <a href="https://www.youtube.com/watch?v=Vu_DmCLVKgQ">frustrating</a>.
+            </p>
+        type: video game
+        img: "rl.png"
+        url: "https://www.rocketleague.com/"
+    -
+        pos: 7
+        name: public library
+        description: |
+            <p>
+                Libraries are just amazing, and I feel like every year I learn a new way in which this is true. Our new habit, as a family, is to head to the <a href="https://www.cambridgema.gov/cpl/hoursandlocations/mainlibrary">Cambridge Public Library</a> and return with a bag full of children's books. Also useful has been the 
+                <a href="https://libbyapp.com/">Libby app</a>, which lets you immediately check out and read ebooks on your tablet (useful for trips, when you don't want to pack books), as well as the <a href="https://archive.org/">Internet Archive</a>, where you can check out a huge library of scanned books for free.
+            </p>
+        type: place
+        img: "library.png"
+        url: ""
+    -
+        pos: 8
+        name: geology
+        description: |
+            <p>
+                Geology is probably the one subject I wish I'd taken in college but didn't. It's a really difficult subject to learn on your own! Still, this year I found two very useful resources. The thing that sparked it all was John McPhee's <a href="https://www.goodreads.com/en/book/show/19894"><i>Basin and Range</i></a>, where I learned about the <a href="https://www.geosociety.org/GSA/Education_Careers/Geologic_Time_Scale/GSA/timescale/home.aspx">geologic timescale</a>. The Earth has been around for five billion years. If we map this duration <a href="https://en.wikipedia.org/wiki/Geologic_Calendar">to a calendar year</a>, dinosaurs don't show up until December 13, and all of recorded human history takes place in the last ninety seconds of the year. For more course-like material, Nick Zentner's <a href="https://www.youtube.com/watch?v=pi1oj2WDhNE&t=3694s">Geology 101</a> videos (played at 2x speed) were a great resource for learning about basic rock types, and absolute/relative age dating.
+            </p>
+        type: subject
+        img: "geology.png"
+        url: ""
+    -
+        pos: 9
+        name: gather.town
+        description: |
+            <p>
+                During the pandemic it felt like we tried every video conferencing app that existed: Zoom, Facetime, Marco Polo, Houseparty...But my favorite, by far, was gather.town. The unique part about gather is that it gives you a sense of space. In gather, you control an avatar that you can move (with your arrow keys) through a Gameboy-like world, and you can only talk to someone when your avatar is near their avatar. This gives you the ability to freely move in and out of conversations with people&mdash;rather than having to see/talk to everyone simultaneously, as you do in every other conferencing app. My introduction to gather was the New Year's Party we went to. It was almost like a real party, and at the time, that was mindblowing.
+            </p>
+        type: web app
+        img: "gather.png"
+        url: "https://www.gather.town/"
+    -
+        pos: 10
+        name: Neptune Oyster
+        description: |
+            <p>
+                If you are ever in the Boston area, this is what you should do: At 11am, be at Neptune Oyster in the North End, ready for a delicious seafood lunch: fresh oysters (with tasting notes!), and a hot lobster roll (with butter, not mayo) that comes with a side of perfect fries. The lines are long, the place is packed shoulder to shoulder, but it's all worth it.
+            </p>
+        type: restaurant
+        img: "neptune.png"
+        url: "https://www.neptuneoyster.com/"

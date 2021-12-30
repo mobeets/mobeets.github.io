@@ -3,7 +3,7 @@
         -
             pos: 1
             artist: "Joe Sacco"
-            album: "Palestine"
+            album: "Palestine [graphic novel]"
             year: 1992
 
         -
@@ -421,22 +421,22 @@
         -    
             pos: 1
             artist: "Nick Drnaso"
-            album: "Sabrina"
+            album: "Sabrina [graphic novel]"
             year: 2018
         -    
             pos: 2
             artist: "Lilli Carre"
-            album: "Heads or Tails"
+            album: "Heads or Tails [graphic novel]"
             year: 2012
         -    
             pos: 3
             artist: "Tom Gauld"
-            album: "Mooncop"
+            album: "Mooncop [graphic novel]"
             year: 2016
         -    
             pos: 4
             artist: "Michael DeForge"
-            album: "Sticks Angelica, Folk Hero"
+            album: "Sticks Angelica, Folk Hero [graphic novel]"
             year: 2017
 2019:
     BOOKS:
@@ -542,3 +542,57 @@
             artist: Oscar Wilde
             album: "The Picture of Dorian Gray"
             year: 1890
+2021:
+    BOOKS:
+        -
+            pos: 1
+            artist: K. Anders Ericsson & Robert Pool
+            album: "Peak: Secrets from the New Science of Expertise"
+            year: 2016
+        -
+            pos: 2
+            artist: John McPhee
+            album: "Basin and Range"
+            year: 1980
+        -
+            pos: 3
+            artist: Mary Doria Russell
+            album: "The Sparrow"
+            year: 1996
+        -
+            pos: 4
+            artist: Robert Richardson
+            album: "William James"
+            year: 2006
+        -
+            pos: 5
+            artist: Joan Silber
+            album: "Improvement"
+            year: 2017
+        -
+            pos: 6
+            artist: Isaac Asimov
+            album: "Foundation"
+            year: 1951
+        -
+            pos: 7
+            artist: Isaac Asimov
+            album: "Second Foundation"
+            year: 1953
+    NOT_QUITE_BOOKS:
+        -
+            pos: 1
+            artist: Joe Parkinson and Drew Hinshaw
+            album: "Trapped Aboard an Abandoned Cargo Ship [article]"
+            url: "https://www.wsj.com/articles/sailor-trapped-aboard-abandoned-cargo-ship-four-years-11619789989"
+            year: 2021
+        -
+            pos: 2
+            artist: Henry James
+            album: "The Turn of the Screw [novella]"
+            year: 1898
+        -
+            pos: 3
+            artist: Walter Scott
+            album: "Wendy, Master of Art [graphic novel]"
+            year: 2020

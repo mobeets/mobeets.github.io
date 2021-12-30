@@ -1313,3 +1313,106 @@
             album: "The Tired Sounds of Stars of the Lid"
             year: 2001
             pos: 10
+2021:
+    new_releases:
+        -
+            artist: Floating Points & Pharoah Sanders
+            album: "Promises"
+            year: 2021
+            pos: 1
+        -
+            artist: Faye Webster
+            album: "I Know I'm Funny ha ha"
+            year: 2021
+            pos: 2
+        -
+            artist: Nala Sinephro
+            album: "Space 1.8"
+            year: 2021
+            pos: 3
+        -
+            artist: Sofia Kourtesis
+            album: "La Perla [EP]"
+            year: 2021
+            pos: 4
+        -
+            artist: Jeff Parker
+            album: "Forfolks"
+            year: 2021
+            pos: 5
+        -
+            artist: Jungle
+            album: "Loving in Stereo"
+            year: 2021
+            pos: 6
+        -
+            artist: Kacey Musgraves
+            album: "Star-Crossed"
+            year: 2021
+            pos: 7
+        -
+            artist: Bachelor
+            album: "Doomin' Sun"
+            year: 2021
+            pos: 8
+        -
+            artist: Muito Kaballa Power Ensemble
+            album: "Mamari"
+            year: 2021
+            pos: 9
+        -
+            artist: Madlib
+            album: "Sound Ancestors"
+            year: 2021
+            pos: 10
+    old_releases:
+        -
+            artist: Against All Logic
+            album: "2017 - 2019"
+            year: 2020
+            pos: 1
+        -
+            artist: Loving
+            album: "LOVING"
+            year: 2016
+            pos: 2
+        -
+            artist: Harold Budd and Brian Eno
+            album: "The Pearl"
+            year: 1984
+            pos: 3
+        -
+            artist: Yellow Magic Orchestra
+            album: "BGM"
+            year: 1981
+            pos: 4
+        -
+            artist: Vegyn
+            album: "Only Diamonds Cut Diamonds"
+            year: 2019
+            pos: 5
+        -
+            artist: Emily Sprague
+            album: "Hill, Flower, Fog"
+            year: 2020
+            pos: 6
+        -
+            artist: The Space Lady
+            album: "The Space Lady's Greatest Hits"
+            year: 2013
+            pos: 7
+        -
+            artist: Harold Budd & Cocteau Twins
+            album: "The Moon and the Melodies"
+            year: 1986
+            pos: 8
+        -
+            artist: Jon Hopkins
+            album: "Immunity"
+            year: 2013
+            pos: 9
+        -
+            artist: Siouxsie and the Banshees
+            album: "Juju"
+            year: 1981
+            pos: 10

@@ -37,7 +37,11 @@ excerpt: none
         <div class="raw-list">
             {% for item in site.data.misc[yr] %}
             {% capture itemtype %}{% if item.url == empty %}{{ item.type }}{% else %}<a href="{{ item.url }}">{{ item.type }}</a>{% endif %}{% endcapture %}
-            <hr>
+            {% if forloop.first == true %}
+                <br/><br/>
+            {% else %}
+                <hr>
+            {% endif %}
             <a name="item-{{ yr }}-{{ item.pos }}"></a>
             {{ item.pos }}. <b>{{ item.name }}</b> [{{ itemtype }}]<br>
             {{ item.description }}
