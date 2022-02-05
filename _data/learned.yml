@@ -1,0 +1,40 @@
+-
+    date: "2022-02-05"
+    content: "In the English-speaking world, September 3rd-13th, 1752 never happened."
+    tags: ['history']
+    urls: ['https://en.wikipedia.org/wiki/Old_Style_and_New_Style_dates']
+-
+    date: "2022-02-02"
+    content: "The most recent date that used 8 unique digits was 06/25/1987, and there won't be another such date until 06/16/2345. (Until now, there had never been a gap of more than 37 years between dates with 8 unique digits, ever since the first such date on 06/27/1345.)"
+    tags: ['numbers']
+    urls: []
+-
+    date: "2022-01-29"
+    content: "Logistic regression, the standard statistical approach for modeling binary outcomes, didn't even really exist until 1972 or so. By contrast, linear regression was first used in the early 1800s."
+    tags: ['math']
+    urls: ['https://papers.tinbergen.nl/02119.pdf']
+-
+    date: "2022-01-28"
+    content: "In cinema, a complete transition from digital to film happened within the span of a year or two (around 2011), thanks to a single camera: the Arri Alexa. With this camera, the dynamic range of digital was finally better than film. To this day, Arri cameras dominate the film industry."
+    tags: ['film']
+    urls: ['https://stephenfollows.com/digital-vs-film-on-hollywood-movies/']
+-
+    date: "2022-01-17"
+    content: "Whenever you see a planet taking an elliptical orbit around the Sun, the Sun shouldn't be at the center of the ellipse, but at its 'focus'. Also, technically the planets don't orbit the Sun. The planets <i>and</i> Sun all orbit a point called the solar barycenter (aka, their center of mass), which gradually moves over time."
+    tags: ['astronomy']
+    urls: ['https://commons.wikimedia.org/wiki/File:Solar_system_barycenter.svg']
+-
+    date: "2022-01-15"
+    content: "The fattest internal organ in the body is the brain. As adults, the brain makes up about 2% of our body weight but uses 20+% of its energy. (In newborns, the brain uses like 75% of the body's energy, and this number decreases with age.)"
+    tags: ['neuro']
+    urls: ['https://doi.org/10.1097/00004647-200110000-00001']
+-
+    date: "2022-01-08"
+    content: "Pluto's circumference is the same distance as a round-trip drive between Boston and El Paso."
+    tags: ['astronomy']
+    urls: ['https://en.wikipedia.org/wiki/Pluto']
+-
+    date: "2022-01-06"
+    content: "The Earth has been around about as third as long as the universe: Earth is 4.5 billion years old, while the universe is 14 billion years old."
+    tags: ['astronomy']
+    urls: ['https://pubs.usgs.gov/gip/geotime/age.html']

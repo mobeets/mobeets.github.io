@@ -42,7 +42,7 @@ js2: favorites
         {% assign yr = year[0] %}
         <div id="music-{{yr}}" class="music all list-group">
             <h2>{{yr}} Albums</h2>
-            <div class="new-albums">                
+            <div class="new-albums">
                 {% if site.data.albums[yr].new_releases.size > 0 %}
                     <h3>New releases</h3>
                     <ol>

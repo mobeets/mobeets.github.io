@@ -1,0 +1,26 @@
+---
+layout: post
+title: What I learned
+category: listed
+css: learned
+---
+{% include JB/setup %}
+
+<div>
+	<ul>
+	{% for item in site.data.learned %}
+		<li>
+			<span class="date">{{ item.date }}.</span>
+			<span class="content">{{ item.content }}</span>
+			{% for url in item.urls %}
+			<span class="smaller-font">
+				<a href="{{ url }}">[{{forloop.index}}]</a>
+			</span>
+			{% endfor %}
+			{% for tag in item.tags %}
+				<button class="smaller-font tag">#{{ tag }}</button>
+			{% endfor %}
+		</li>
+	{% endfor %}
+	</ul>
+</div>
