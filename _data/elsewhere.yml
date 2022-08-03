@@ -36,6 +36,12 @@
     items:
         -
             categ: "coded"
+            date: "2022-07-27"
+            key: "karaoke"
+            name: "Karaoke!"
+            url: "https://mobeets.github.io/karaoke/"
+        -
+            categ: "coded"
             date: "2020-03-18"
             key: "disease-spread"
             name: "Disease spread"
