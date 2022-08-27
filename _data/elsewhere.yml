@@ -141,7 +141,7 @@
             date: "2017-04-24"
             key: "neural-music-pad"
             name: "Neural Synth"
-            url: "http://neural-synth.herokuapp.com/"
+            url: "https://neural-synth.fly.dev"
         -
             categ: "coded"
             date: "2016-08-17"
@@ -279,7 +279,7 @@
             date: "2013-12-05"
             key: "blackbox-theatre"
             name: "Egan's Black Box Theatre"
-            url: "http://blackbox-theatre.herokuapp.com/"
+            url: "https://blackbox-theatre.fly.dev/"
         -
             categ: "written"
             date: "2013-11-30"
@@ -303,7 +303,7 @@
             date: "2013-11-12"
             key: "blog-word-count"
             name: "Blog word counts"
-            url: "http://blog-word-counts.herokuapp.com/"
+            url: "https://blog-word-counts.fly.dev/"
         -
             categ: "made"
             date: "2013-10-30"
@@ -339,7 +339,7 @@
             date: "2013-08-21"
             key: "booklet-helper"
             name: "Booklet helper"
-            url: "http://pdf-page-orderer.herokuapp.com/"
+            url: "https://pdf-page-orderer.fly.dev/"
         -
             categ: "coded"
             date: "2013-08-13"
@@ -375,7 +375,7 @@
             date: "2013-06-10"
             key: "morse-news"
             name: "Morse News"
-            url: "http://morse-news.herokuapp.com/"
+            url: "https://morse-news.fly.dev/"
         # -
         #     categ: "coded"
         #     date: "2013-04-16"
