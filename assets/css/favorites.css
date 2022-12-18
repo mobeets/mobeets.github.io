@@ -38,3 +38,13 @@ ol {
 .btn-img:hover {
     border: 1px solid #cdcdcd;
 }
+.item-artist {
+    font-weight: normal;
+}
+.item-album {
+    font-weight: bold;
+    font-style: italic;
+}
+.item-year {
+    color: #888;
+}

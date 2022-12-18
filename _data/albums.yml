@@ -1416,3 +1416,107 @@
             album: "Juju"
             year: 1981
             pos: 10
+
+2022:
+    new_releases:
+        -
+            pos: 1
+            artist: "Florist"
+            album: "Florist"
+            year: 2022
+        -
+            pos: 2
+            artist: "Big Thief"
+            album: "Dragon New Warm Mountain I Believe In You"
+            year: 2022
+        -
+            pos: 3
+            artist: "Kendrick Lamar"
+            album: "Mr. Morale & The Big Steppers"
+            year: 2022
+        -
+            pos: 4
+            artist: "Weyes Blood"
+            album: "And In The Darkness, Hearts Aglow"
+            year: 2022
+        -
+            pos: 5
+            artist: "Toro y Moi"
+            album: "MAHAL"
+            year: 2022
+        -
+            pos: 6
+            artist: "Alex G"
+            album: "God Save The Animals"
+            year: 2022
+        -
+            pos: 7
+            artist: "Nosaj Thing"
+            album: "Continua"
+            year: 2022
+        -
+            pos: 8
+            artist: "SZA"
+            album: "SOS"
+            year: 2022
+        -
+            pos: 9
+            artist: "Jockstrap"
+            album: "I Love You Jennifer B"
+            year: 2022
+        -
+            pos: 10
+            artist: "Daphni"
+            album: "Cherry"
+            year: 2022
+    old_releases:
+        -
+            pos: 1
+            artist: "Oliver Nelson"
+            album: "The Blues And The Abstract Truth"
+            year: 1961
+        -
+            pos: 2
+            artist: "Bob Wills & His Texas Playboys"
+            album: "Tiffany Transcriptions, Vol. 2"
+            year: 1993
+        -
+            pos: 3
+            artist: "The Carter Family"
+            album: "The Essential Carter Family"
+            year: 2013
+        -
+            pos: 4
+            artist: "Liz Phair"
+            album: "Exile In Guyville"
+            year: 1993
+        -
+            pos: 5
+            artist: "Makaya McCraven"
+            album: "Deciphering The Message"
+            year: 2021
+        -
+            pos: 6
+            artist: "Jeff Parker"
+            album: "The New Breed"
+            year: 2016
+        -
+            pos: 7
+            artist: "Bobby Timmons"
+            album: "This Here Is Bobby Timmons"
+            year: 1960
+        -
+            pos: 8
+            artist: "Ahmad Jamal"
+            album: "Live in Paris"
+            year: 1971
+        -
+            pos: 9
+            artist: "Count Bass D"
+            album: "BEGBORROWSTEEL"
+            year: 2005
+        -
+            pos: 10
+            artist: "Vampire Weekend"
+            album: "Modern Vampires of the City"
+            year: 2013
