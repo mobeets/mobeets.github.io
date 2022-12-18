@@ -1,12 +1,262 @@
+# cd ~/Dropbox/Lifelog; python lifelog/utils/learned.py 20220201 > tmp.yaml
+-
+    date: '2022-12-07'
+    content: Unless you've seen a truffle shaved in front of you into your food, anything
+        you've eaten that has "truffle" in the name likely does not contain real truffles.
+        Instead, it's synthetic truffle flavor extracted from oil (!); any truffle
+        bits you see are likely "decorative" truffles---cheaper, flavorless species
+        of truffles.
+    urls:
+        - https://www.tasteatlas.com/truffle-industry-is-a-big-scam
+    tags: ['food']
+-
+    date: '2022-10-29'
+    content: "Moravec's paradox: Things that are hard for humans to learn are easy\
+        \ for machines to learn (e.g., chess, video games), while those that are easy\
+        \ for humans to learn are nearly impossible for machines (e.g., walking, learning\
+        \ language, etc.)."
+    urls: []
+    tags: ['machine-learning']
+-
+    date: '2022-10-22'
+    content: 'White button, brown button, cremini, portobello: All of these are the
+        exact same species of mushroom at different stages in its maturity'
+    urls: []
+    tags: ['food']
+-
+    date: '2022-10-21'
+    content: "\"Pando,\" in Utah, is one of the world's largest and oldest living\
+        \ organisms. It appears to be a grove of aspen trees (taking up over 100 acres),\
+        \ but is in fact a single tree with many mini genetically identical \"trees\"\
+        \ growing out of a single root system."
+    urls:
+        - https://en.wikipedia.org/wiki/Pando_(tree)
+    tags: ['biology']
+-
+    date: '2022-10-14'
+    content: Many people have hallucinations (called "hypnagogic hallucinations")
+        as they're falling asleep, and as they're waking up ("hypnopompic").
+    urls: []
+    tags: ['neuroscience']
+-
+    date: '2022-10-01'
+    content: 'Four U.S. states were once independent nations: Texas, Hawaii, California, and Vermont.'
+    urls: []
+    tags: ['history']
+-
+    date: '2022-09-22'
+    content: Weekends around the world are not all the same, or even the same length!
+        This is in part because different religions have different holy days (e.g.,
+        Friday for Islam, Saturday for Judaism, Sunday for Christianity).
+    urls: []
+    tags: ['culture']
+-
+    date: '2022-09-21'
+    content: Daisugi is a Japanese method for growing Japanese cedar trees such that
+        you can harvest long straight logs without having to cut down the whole tree.
+    urls:
+        - https://en.m.wikipedia.org/wiki/Daisugi
+    tags: ['culture', 'biology']
+-
+    date: '2022-09-15'
+    content: The cheetah is the fastest land animal, but there are at least ten animals
+        that are faster overall (most of them birds), including the common pigeon.
+    urls:
+        - https://en.m.wikipedia.org/wiki/Fastest_animals
+    tags: ['biology']
+-
+    date: '2022-09-08'
+    content: For roughly 1400 years, a key ingredient in most ink was oak galls (a
+        gall is a plant outgrowth caused by wasp larvae).
+    urls:
+        - https://en.m.wikipedia.org/wiki/Oak_apple
+    tags: ['history', 'biology']
+-
+    date: '2022-09-04'
+    content: Dirichlet was co-advised by Poisson, Fourier, and Gauss
+    urls: []
+    tags: ['math']
+-
+    date: '2022-08-17'
+    content: 90% of your body's serotonin is in your intestines! Only 1-2% is in your
+        brain.
+    urls:
+        - https://en.wikipedia.org/wiki/Serotonin
+    tags: ['neuroscience']
+-
+    date: '2022-08-08'
+    content: Think of a friend. On average, that friend has more friends than you
+        do. (This is known as the "Friendship Paradox".)
+    urls:
+        - https://en.wikipedia.org/wiki/Friendship_paradox
+    tags: ['math']
+-
+    date: '2022-08-07'
+    content: When we eat salt, it's the sodium ions that actually taste salty. (But
+        that doesn't mean elemental sodium tastes salty! If you ate elemental sodium,
+        when it touched your tongue you'd get immediate chemical burns, so you may
+        not taste anything---except pain.)
+    urls: []
+    tags: ['biology']
+-
+    date: '2022-08-04'
+    content: If you divide 1 by 998,001 you get all three-digit numbers from 000 to
+        999 in order, except for 998.
+    urls:
+        - https://twitter.com/mathladyhazel/status/1555064137683705857
+    tags: ['math']
+-
+    date: '2022-06-30'
+    content: The man who performed Einstein's autopsy decided to cut open Einstein's
+        skull, removed his brain, and then simply kept it for himself.
+    urls:
+        - https://harpers.org/archive/1997/10/driving-mr-albert/
+    tags: ['history']
+-
+    date: '2022-06-24'
+    content: The term "genocide" was not coined until 1944. During the Nuremberg Trials,
+        for example, the Holocaust was referred to as "mass murder," or "crimes against
+        humanity."
+    urls:
+        - https://en.m.wikipedia.org/wiki/Genocide
+    tags: ['history']
+-
+    date: '2022-06-19'
+    content: Solresol is a constructed language where each word is made up of 1-4
+        syllables, and each syllable is one of the notes in a C major scale sung as
+        do-re-mi...
+    urls:
+        - https://en.m.wikipedia.org/wiki/Solresol @ Bailey
+    tags: ['music', 'language']
+-
+    date: '2022-06-08'
+    content: Salvador Dalí's last painting was based on the mathematical catastrophe
+        theory, which identifies seven ways that dynamical systems can become unstable.
+    urls:
+        - https://en.m.wikipedia.org/wiki/The_Swallow%27s_Tail
+    tags: ['math', 'art']
+-
+    date: '2022-06-02'
+    content: The characters +!()][ are all that's needed to write any Javascript program
+    urls:
+        - http://www.jsfuck.com/
+    tags: ['programming']
+-
+    date: '2022-05-24'
+    content: 8-bit music ("chiptunes") sounds like it does not because of the 8 bit
+        limitation, but purely because of the synth sounds (e.g., square and triangle
+        waves). If you take a normal song and compress it to use an 8 bit resolution
+        it will sound basically identical to the original.
+    urls:
+        - https://medium.com/@harmonia.global/digital-audio-the-real-meaning-of-8-bit-music-1be5fc8ab2b1
+    tags: ['music']
+-
+    date: '2022-05-20'
+    content: Some early cars were actually steam engines, like trains. Steam was more
+        familiar to people than gas. But steam cars required more maintenance and
+        took about 30 minutes to start up.
+    urls:
+        - https://en.wikipedia.org/wiki/Steam_car
+    tags: ['history']
+-
+    date: '2022-05-18'
+    content: The Earth's land surface itself has tides, called "Earth tide."
+    urls:
+        - https://en.wikipedia.org/wiki/Earth_tide
+    tags: ['geography']
+-
+    date: '2022-05-06'
+    content: Some birds take non-stop flights that last anywhere from days to months.
+        During these non-stop flights, they sleep---while flying!
+    urls:
+        - https://www.nature.com/articles/ncomms12468
+    tags: ['biology']
+-
+    date: '2022-05-05'
+    content: Naked molerats cannot feel pain, can live in environments with extremely
+        low oxygen levels, and have an insect-like social structure.
+    urls:
+        - https://twitter.com/mckinleaf/status/1521625152743694351
+    tags: ['biology']
+-
+    date: '2022-05-03'
+    content: In the last major extinction event (aka the end of the dinosaurs), all
+        creatures over 10kg died.
+    urls: []
+    tags: ['history', 'biology']
+-
+    date: '2022-05-02'
+    content: '"In humans and other vertebrates, for example, on average only 1 base
+        pair in every 108108 (hundred million) is replicated incorrectly. The replication
+        machinery could therefore copy the famous Kandel textbook (1760 pages, or
+        approximately 2.5 million characters) 40 times over without a mistake!"'
+    urls:
+        - https://joramkeijser.github.io/2022/05/01/mutations.html
+    tags: ['biology']
+-
+    date: '2022-04-20'
+    content: Suppose you have galaxies of the same size but at different distances.
+        Then surprisingly, "beyond a certain distance, the farther away the galaxy
+        is, the BIGGER it appears in the sky."
+    urls:
+        - https://twitter.com/AstroKatie/status/1516548836709343238?s=20&t=a9veMd2wcdMjiDtnhG3fhA
+    tags: ['astronomy']
+-
+    date: '2022-04-18'
+    content: "Every function of N variables can be written as a linear combination\
+        \ of 1D functions. Or to put it in modern parlance: \"One-dimensional Functions\
+        \ and Addition Are All You Need.\" In retrospect, this is what being a universal\
+        \ function approximator is all about, but I'd never thought about it this\
+        \ way before! (It was originally a theorem from Kolmogorov, and only later\
+        \ used to show that a neural network is a universal approximator.)"
+    urls: []
+    tags: ['math', 'machine-learning']
+-
+    date: '2022-03-31'
+    content: Making crosswords is incredibly complicated. Making the theme, rules
+        for symmetries, writing good clues...it involves a lot more than you might
+        think!
+    urls:
+        - https://www.nytimes.com/2018/09/14/crosswords/how-to-make-a-crossword-puzzle-the-series.html
+    tags: ['games']
+-
+    date: '2022-03-17'
+    content: "\"Black holes do not actually have 'stronger gravity' than other objects\
+        \ of comparable mass...If you are 10 AU from (the centre of) a star, and that\
+        \ star collapses to a black hole (without changing mass) then the gravitational\
+        \ effect of the mass at your position will be the same.\""
+    urls:
+        - https://astronomy.stackexchange.com/questions/48740/is-the-initial-gravity-of-the-black-hole-the-same-as-the-mass-of-the-object-that
+    tags: ['astronomy']
+-
+    date: '2022-02-23'
+    content: Hyperbolic discounting is a theory for why we find it easier to defer
+        good decisions to further away, and harder to do them in the short term (dieting,
+        budgeting, chores, etc).
+    urls: []
+    tags: ['math']
+-
+    date: '2022-02-22'
+    content: Virgin olive oil is just extra virgin oil with some type of imperfection.
+    urls: []
+    tags: ['food']
+-
+    date: '2022-02-13'
+    content: Resonance describes the fact that force applied to an object at different
+        frequencies will have different effects on the oscillations of that object.
+        For example, a swing has a frequency where pushing the swing at that freq
+        will make it swing higher. Whereas pushing too frequently wastes energy.
+    urls: []
+    tags: ['math']
 -
     date: "2022-02-05"
-    content: "In the English-speaking world, September 3rd-13th, 1752 never happened."
+    content: "In the English-speaking world, the dates September 3rd-13th, 1752 never happened."
     tags: ['history']
     urls: ['https://en.wikipedia.org/wiki/Old_Style_and_New_Style_dates']
 -
     date: "2022-02-02"
     content: "The most recent date that used 8 unique digits was 06/25/1987, and there won't be another such date until 06/16/2345. (Until now, there had never been a gap of more than 37 years between dates with 8 unique digits, ever since the first such date on 06/27/1345.)"
-    tags: ['numbers']
+    tags: ['math']
     urls: []
 -
     date: "2022-01-29"
@@ -26,7 +276,7 @@
 -
     date: "2022-01-15"
     content: "The fattest internal organ in the body is the brain. As adults, the brain makes up about 2% of our body weight but uses 20+% of its energy. (In newborns, the brain uses like 75% of the body's energy, and this number decreases with age.)"
-    tags: ['neuro']
+    tags: ['neuroscience']
     urls: ['https://doi.org/10.1097/00004647-200110000-00001']
 -
     date: "2022-01-08"
