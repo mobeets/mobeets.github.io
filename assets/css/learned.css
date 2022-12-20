@@ -1,3 +1,7 @@
+.media-items {
+	margin-left: 0px !important;
+}
+
 li {
 	list-style: none;
 	margin-top: 1em;
@@ -5,21 +9,47 @@ li {
 .smaller-font {
 	font-size: 70%;
 }
-.tag {
+
+.btn-tag {
 	padding: 2px;
 	border-radius: 6px;
-	/*background-color: #999;*/
-	/*color: white;*/
-	/*border: 1px solid black;*/
 	border: none;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	cursor: pointer;
+	background-color: #f5e3ff;
 }
 .date {
-	/*font-weight: bold;*/
 	color: #999;
 }
 .content {
+}
+
+.btn-inactive {
+	opacity: 1; /*workaround to make clickable in IE */
+	filter: alpha(opacity=100);
+}
+.btn-active {
+	opacity: 0.4; /*workaround to make clickable in IE */
+	filter: alpha(opacity=40);
+}
+#filter_status {
+	font-size: 90%;
+}
+
+.btn-clear {
+	border-bottom: none;
+	text-decoration: none;
+	/*width: 3em;*/
+	text-align: center;
+	margin-right: 0.3em;
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    padding: .2em .4em .2em .4em;
+    display: inline;
+    color: black;
+    border: 1px solid;
+    cursor: pointer;
 }

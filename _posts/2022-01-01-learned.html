@@ -3,22 +3,25 @@ layout: post
 title: What I Learned
 category: listed
 css: learned
+js: learned
 ---
 {% include JB/setup %}
 
 <div>
-	<ul>
+	<span id="filter_status"></span>
+	<ul class="media-items">
 	{% for item in site.data.learned %}
-		<li>
+		<li class="media-item">
 			<span class="date">{{ item.date }}.</span>
 			<span class="content">{{ item.content }}</span>
 			{% for url in item.urls %}
 			<span class="smaller-font">
-				<a href="{{ url }}">[{{forloop.index}}]</a>
+				<!-- <a href="{{ url }}">[{{forloop.index}}]</a> -->
+				<a href="{{ url }}">[source]</a>
 			</span>
 			{% endfor %}
 			{% for tag in item.tags %}
-				<button class="smaller-font tag">#{{ tag }}</button>
+				<button class="smaller-font btn-tag" data-tag="{{ tag }}">#{{ tag }}</button>
 			{% endfor %}
 		</li>
 	{% endfor %}

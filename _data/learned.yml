@@ -2,8 +2,8 @@
 -
     date: '2022-12-07'
     content: Unless you've seen a truffle shaved in front of you into your food, anything
-        you've eaten that has "truffle" in the name likely does not contain real truffles.
-        Instead, it's synthetic truffle flavor extracted from oil (!); any truffle
+        you've eaten that has "truffle" in the name likely does not contain the real deal.
+        Instead, it's synthetic truffle flavor extracted from petroleum (!); any truffle
         bits you see are likely "decorative" truffles---cheaper, flavorless species
         of truffles.
     urls:
@@ -13,19 +13,18 @@
     date: '2022-10-29'
     content: "Moravec's paradox: Things that are hard for humans to learn are easy\
         \ for machines to learn (e.g., chess, video games), while those that are easy\
-        \ for humans to learn are nearly impossible for machines (e.g., walking, learning\
-        \ language, etc.)."
-    urls: []
+        \ for humans to learn are nearly impossible for machines (e.g., walking, social skills, etc.)."
+    urls: ['https://en.wikipedia.org/wiki/Moravec%27s_paradox']
     tags: ['machine-learning']
 -
     date: '2022-10-22'
     content: 'White button, brown button, cremini, portobello: All of these are the
-        exact same species of mushroom at different stages in its maturity'
+        exact same species of mushroom at different stages in its maturity.'
     urls: []
     tags: ['food']
 -
     date: '2022-10-21'
-    content: "\"Pando,\" in Utah, is one of the world's largest and oldest living\
+    content: "Pando, in Utah, is one of the world's largest and oldest living\
         \ organisms. It appears to be a grove of aspen trees (taking up over 100 acres),\
         \ but is in fact a single tree with many mini genetically identical \"trees\"\
         \ growing out of a single root system."
@@ -52,7 +51,7 @@
     tags: ['culture']
 -
     date: '2022-09-21'
-    content: Daisugi is a Japanese method for growing Japanese cedar trees such that
+    content: Daisugi is a Japanese method for growing Japanese cedar trees so that
         you can harvest long straight logs without having to cut down the whole tree.
     urls:
         - https://en.m.wikipedia.org/wiki/Daisugi
@@ -66,14 +65,14 @@
     tags: ['biology']
 -
     date: '2022-09-08'
-    content: For roughly 1400 years, a key ingredient in most ink was oak galls (a
+    content: For roughly 1,400 years, a key ingredient in most ink was oak galls (a
         gall is a plant outgrowth caused by wasp larvae).
     urls:
         - https://en.m.wikipedia.org/wiki/Oak_apple
     tags: ['history', 'biology']
 -
     date: '2022-09-04'
-    content: Dirichlet was co-advised by Poisson, Fourier, and Gauss
+    content: Dirichlet was co-advised by Poisson, Fourier, and Gauss.
     urls: []
     tags: ['math']
 -
@@ -108,7 +107,7 @@
 -
     date: '2022-06-30'
     content: The man who performed Einstein's autopsy decided to cut open Einstein's
-        skull, removed his brain, and then simply kept it for himself.
+        skull, remove his brain, and then simply keep it for himself.
     urls:
         - https://harpers.org/archive/1997/10/driving-mr-albert/
     tags: ['history']
@@ -119,7 +118,7 @@
         humanity."
     urls:
         - https://en.m.wikipedia.org/wiki/Genocide
-    tags: ['history']
+    tags: ['history', 'language']
 -
     date: '2022-06-19'
     content: Solresol is a constructed language where each word is made up of 1-4
@@ -130,7 +129,7 @@
     tags: ['music', 'language']
 -
     date: '2022-06-08'
-    content: Salvador Dalí's last painting was based on the mathematical catastrophe
+    content: Salvador Dalí's last painting was based on a topic in mathematics called catastrophe
         theory, which identifies seven ways that dynamical systems can become unstable.
     urls:
         - https://en.m.wikipedia.org/wiki/The_Swallow%27s_Tail
@@ -186,10 +185,7 @@
     tags: ['history', 'biology']
 -
     date: '2022-05-02'
-    content: '"In humans and other vertebrates, for example, on average only 1 base
-        pair in every 108108 (hundred million) is replicated incorrectly. The replication
-        machinery could therefore copy the famous Kandel textbook (1760 pages, or
-        approximately 2.5 million characters) 40 times over without a mistake!"'
+    content: 'In humans and other vertebrates, genetic mutations are so rare that our replication machinery could copy a nearly 2,000 page book without a single mistake.'
     urls:
         - https://joramkeijser.github.io/2022/05/01/mutations.html
     tags: ['biology']
@@ -204,12 +200,9 @@
 -
     date: '2022-04-18'
     content: "Every function of N variables can be written as a linear combination\
-        \ of 1D functions. Or to put it in modern parlance: \"One-dimensional Functions\
-        \ and Addition Are All You Need.\" In retrospect, this is what being a universal\
-        \ function approximator is all about, but I'd never thought about it this\
-        \ way before! (It was originally a theorem from Kolmogorov, and only later\
-        \ used to show that a neural network is a universal approximator.)"
-    urls: []
+        \ of 1D functions. This was originally a theorem from Kolmogorov, and later\
+        \ used to show that a neural network is a universal approximator."
+    urls: ['https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Arnold_representation_theorem']
     tags: ['math', 'machine-learning']
 -
     date: '2022-03-31'
@@ -230,23 +223,23 @@
     tags: ['astronomy']
 -
     date: '2022-02-23'
-    content: Hyperbolic discounting is a theory for why we find it easier to defer
-        good decisions to further away, and harder to do them in the short term (dieting,
-        budgeting, chores, etc).
+    content: Hyperbolic discounting is a theory for why we find some good decisions easy to defer
+        to the future, and hard to do in the short term (e.g., dieting,
+        budgeting, chores, etc.).
     urls: []
     tags: ['math']
 -
     date: '2022-02-22'
     content: Virgin olive oil is just extra virgin oil with some type of imperfection.
-    urls: []
+    urls: ['https://fat.gold/guide/']
     tags: ['food']
 -
     date: '2022-02-13'
     content: Resonance describes the fact that force applied to an object at different
         frequencies will have different effects on the oscillations of that object.
-        For example, a swing has a frequency where pushing the swing at that freq
+        For example, on a playground, a swing has a frequency where pushing the swing at that frequency
         will make it swing higher. Whereas pushing too frequently wastes energy.
-    urls: []
+    urls: ['https://www.quantamagazine.org/how-the-physics-of-resonance-shapes-reality-20220126/']
     tags: ['math']
 -
     date: "2022-02-05"
@@ -270,7 +263,7 @@
     urls: ['https://stephenfollows.com/digital-vs-film-on-hollywood-movies/']
 -
     date: "2022-01-17"
-    content: "Whenever you see a planet taking an elliptical orbit around the Sun, the Sun shouldn't be at the center of the ellipse, but at its 'focus'. Also, technically the planets don't orbit the Sun. The planets <i>and</i> Sun all orbit a point called the solar barycenter (aka, their center of mass), which gradually moves over time."
+    content: "Whenever you see a planet taking an elliptical orbit around the Sun, the Sun shouldn't be at the center of the ellipse, but at its 'focus'. Also, technically the planets don't orbit the Sun. The planets <i>and</i> Sun all orbit a point called the solar barycenter (aka their center of mass), which gradually moves over time."
     tags: ['astronomy']
     urls: ['https://commons.wikimedia.org/wiki/File:Solar_system_barycenter.svg']
 -

@@ -437,44 +437,44 @@
             year: "2022"
         -
             pos: 2
+            artist: "Rian Johnson"
+            album: "Knives Out"
+            year: "2019"
+        -
+            pos: 3
             artist: "Amy Heckerling"
             album: "Clueless"
             year: "1995"
         -
-            pos: 3
+            pos: 4
             artist: "Josh Cooley"
             album: "Toy Story 4"
             year: "2019"
         -
-            pos: 4
+            pos: 5
             artist: "Jon Watts"
             album: "Spider-man: Homecoming"
             year: "2017"
         -
-            pos: 5
+            pos: 6
             artist: "Anthony Russo and Joe Russo"
             album: "Avengers: End Game"
             year: "2019"
         -
-            pos: 6
+            pos: 7
             artist: "Louie Schwartzberg"
             album: "Fantastic Fungi"
             year: "2019"
         -
-            pos: 7
+            pos: 8
             artist: "Ahmir 'Questlove' Thompson"
             album: "Summer of Soul"
             year: "2021"
         -
-            pos: 8
+            pos: 9
             artist: "Kevin Wilson Jr."
             album: "Untold: The Rise and Fall of And1"
             year: "2022"
-        -
-            pos: 9
-            artist: "Olivia Wilde"
-            album: "Booksmart"
-            year: "2019"
         -
             pos: 10
             artist: "Richard Curtis"
