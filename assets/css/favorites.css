@@ -14,6 +14,18 @@ ol {
 .album-img {
     width: 10em;
 }
+
+.ol-highlight {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
+.highlight-img {
+    padding: 0;
+    margin: 0;
+    width: 7em;
+    float: left;
+}
+
 .book-img {
     width: 7em;
 }

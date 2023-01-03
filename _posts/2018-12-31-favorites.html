@@ -47,6 +47,16 @@ js2: favorites
             <div class="new-albums">
                 {% if site.data.albums[yr].new_releases.size > 0 %}
                     <h3>New releases</h3>
+                    <!-- {% if yrstr < 2022 %}
+                        <ol class="ol-highlight">
+                        {% for item in site.data.albums[yr].new_releases %}
+                        {% capture itemname %}{% if item.artist %}{{ item.artist }} - {% endif %}{{ item.album }}{% endcapture %}
+                        {% capture itemurl %}{{itemname | replace:'.','_' | replace:'/','_' | replace:';','_' | replace:':','_' | replace:'?','_'}}{% endcapture %}
+                        <img class="highlight-img" src="{{ baseurl }}/music/{{ yr }}/{{ itemurl }}.jpeg"></img>
+                        {% endfor %}
+                        </ol>
+                        <div style="clear: both;"></div><br/>
+                    {% endif %} -->
                     <ol>
                     {% for item in site.data.albums[yr].new_releases %}
                         {% capture itemname %}{% if item.artist %}{{ item.artist }} - {% endif %}{{ item.album }}{% endcapture %}
