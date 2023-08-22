@@ -41,6 +41,12 @@
             name: "Karaoke!"
             url: "https://mobeets.github.io/karaoke/"
         -
+            categ: "made"
+            date: "2022-04-12"
+            key: "cluedle"
+            name: "Cluedle"
+            url: "https://mobeets.github.io/cluedle/"
+        -
             categ: "coded"
             date: "2020-03-18"
             key: "disease-spread"
