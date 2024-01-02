@@ -531,3 +531,86 @@
             artist: "Tony Gilroy"
             album: "Andor"
             year: "2022"
+2023:
+    movies:
+        -
+            pos: 1
+            artist: "Joaquim Dos Santos, Kemp Powers, & Justin K. Thompson"
+            album: "Spider-Man: Across the Spider-Verse"
+            year: 2023
+        -
+            pos: 2
+            artist: "Christopher Nolan"
+            album: "Oppenheimer"
+            year: 2023
+        -
+            pos: 3
+            artist: "American Experience"
+            album: "Ruthless: Monopoly's Secret History"
+            year: 2023
+        -
+            pos: 4
+            artist: "Francis Ford Coppola"
+            album: "The Outsiders"
+            year: 1983
+        -
+            pos: 5
+            artist: "Tony Scott"
+            album: "Top Gun"
+            year: 1986
+        -
+            pos: 6
+            artist: "Aaron Horvath & Michael Jelenic"
+            album: "The Super Mario Bros. Movie"
+            year: 2023
+        -
+            pos: 7
+            artist: "Henry Selick"
+            album: "The Nightmare Before Christmas"
+            year: 1993
+        -
+            pos: 8
+            artist: "Joseph Kosinski"
+            album: "Top Gun: Maverick"
+            year: 2022
+        -
+            pos: 9
+            artist: "Joe Cornish"
+            album: "Attack of the Block"
+            year: 2011
+        -
+            pos: 10
+            artist: "Steven Spielberg"
+            album: "Indiana Jones and the Last Crusade"
+            year: 1989
+    tv:
+        -
+            pos: 1
+            artist: "Joseph Bennett & Charles Huettner"
+            album: "Scavengers Reign"
+            year: 2023
+        -
+            pos: 2
+            artist: "Michael Dante DiMartino & Bryan Konietzko"
+            album: "Avatar: The Last Airbender"
+            year: "2005-2008"
+        -
+            pos: 3
+            artist: "Hanno Hackfort, Richard Kropf, & Bob Konrad"
+            album: "Kleo"
+            year: 2022
+        -
+            pos: 4
+            artist: "Will Smith"
+            album: "Slow Horses"
+            year: "2022-2023"
+        -
+            pos: 5
+            artist: "Charlie Day, Megan Ganz, & Rob McElhenney"
+            album: "Mythic Quest"
+            year: "2020-2023"
+        -
+            pos: 6
+            artist: "Adam Muto"
+            album: "Adventure Time: Fionna and Cake"
+            year: 2023

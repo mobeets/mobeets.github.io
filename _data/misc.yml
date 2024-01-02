@@ -1185,3 +1185,74 @@
         type: restaurant
         img: "neptune.png"
         url: "https://www.neptuneoyster.com/"
+2022:
+    -
+        pos: 1
+        name: Mushroom hunting
+        description: |
+            <p>
+                TBD.
+            </p>
+        type: activity
+        img: "mushrooms.png"
+        url: "https://www.youtube.com/watch?v=5sylVme-EfA&t=0s"
+    -
+        pos: 2
+        name: Psychotherapy
+        description: |
+            <p>
+                TBD.
+            </p>
+        type: service
+        img: "therapy.jpg"
+        url: "https://en.wikipedia.org/wiki/Psychotherapy"
+    -
+        pos: 3
+        name: Wegman's Chocolate Cake
+        description: |
+            <p>
+                TBD.
+            </p>
+        type: dessert
+        img: "cake.png"
+        url: "https://shop.wegmans.com/product/12133/wegmans-mini-ultimate-chocolate-cake"
+    -
+        pos: 4
+        name: DALL·E
+        description: |
+            <p>
+                TBD.
+            </p>
+        type: app
+        img: "dalle.png"
+        url: "https://labs.openai.com/"
+    -
+        pos: 5
+        name: ChatGPT
+        description: |
+            <p>
+                TBD.
+            </p>
+        type: app
+        img: "chatgpt.png"
+        url: "https://chat.openai.com/chat"
+    -
+        pos: 6
+        name: Retro Bowl
+        description: |
+            <p>
+                TBD.
+            </p>
+        type: video game
+        img: "retro.png"
+        url: "https://en.wikipedia.org/wiki/Retro_Bowl"
+    -
+        pos: 7
+        name: Crosswords
+        description: |
+            <p>
+                TBD.
+            </p>
+        type: game
+        img: "crossword.png"
+        url: "https://www.nytimes.com/2018/09/14/crosswords/how-to-make-a-crossword-puzzle-the-series.html"

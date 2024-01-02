@@ -1520,3 +1520,106 @@
             artist: "Vampire Weekend"
             album: "Modern Vampires of the City"
             year: 2013
+2023:
+    new_releases:
+        -
+            pos: 1
+            artist: "Fever Ray"
+            album: "Radical Romantics"
+            year: 2023
+        -
+            pos: 2
+            artist: "Anohni and the Johnsons"
+            album: "My Back Was a Bridge for You to Cross"
+            year: 2023
+        -
+            pos: 3
+            artist: "André 3000"
+            album: "New Blue Sun"
+            year: 2023
+        -
+            pos: 4
+            artist: "Avishai Cohen and Abraham Rodriguez, Jr."
+            album: "Iroko"
+            year: 2023
+        -
+            pos: 5
+            artist: "Arthur Russell"
+            album: "Picture of Bunny Rabbit"
+            year: 2023
+        -
+            pos: 6
+            artist: "Yves Tumor"
+            album: "Praise a Lord Who Chews but Which Does Not Consume; (Or Simply, Hot Between Worlds)"
+            year: 2023
+        -
+            pos: 7
+            artist: "Youth Lagoon"
+            album: "Heaven Is A Junkyard"
+            year: 2023
+        -
+            pos: 8
+            artist: "Sofia Kourtesis"
+            album: "Madres"
+            year: 2023
+        -
+            pos: 9
+            artist: "Noname"
+            album: "Sundial"
+            year: 2023
+        -
+            pos: 10
+            artist: "Julie Byrne"
+            album: "The Greater Wings"
+            year: 2023
+    old_releases:
+        -
+            pos: 1
+            artist: "The Smile"
+            album: "A Light for Attracting Attention"
+            year: 2022
+        -
+            pos: 2
+            artist: "Makaya McCraven"
+            album: "In These Times"
+            year: 2022
+        -
+            pos: 3
+            artist: "Joe Walsh"
+            album: "Barnstorm"
+            year: 1972
+        -
+            pos: 4
+            artist: "Sinéad O'Connor"
+            album: "Lion and the Cobra"
+            year: 1987
+        -
+            pos: 5
+            artist: "Stereolab"
+            album: "Cobra and Phases Group Play Voltage in the Milky Night"
+            year: 1999
+        -
+            pos: 6
+            artist: "Leonard Cohen"
+            album: "Songs of Leonard Cohen"
+            year: 1967
+        -
+            pos: 7
+            artist: "Can"
+            album: "Soundtracks"
+            year: 1970
+        -
+            pos: 8
+            artist: "Stevie Wonder"
+            album: "Songs in the Key of Life"
+            year: 1976
+        -
+            pos: 9
+            artist: "David Bowie"
+            album: "Station to Station"
+            year: 1976
+        -
+            pos: 10
+            artist: "Charlie Feathers"
+            album: "The Legendary Sun Classics"
+            year: 2010
