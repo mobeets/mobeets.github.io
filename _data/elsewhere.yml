@@ -35,6 +35,12 @@
 # otherwise leave it be
     items:
         -
+            categ: "made"
+            date: "2025-06-25"
+            key: "fish-launch"
+            name: "Fish Launch"
+            url: "https://mobeets.github.io/fish-launch/"
+        -
             categ: "coded"
             date: "2022-07-27"
             key: "karaoke"
