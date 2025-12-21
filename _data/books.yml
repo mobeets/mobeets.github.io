@@ -754,3 +754,102 @@
             artist: "Bill Watterson"
             album: "Something Under the Bed Is Drooling (Calvin & Hobbes #2)"
             year: "1988"
+2024:
+    BOOKS:
+        -
+            pos: 1
+            artist: "Raymond Chandler"
+            album: "Farewell, My Lovely"
+            year: 1940
+        -
+            pos: 2
+            artist: "Agatha Christie"
+            album: "The Murder of Roger Ackroyd"
+            year: 1926
+        -
+            pos: 3
+            artist: "Raymond Chandler"
+            album: "The Big Sleep"
+            year: 1939
+        -
+            pos: 4
+            artist: "Zeke Faux"
+            album: "Number Go Up: Inside Crypto's Wild Rise and Staggering Fall"
+            year: 2023
+        -
+            pos: 5
+            artist: "Agatha Christie"
+            album: "A Murder Is Announced"
+            year: 1950
+        -
+            pos: 6
+            artist: "Agatha Christie"
+            album: "The Murder at the Vicarage"
+            year: 1930
+        -
+            pos: 7
+            artist: "James Clavell"
+            album: "King Rat"
+            year: 1962
+        -
+            pos: 8
+            artist: "Lauren Groff"
+            album: "Fates and Furies"
+            year: 2015
+        -
+            pos: 9
+            artist: "Dashiell Hammett"
+            album: "The Maltese Falcon"
+            year: 1930
+        -
+            pos: 10
+            artist: "Raymond Chandler"
+            album: "The High Window"
+            year: 1942
+    NOT_QUITE_BOOKS:
+        -
+            pos: 1
+            artist: "Mariko Tamaki and Jillian Tamaki"
+            album: "Roaming"
+            year: 2023
+        -
+            pos: 2
+            artist: "Jay Hosler"
+            album: "Ant Story"
+            year: 2024
+        -
+            pos: 3
+            artist: "Jay Hosler"
+            album: "The Way of the Hive: A Honey Bee's Story"
+            album: Story"
+            year: 2021
+        -
+            pos: 4
+            artist: "Robert Kirkman"
+            album: "The Walking Dead, Vols. 1-3"
+            year: "2004 - 2005"
+        -
+            pos: 5
+            artist: "Daniel Clowes"
+            album: "Wilson"
+            year: 2010
+        -
+            pos: 6
+            artist: "Frank Miller"
+            album: "Batman: The Dark Knight Returns"
+            year: 1986
+        -
+            pos: 7
+            artist: "Tui T. Sutherland and Mike Holmes"
+            album: "Wings of Fire Graphic Novels #1-#8"
+            artist: "2018 - 2024"
+        -
+            pos: 8
+            artist: "Remy Lai"
+            album: "Ghost Book"
+            year: 2023
+        -
+            pos: 9
+            artist: "ND Stevenson"
+            album: "Nimona"
+            year: 2015

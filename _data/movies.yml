@@ -614,3 +614,101 @@
             artist: "Adam Muto"
             album: "Adventure Time: Fionna and Cake"
             year: 2023
+2024:
+    movies:
+        -
+            pos: 1
+            album: "Repo Man"
+            year: 1984
+            artist: "Alex Cox"
+        -
+            pos: 2
+            album: "Dune: Part Two"
+            year: 2024
+            artist: "Denis Villeneuve"
+        -
+            pos: 3
+            album: "Strange Days"
+            year: 1995
+            artist: "Kathryn Bigelow"
+        -
+            pos: 4
+            album: "Split"
+            year: 2016
+            artist: "M. Night Shyamalan"
+        -
+            pos: 5
+            album: "The Nice Guys"
+            year: 2016
+            artist: "Shane Black"
+        -
+            pos: 6
+            album: "American Fiction"
+            year: 2023
+            artist: "Cord Jefferson"
+        -
+            pos: 7
+            album: "Furiosa: A Mad Max Saga"
+            year: 2024
+            artist: "George Miller"
+        -
+            pos: 8
+            album: "1917"
+            year: 2019
+            artist: "Sam Mendes"
+        -
+            pos: 9
+            album: "The Hudsucker Proxy"
+            year: 1994
+            artist: "Joel Coen and Ethan Coen"
+        -
+            pos: 10
+            album: "Hit Man"
+            year: 2024
+            artist: "Richard Linklater"
+    tv:
+        -
+            pos: 1
+            album: "Dark Matter"
+            year: 2024
+            artist: "Blake Crouch"
+        -
+            pos: 2
+            album: "Supacell"
+            year: 2024
+            artist: "Rapman"
+        -
+            pos: 3
+            album: "Taskmaster"
+            year: "2015 - 2024"
+            artist: "Alex Horne"
+        -
+            pos: 4
+            album: "English Teacher"
+            year: 2024
+            artist: "Brian Jordan Alvarez"
+        -
+            pos: 5
+            album: "Peaky Blinders"
+            year: "2013 - 2022"
+            artist: "Steven Knight"
+        -
+            pos: 6
+            album: "Fisk"
+            year: "2021 - 2024"
+            artist: "Kitty Flanagan and Vincent Sheehan"
+        -
+            pos: 7
+            album: "The Circle"
+            year: 2024
+            artist: "Studio Lambert and Motion Content Group"
+        -
+            pos: 8
+            album: "Game of Thrones"
+            year: "2011 - 2019"
+            artist: "David Benioff and D. B. Weiss"
+        -
+            pos: 9
+            album: "The Tourist"
+            year: 2022
+            artist: "Harry Williams and Jack Williams"

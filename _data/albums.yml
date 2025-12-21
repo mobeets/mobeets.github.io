@@ -1623,3 +1623,106 @@
             artist: "Charlie Feathers"
             album: "The Legendary Sun Classics"
             year: 2010
+2024:
+    new_releases:
+        -
+            pos: 1
+            artist: "Being Dead"
+            album: "EELS"
+            year: 2024
+        -
+            pos: 2
+            artist: "Charli XCX"
+            album: "brat"
+            year: 2024
+        -
+            pos: 3
+            artist: "Kendrick Lamar"
+            album: "GNX"
+            year: 2024
+        -
+            pos: 4
+            artist: "Faye Webster"
+            album: "Underdressed at the Symphony"
+            year: 2024
+        -
+            pos: 5
+            artist: "Nala Sinephro"
+            album: "Endlessness"
+            year: 2024
+        -
+            pos: 6
+            artist: "Jeff Parker ETA IVtet"
+            album: "The Way Out of Easy"
+            year: 2024
+        -
+            pos: 7
+            artist: "Doechii"
+            album: "Alligator Bites Never Heal"
+            year: 2024
+        -
+            pos: 8
+            artist: "Kali Uchis"
+            album: "Orquídeas"
+            year: 2024
+        -
+            pos: 9
+            artist: "English Teacher"
+            album: "This Could Be Texas"
+            year: 2024
+        -
+            pos: 10
+            artist: "Waxahatchee"
+            album: "Tigers Blood"
+            year: 2024
+    old_releases:
+        -
+            pos: 1
+            artist: "XTC"
+            album: "Skylarking"
+            year: 1986
+        -
+            pos: 2
+            artist: "XTC"
+            album: "Drums and Wires"
+            year: 1979
+        -
+            pos: 3
+            artist: "The Kinks"
+            album: "Something Else By the Kinks"
+            year: 1967
+        -
+            pos: 4
+            artist: "XTC"
+            album: "Black Sea"
+            year: 1980
+        -
+            pos: 5
+            artist: "INXS"
+            album: "Kick"
+            year: 1987
+        -
+            pos: 6
+            artist: "The Feelies"
+            album: "Crazy Rhythms"
+            year: 1980
+        -
+            pos: 7
+            artist: "The Magnetic Fields"
+            album: "Get Lost"
+            year: 1995
+        -
+            pos: 8
+            artist: "XTC"
+            album: "The Big Express"
+            year: 1983
+        -
+            pos: 9
+            artist: "INXS"
+            album: "Shabooh Shoobah"
+            year: 1982
+        -
+            pos: 10
+            artist: "The Go-Betweens"
+            album: "Before Hollywood"
+            year: 1983
