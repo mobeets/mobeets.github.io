@@ -712,3 +712,106 @@
             album: "The Tourist"
             year: 2022
             artist: "Harry Williams and Jack Williams"
+2025:
+    movies:
+        -
+            pos: 1
+            artist: "Paul Verhoeven"
+            album: "Robocop"
+            year: 1987
+        -
+            pos: 2
+            artist: "Ryan Coogler"
+            album: "Sinners"
+            year: 2025
+        -
+            pos: 3
+            artist: "Maggie Kang & Chris Appelhans"
+            album: "KPop Demon Hunters"
+            year: 2025
+        -
+            pos: 4
+            artist: "Jackie Chan"
+            album: "Police Story"
+            year: 1985
+        -
+            pos: 5
+            artist: "Pete Travis"
+            album: "Dredd"
+            year: 2012
+        -
+            pos: 6
+            artist: "Bong Joon Ho"
+            album: "Memories of Murder"
+            year: 2003
+        -
+            pos: 7
+            artist: "Yorgos Lanthimos"
+            album: "Poor Things"
+            year: 2023
+        -
+            pos: 8
+            artist: "Walter Hill"
+            album: "The Warriors"
+            year: 1979
+        -
+            pos: 9
+            artist: "Park Chan-wook"
+            album: "Decision to Leave"
+            year: 2022
+        -
+            pos: 10
+            artist: "Drew Hancock"
+            album: "Companion"
+            year: 2025
+    tv:
+        -
+            pos: 1
+            artist: "Joe Bennett & Steve Hely"
+            album: "Common Side Effects"
+            year: 2025
+        -
+            pos: 2
+            artist: "Tim Robinson & Zach Kanin"
+            album: "The Chair Company"
+            year: 2025
+        -
+            pos: 3
+            artist: "Set Rogen et al."
+            album: "The Studio"
+            year: 2025
+        -
+            pos: 4
+            artist: "Kitty Flanagan & Vincent Sheehan"
+            album: "Fisk [Season 3]"
+            year: 2024
+        -
+            pos: 5
+            artist: "Zach Hadel & Michael Cusack"
+            album: "Smiling Friends [Season 1]"
+            year: 2021
+        -
+            pos: 6
+            artist: "Love Productions"
+            album: "The Great British Bake Off [Series 16]"
+            year: 2025
+        -
+            pos: 7
+            artist: "Will Smith"
+            album: "Slow Horses [Season 5]"
+            year: 2025
+        -
+            pos: 8
+            artist: "Mike White"
+            album: "White Lotus [Season 3]"
+            year: 2025
+        -
+            pos: 9
+            artist: "Tony Gilroy"
+            album: "Andor [Season 2]"
+            year: 2025
+        -
+            pos: 10
+            artist: "Dan Erickson"
+            album: "Severance [Season 2]"
+            year: 2025

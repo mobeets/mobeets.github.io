@@ -853,3 +853,50 @@
             artist: "ND Stevenson"
             album: "Nimona"
             year: 2015
+2025:
+    BOOKS:
+        -
+            pos: 1
+            artist: "Pierce Brown"
+            album: "Red Rising"
+            year: 2014
+        -
+            pos: 2
+            artist: "Andy Weir"
+            album: "Project Hail Mary"
+            year: 2021
+        -
+            pos: 3
+            artist: "Stendhal"
+            album: "The Red and the Black"
+            year: 1830
+        -
+            pos: 4
+            artist: "Terry Pratchett"
+            album: "Mort"
+            year: 1987
+        -
+            pos: 5
+            artist: "Octavia Butler"
+            album: "Fledgling"
+            year: 2005
+        -
+            pos: 6
+            artist: "Lauren Groff"
+            album: "Arcadia"
+            year: 2012
+        -
+            pos: 7
+            artist: "Octavia Butler"
+            album: "Dawn"
+            year: 1987
+        -
+            pos: 8
+            artist: "William Gibson"
+            album: "Pattern Recognition"
+            year: 2003
+        -
+            pos: 9
+            artist: "John Le Carré"
+            album: "Tinker Tailor Soldier Spy"
+            year: 1974

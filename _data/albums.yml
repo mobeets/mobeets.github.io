@@ -1726,3 +1726,106 @@
             artist: "The Go-Betweens"
             album: "Before Hollywood"
             year: 1983
+2025:
+    new_releases:
+        -
+            pos: 1
+            artist: "Wet Leg"
+            album: "moisturizer"
+            year: 2025
+        -
+            pos: 2
+            artist: "Weval"
+            album: "CHOROPHOBIA"
+            year: 2025
+        -
+            pos: 3
+            artist: "Ty Segall"
+            album: "Possession"
+            year: 2025
+        -
+            pos: 4
+            artist: "Thought Partner"
+            album: "When Your Money Fails"
+            year: 2025
+        -
+            pos: 5
+            artist: "Fred Again.."
+            album: "USB002"
+            year: 2025
+        -
+            pos: 6
+            artist: "This Is Lorelei"
+            album: "Holo Boy"
+            year: 2025
+        -
+            pos: 7
+            artist: "Big Thief"
+            album: "Double Infinity"
+            year: 2025
+        -
+            pos: 8
+            artist: "Doja Cat"
+            album: "Vie"
+            year: 2025
+        -
+            pos: 9
+            artist: "Tame Impala"
+            album: "Deadbeat"
+            year: 2025
+        -
+            pos: 10
+            artist: "Djrum"
+            album: "Under Tangled Silence"
+            year: 2025
+    old_releases:
+        -
+            pos: 1
+            artist: "Being Dead"
+            album: "When Horses Would Run"
+            year: 2023
+        -
+            pos: 2
+            artist: "Devo"
+            album: "Q: Are We Not Men? A: We Are Devo!"
+            year: 1978
+        -
+            pos: 3
+            artist: "The Clash"
+            album: "London Calling"
+            year: 1979
+        -
+            pos: 4
+            artist: "Israel Vibration"
+            album: "Strength of My Life"
+            year: 1981
+        -
+            pos: 5
+            artist: "The Cars"
+            album: "The Cars"
+            year: 1978
+        -
+            pos: 6
+            artist: "Fred Again.."
+            album: "Actual Life 3"
+            year: 2022
+        -
+            pos: 7
+            artist: "Jessica Pratt"
+            album: "Here in the Pitch"
+            year: 2024
+        -
+            pos: 8
+            artist: "The Beatles"
+            album: "A Hard Day's Night"
+            year: 1964
+        -
+            pos: 9
+            artist: "Devo"
+            album: "Freedom of Choice"
+            year: 1980
+        -
+            pos: 10
+            artist: "PJ Harvey"
+            album: "Rid of Me"
+            year: 1993
