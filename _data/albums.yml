@@ -1745,18 +1745,18 @@
             year: 2025
         -
             pos: 4
+            artist: "Cass McCombs"
+            album: "Interior Live Oak"
+            year: 2025
+        -
+            pos: 5
             artist: "Thought Partner"
             album: "When Your Money Fails"
             year: 2025
         -
-            pos: 5
+            pos: 6
             artist: "Fred Again.."
             album: "USB002"
-            year: 2025
-        -
-            pos: 6
-            artist: "This Is Lorelei"
-            album: "Holo Boy"
             year: 2025
         -
             pos: 7
@@ -1765,18 +1765,18 @@
             year: 2025
         -
             pos: 8
+            artist: "This Is Lorelei"
+            album: "Holo Boy"
+            year: 2025
+        -
+            pos: 9
             artist: "Doja Cat"
             album: "Vie"
             year: 2025
         -
-            pos: 9
+            pos: 10
             artist: "Tame Impala"
             album: "Deadbeat"
-            year: 2025
-        -
-            pos: 10
-            artist: "Djrum"
-            album: "Under Tangled Silence"
             year: 2025
     old_releases:
         -
